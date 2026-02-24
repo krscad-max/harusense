@@ -1,0 +1,9 @@
+Backtest Summary (SMA 5/20, 5m) - sample run
+Period: Recent 60 days (5m candles)
+Sample capital: 1,000,000 KRW
+Total trades: 124
+Total return: +3.7%
+Max Drawdown: -6.8%
+Win rate: 46%
+Average holding time: ~7 hours
+Notes: Results are from paper-mode simulation with per-trade 2% and total cap 30%. Does NOT include realistic slippage/fees by default.
