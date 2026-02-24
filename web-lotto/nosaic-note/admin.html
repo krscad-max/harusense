@@ -1,0 +1,21 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Admin — Nosaic Note</title><link rel="stylesheet" href="index.html"></head><body>
+<div style="max-width:920px;margin:24px auto;padding:0 18px">
+  <h1>Admin</h1>
+  <p>This is a static admin UI (no backend). You can edit posts.json locally or use this form to compose and download a JSON entry.</p>
+  <form id="form">
+    <input name="title" placeholder="Title" style="width:100%;padding:8px;margin-bottom:8px"><br>
+    <textarea name="summary" placeholder="Summary" style="width:100%;height:80px;margin-bottom:8px"></textarea><br>
+    <textarea name="content" placeholder="HTML content" style="width:100%;height:200px;margin-bottom:8px"></textarea><br>
+    <button type="button" id="save">Download JSON</button>
+  </form>
+  <p><a href="index.html">← Home</a></p>
+</div>
+<script>
+document.getElementById('save').addEventListener('click',()=>{
+ const f=new FormData(document.getElementById('form'));
+ const obj={id:Date.now(),title:f.get('title'),summary:f.get('summary'),content:f.get('content'),date:new Date().toISOString().slice(0,10)};
+ const blob=new Blob([JSON.stringify(obj, null, 2)],{type:'application/json'});
+ const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='post-'+obj.id+'.json';a.click();
+});
+</script>
+</body></html>

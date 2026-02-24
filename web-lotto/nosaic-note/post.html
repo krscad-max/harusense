@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Post — Nosaic Note</title><link rel="stylesheet" href="index.html"></head>
+<body>
+<div style="max-width:920px;margin:24px auto;padding:0 18px">
+  <div id="article"></div>
+  <p><a href="posts.html">← Back to posts</a></p>
+</div>
+<script>
+async function loadPost(){
+  const params=new URLSearchParams(location.search);const id=params.get('id');
+  try{const res=await fetch('posts.json');const posts=await res.json();const p=posts.find(x=>x.id==id);if(!p){document.getElementById('article').innerHTML='<p>Post not found</p>';return;}document.getElementById('article').innerHTML=`<h1>${p.title}</h1><p style="color:var(--muted)">${p.date} • ${p.readTime||''}</p><div>${p.content||''}</div>`;}catch(e){document.getElementById('article').innerHTML='<p>Error loading post</p>'}}
+loadPost();
+</script>
+</body>
+</html>

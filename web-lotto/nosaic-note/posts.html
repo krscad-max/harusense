@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Posts — Nosaic Note</title>
+<link rel="stylesheet" href="index.html">
+</head>
+<body>
+<!-- reuse styles by linking index (simple) -->
+<div style="max-width:1100px;margin:24px auto;padding:0 18px">
+  <h1>All Posts</h1>
+  <div id="allposts" class="posts"></div>
+  <p><a href="index.html">← Home</a></p>
+</div>
+<script>
+async function loadAll(){
+  try{const res=await fetch('posts.json');const posts=await res.json();const c=document.getElementById('allposts');posts.forEach(p=>{const a=document.createElement('a');a.className='post-card';a.href=p.url||'post.html?id='+p.id;a.innerHTML=`<h3>${p.title}</h3><p>${p.summary||''}</p>`;c.appendChild(a)});}catch(e){document.getElementById('allposts').innerHTML='<p>No posts</p>'}}
+loadAll();
+</script>
+</body>
+</html>

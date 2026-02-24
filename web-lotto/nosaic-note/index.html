@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Nosaic Note</title>
+<style>
+:root{ --bg:#f6f7fb; --card:#fff; --text:#1f2937; --muted:#6b7280; --line:#e5e7eb; --shadow:0 10px 25px rgba(0,0,0,.06); --shadowHover:0 18px 40px rgba(0,0,0,.10); --radius:14px; --accent:#6366f1; --max:1100px; }
+*{box-sizing:border-box;} html{scroll-behavior:smooth;} body{ margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; background:var(--bg); color:var(--text); line-height:1.6; }
+@keyframes fadeUp{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}} .page{animation:fadeUp .6s ease both;} .topbar{ position:sticky; top:0; z-index:20; backdrop-filter: blur(10px); background: rgba(246,247,251,.85); border-bottom:1px solid var(--line); } .topbar-inner{ max-width:var(--max); margin:0 auto; padding:14px 18px; display:flex; align-items:center; justify-content:space-between; gap:16px; } .brand{display:flex; align-items:baseline; gap:10px; text-decoration:none; color:inherit;} .brand strong{font-size:1.2rem; letter-spacing:.6px; position:relative;} .brand span{color:var(--muted); font-size:.92rem;} nav{display:flex; gap:10px; flex-wrap:wrap; justify-content:flex-end;} .nav-pill{ text-decoration:none; color:var(--text); border:1px solid var(--line); background:#fff; padding:8px 12px; border-radius:999px; font-size:.92rem; transition: transform .2s ease, box-shadow .2s ease; } .nav-pill:hover{transform:translateY(-2px); box-shadow:0 8px 18px rgba(0,0,0,.08);} .hero{ max-width:var(--max); margin:0 auto; padding:46px 18px 18px; display:grid; grid-template-columns:1.3fr .7fr; gap:18px; } .hero-main{ background: linear-gradient(135deg, #ffffff, #f3f6ff); border:1px solid var(--line); border-radius:var(--radius); box-shadow:var(--shadow); padding:26px; } .hero-main h1{margin:0 0 10px; font-size:2.1rem; letter-spacing:.4px;} .hero-main p{margin:0 0 16px; color:var(--muted); max-width:60ch;} .cta-row{display:flex; gap:10px; flex-wrap:wrap;} .btn{ border:1px solid var(--line); background:#fff; border-radius:999px; padding:10px 14px; text-decoration:none; color:var(--text); font-weight:650; font-size:.95rem; display:inline-flex; align-items:center; gap:8px; transition: transform .2s ease, box-shadow .2s ease; position:relative; overflow:hidden; } .btn:hover{transform:translateY(-2px); box-shadow:0 10px 22px rgba(0,0,0,.10);} .hero-side{ background:var(--card); border:1px solid var(--line); border-radius:var(--radius); box-shadow:var(--shadow); padding:20px; display:flex; flex-direction:column; gap:12px; } .mini-title{margin:0; font-size:1rem;} .taglist{display:flex; flex-wrap:wrap; gap:8px;} .tag{ border:1px solid var(--line); background:#fff; padding:6px 10px; border-radius:999px; font-size:.85rem; color:var(--muted); text-decoration:none; transition: transform .2s ease, box-shadow .2s ease; } .tag:hover{transform:translateY(-2px); box-shadow:0 8px 18px rgba(0,0,0,.08);} .wrap{ max-width:var(--max); margin:0 auto; padding:8px 18px 60px; display:grid; grid-template-columns:1fr .38fr; gap:18px; align-items:start; }
+/* posts */ .posts{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px;margin-top:20px}
+.post-card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px;box-shadow:var(--shadow);text-decoration:none;color:inherit;display:block}
+.post-card h3{margin:0 0 8px}
+.post-card p{margin:0;color:var(--muted)}
+.footer{margin:40px 0 80px;color:var(--muted);font-size:14px;text-align:center}
+</style>
+</head>
+<body class="page">
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="index.html"><strong>Nosaic Note</strong><span>A mosaic of thoughts and notes</span></a>
+      <nav>
+        <a class="nav-pill" href="index.html">Home</a>
+        <a class="nav-pill" href="posts.html">Posts</a>
+        <a class="nav-pill" href="admin.html">Admin</a>
+        <a class="nav-pill" href="lotto.html">Lotto</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-main">
+      <h1>Nosaic Note</h1>
+      <p>새 글을 바로 확인할 수 있는 메인 페이지입니다. 최신 글은 아래에 자동으로 표시됩니다.</p>
+      <div class="cta-row">
+        <a class="btn" href="posts.html">전체 글 보기</a>
+        <a class="btn" href="admin.html">관리자</a>
+      </div>
+      <div class="posts" id="posts"></div>
+    </div>
+    <aside class="hero-side">
+      <h3 class="mini-title">Quick Tags</h3>
+      <div class="taglist">
+        <a class="tag" href="#">writing</a>
+        <a class="tag" href="#">ideas</a>
+        <a class="tag" href="#">misc</a>
+      </div>
+      <p class="mini-title">빠른 연결</p>
+      <a class="btn" href="lotto.html">로또 추천</a>
+    </aside>
+  </section>
+
+  <main class="wrap">
+    <section>
+      <h2>Latest</h2>
+      <div id="latest" class="posts"></div>
+    </section>
+    <aside>
+      <div class="hero-side">
+        <h4 class="mini-title">About</h4>
+        <p class="small">Nosaic Note: 다양한 주제의 짧은 글과 메모를 모은 공간입니다.</p>
+      </div>
+    </aside>
+  </main>
+
+  <footer class="footer">© 2026 Nosaic Note</footer>
+
+<script>
+// Simple client-side posts list (reads posts.json if present)
+async function loadPosts(){
+  try{
+    const res = await fetch('posts.json');
+    const posts = await res.json();
+    const container = document.getElementById('latest');
+    const postsDiv = document.getElementById('posts');
+    if(!posts || posts.length===0){ container.innerHTML='<p>No posts yet.</p>'; return; }
+    // latest 4
+    posts.slice(0,4).forEach(p=>{
+      const a = document.createElement('a'); a.className='post-card'; a.href=p.url||'post.html?id='+p.id;
+      a.innerHTML = `<h3>${p.title}</h3><p>${p.summary||''}</p>`;
+      container.appendChild(a);
+    });
+    // hero area list
+    posts.slice(0,3).forEach(p=>{const a=document.createElement('a');a.className='post-card';a.href=p.url||'post.html?id='+p.id;a.innerHTML=`<h3>${p.title}</h3><p>${p.summary||''}</p>`;postsDiv.appendChild(a)});
+  }catch(e){document.getElementById('latest').innerHTML='<p>No posts (error loading posts.json)</p>';}
+}
+loadPosts();
+</script>
+</body>
+</html>
