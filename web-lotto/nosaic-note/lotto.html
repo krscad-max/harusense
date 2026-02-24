@@ -5,125 +5,143 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Lotto — Nosaic Note</title>
 <style>
-:root{--bg:#f6f7fb;--card:#fff;--text:#1f2937;--muted:#6b7280;--line:#e5e7eb;--shadow:0 10px 25px rgba(0,0,0,.06);--shadowHover:0 18px 40px rgba(0,0,0,.10);--radius:14px;--max:1100px;} *{box-sizing:border-box;} body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;} .topbar{position:sticky;top:0;z-index:20;backdrop-filter:blur(10px);background:rgba(246,247,251,.85);border-bottom:1px solid var(--line);} .topbar-inner{max-width:var(--max);margin:0 auto;padding:14px 18px;display:flex;align-items:center;justify-content:space-between;gap:16px;} .brand{display:flex;align-items:baseline;gap:10px;text-decoration:none;color:inherit;} .brand strong{font-size:1.2rem;letter-spacing:.6px;} .brand span{color:var(--muted);font-size:.92rem;} nav{display:flex;gap:10px;flex-wrap:wrap;justify-content:flex-end;} .wrap{max-width:var(--max);margin:0 auto;padding:26px 18px 60px;display:grid;grid-template-columns:1fr .45fr;gap:18px;align-items:start;} .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:18px;} .btn{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line);background:#fff;border-radius:999px;padding:10px 14px;text-decoration:none;color:var(--text);font-weight:900;cursor:pointer;transition:transform .2s ease, box-shadow .2s ease;} .btn:hover{transform:translateY(-2px);box-shadow:0 10px 22px rgba(0,0,0,.10);} .nums{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px;} .ball{width:46px;height:46px;border-radius:999px;border:1px solid var(--line);display:flex;align-items:center;justify-content:center;font-weight:900;background:#fff;box-shadow:0 8px 18px rgba(0,0,0,.06);} textarea{width:100%;border:1px solid var(--line);border-radius:12px;padding:10px 12px;background:#fff;min-height:200px;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;} .small{color:var(--muted);font-size:.9rem;margin:0;} footer{border-top:1px solid var(--line);padding:26px 18px;color:var(--muted);text-align:center;font-size:.9rem;} @media (max-width:900px){.wrap{grid-template-columns:1fr;}nav{justify-content:flex-start;}} 
+:root{ --bg1:#0b1020; --bg2:#111b3a; --card: rgba(255,255,255,.10); --card2: rgba(255,255,255,.08); --line: rgba(255,255,255,.14); --text:#eef2ff; --muted: rgba(238,242,255,.75); --shadow: 0 20px 60px rgba(0,0,0,.35); --radius: 18px; --accent1:#7c3aed; --accent2:#22c55e; --accent3:#06b6d4; --accent4:#f97316; --max: 1120px; }
+*{ box-sizing:border-box; }
+html{ scroll-behavior:smooth; }
+body{ margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; color: var(--text); background: radial-gradient(1200px 700px at 20% 10%, rgba(124,58,237,.28), transparent 60%), radial-gradient(900px 600px at 85% 30%, rgba(6,182,212,.22), transparent 55%), radial-gradient(800px 600px at 40% 95%, rgba(34,197,94,.18), transparent 55%), linear-gradient(160deg, var(--bg1), var(--bg2)); min-height:100vh; overflow-x:hidden; }
+.sparkles::before, .sparkles::after{ content:""; position:fixed; inset:-20%; background: radial-gradient(circle at 10% 20%, rgba(255,255,255,.12), transparent 6%), radial-gradient(circle at 70% 30%, rgba(255,255,255,.10), transparent 7%), radial-gradient(circle at 30% 70%, rgba(255,255,255,.09), transparent 6%), radial-gradient(circle at 85% 80%, rgba(255,255,255,.08), transparent 7%); filter: blur(0.3px); pointer-events:none; animation: floaty 14s ease-in-out infinite; opacity:.9; }
+.sparkles::after{ animation-duration: 20s; opacity:.6; transform: rotate(10deg); }
+@keyframes floaty{ 0%,100%{ transform: translate3d(0,0,0) scale(1); } 50%{ transform: translate3d(2%, -1%, 0) scale(1.02); } }
+.topbar{ position: sticky; top: 0; z-index: 20; backdrop-filter: blur(14px); background: rgba(10,14,30,.55); border-bottom: 1px solid rgba(255,255,255,.10); }
+.topbar-inner{ max-width: var(--max); margin: 0 auto; padding: 14px 18px; display:flex; align-items:center; justify-content: space-between; gap: 16px; }
+.brand{ display:flex; align-items:baseline; gap: 10px; text-decoration:none; color: inherit; }
+.brand strong{ font-size: 1.2rem; letter-spacing: .6px; position: relative; }
+.brand strong::after{ content:""; position:absolute; left:0; bottom:-7px; width:100%; height:2px; background: linear-gradient(90deg, transparent, rgba(255,255,255,.6), transparent); transform: scaleX(0); transform-origin:left; transition: transform .35s ease; }
+.brand:hover strong::after{ transform: scaleX(1); }
+.brand span{ color: var(--muted); font-size: .92rem; }
+nav{ display:flex; gap: 10px; flex-wrap: wrap; justify-content:flex-end; }
+.nav-pill{ text-decoration:none; color: var(--text); border:1px solid rgba(255,255,255,.14); background: rgba(255,255,255,.08); padding: 8px 12px; border-radius: 999px; font-size: .92rem; transition: transform .2s ease, box-shadow .2s ease, background .2s ease; }
+.nav-pill:hover{ transform: translateY(-2px); background: rgba(255,255,255,.12); box-shadow: 0 10px 22px rgba(0,0,0,.25); }
+.wrap{ max-width: var(--max); margin: 0 auto; padding: 28px 18px 70px; display:grid; grid-template-columns: 1.2fr .8fr; gap: 18px; align-items:start; animation: fadeUp .55s ease both; }
+@keyframes fadeUp{ from{ opacity:0; transform: translateY(10px);} to{opacity:1; transform: translateY(0);} }
+.card{ background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); overflow:hidden; }
+.card .inner{ padding: 18px; }
+.hero{ padding: 18px; border-bottom: 1px solid rgba(255,255,255,.12); background: radial-gradient(800px 260px at 10% 10%, rgba(124,58,237,.35), transparent 65%), radial-gradient(600px 260px at 70% 0%, rgba(6,182,212,.25), transparent 60%), linear-gradient(135deg, rgba(255,255,255,.10), rgba(255,255,255,.06)); }
+.hero h1{ margin: 0 0 6px; font-size: 1.55rem; letter-spacing:.3px; }
+.hero p{ margin: 0; color: var(--muted); }
+.tabs{ display:flex; gap: 10px; flex-wrap: wrap; margin-top: 14px; }
+.tab{ appearance:none; border: 1px solid rgba(255,255,255,.16); background: rgba(255,255,255,.07); color: var(--text); border-radius: 999px; padding: 10px 12px; font-weight: 800; cursor:pointer; transition: transform .2s ease, box-shadow .2s ease, background .2s ease; }
+.tab:hover{ transform: translateY(-2px); box-shadow: 0 10px 22px rgba(0,0,0,.25); background: rgba(255,255,255,.10); }
+.tab.active{ background: linear-gradient(90deg, rgba(124,58,237,.35), rgba(6,182,212,.22)); border-color: rgba(255,255,255,.22); }
+.btnrow{ display:flex; gap: 10px; flex-wrap:wrap; margin-top: 14px; }
+.btn{ appearance:none; border: 1px solid rgba(255,255,255,.16); background: rgba(255,255,255,.08); color: var(--text); border-radius: 999px; padding: 11px 14px; font-weight: 900; cursor:pointer; transition: transform .2s ease, box-shadow .2s ease, filter .2s ease; position: relative; overflow: hidden; }
+.btn::before{ content:""; position:absolute; inset:-40%; background: linear-gradient(120deg, transparent, rgba(255,255,255,.26), transparent); transform: rotate(20deg) translateY(-80%); transition: transform .55s ease; opacity:.8; }
+.btn:hover{ transform: translateY(-2px); box-shadow: 0 14px 30px rgba(0,0,0,.28); filter: saturate(1.1); }
+.btn:hover::before{ transform: rotate(20deg) translateY(120%); }
+.resultArea{ padding: 16px 18px 18px; border-top: 1px solid rgba(255,255,255,.10); background: linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,.02)); }
+.setBlock{ border: 1px solid rgba(255,255,255,.14); border-radius: 16px; padding: 14px; background: rgba(255,255,255,.06); margin-bottom: 12px; animation: pop .35s ease both; }
+@keyframes pop{ from{transform:scale(.98); opacity:0} to{transform:scale(1); opacity:1} }
+.setHeader{ display:flex; align-items:center; justify-content: space-between; gap: 10px; flex-wrap:wrap; margin-bottom: 10px; color: var(--muted); font-size:.92rem; }
+.pill{ display:inline-flex; align-items:center; gap: 8px; border: 1px solid rgba(255,255,255,.16); padding: 6px 10px; border-radius: 999px; background: rgba(255,255,255,.06); color: var(--text); font-weight: 800; font-size: .86rem; }
+.nums{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}
+.ball{width:56px;height:56px;border-radius:999px;display:flex;align-items:center;justify-content:center;font-weight:900;background:linear-gradient(180deg,rgba(255,255,255,.06),rgba(255,255,255,.02));border:1px solid rgba(255,255,255,.12);color:var(--text)}
+textarea{width:100%;border-radius:12px;padding:12px;background:transparent;border:1px solid rgba(255,255,255,.06);color:var(--text);min-height:200px;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono','Courier New',monospace}
+.footer{padding:26px 18px;color:var(--muted);text-align:center;font-size:.9rem}
+@media (max-width:900px){ .wrap{grid-template-columns:1fr;} nav{justify-content:flex-start;} }
 </style>
 </head>
-<body>
-<div class="topbar"><div class="topbar-inner"><a class="brand" href="index.html"><strong>Nosaic Note</strong><span>로또 추천</span></a><nav><a class="nav-pill" href="index.html">홈</a><a class="nav-pill" href="posts.html">전체 글</a><a class="nav-pill" href="admin.html">관리자</a></nav></div></div>
-<main class="wrap">
-<section class="card">
-  <h2 style="margin:0 0 10px; font-size:1.1rem;">추천 번호 생성</h2>
-  <p class="small">규칙: <br>• 최근 60회에서 10회 이상 나온 번호 중 2개 랜덤 <br>• 최근 60회에서 5회 이상 나온 번호 또는 최근 3회에 나온 번호들 중에서 2개 랜덤 <br>• 나머지 2개는 전체(1~45)에서 중복 없이 채움. 결과는 오름차순 정렬.</p>
-  <div style="margin-top:14px;">
-    <button class="btn" id="gen">🎲 추천 번호 뽑기</button>
-    <button class="btn" id="gen5" style="margin-left:8px;">✋ 5세트 뽑기</button>
-  </div>
-  <div class="nums" id="out" aria-live="polite" style="margin-top:16px"></div>
-  <textarea id="log" readonly placeholder="추천 결과가 여기에 표시됩니다." style="margin-top:12px"></textarea>
-</section>
-<aside>
-  <div class="card">
-    <h3>데이터</h3>
-    <p class="small">최근 추첨 기록을 직접 편집할 수 있습니다. 편집 후 <strong>저장</strong>하면 로컬(브라우저 저장)으로 반영됩니다. draws.json 파일을 서버에 올릴 권한이 있으면 서버 업로드 후 사용 가능합니다.</p>
-    <p class="small">저장 형식: JSON 배열. 각 항목은 {"round":<num>,"nums":[n1,...,n6]} 형태 권장. (예: [{"round":1040,"nums":[1,2,3,4,5,6]}, ...])</p>
-    <div style="margin-top:12px;">
-      <button class="btn" id="syncBoxBtn">동기화(불러오기)</button>
-      <button class="btn" id="saveData">저장(로컬)</button>
-    </div>
-    <textarea id="dataBox" style="margin-top:12px;min-height:260px;" aria-label="data box"></textarea>
-  </div>
-</aside>
-</main>
-<footer>© 2026 Nosaic Note</footer>
-
+<body class="sparkles">
+  <div class="topbar"><div class="topbar-inner"><a class="brand" href="index.html"><strong>Nosaic Note</strong><span>로또 추천</span></a><nav><a class="nav-pill" href="index.html">홈</a><a class="nav-pill" href="posts.html">전체 글</a><a class="nav-pill" href="admin.html">관리자</a></nav></div></div>
+  <main class="wrap">
+    <section class="card">
+      <div class="hero">
+        <div class="inner">
+          <h1>로또 추천</h1>
+          <p>통계 기반 랜덤 추천. 당첨을 보장하지 않습니다.</p>
+          <div class="tabs" role="tablist">
+            <button class="tab active" data-mode="single">한 세트</button>
+            <button class="tab" data-mode="five">5세트</button>
+          </div>
+          <div class="btnrow">
+            <button class="btn" id="gen">🎲 추천 번호 뽑기</button>
+            <button class="btn" id="gen5">✋ 5세트 뽑기</button>
+          </div>
+        </div>
+      </div>
+      <div class="resultArea inner">
+        <div id="resultArea"></div>
+      </div>
+    </section>
+    <aside class="card">
+      <div class="inner">
+        <h3>최근 회차 데이터</h3>
+        <p class="small">직접 편집하거나 서버 draws.json을 업로드하여 사용하세요. 편집 후 저장하면 로컬(브라우저)에서 사용됩니다.</p>
+        <div style="margin-top:12px;display:flex;gap:8px;">
+          <button class="btn" id="syncBoxBtn">불러오기</button>
+          <button class="btn" id="saveData">저장(로컬)</button>
+        </div>
+        <textarea id="dataBox" style="margin-top:12px"></textarea>
+        <p style="margin-top:12px;color:var(--muted);font-size:.9rem">포맷: [{"round":1212,"nums":[1,2,3,4,5,6]}, ...] — 최신 회차가 배열의 마지막에 오도록.</p>
+      </div>
+    </aside>
+  </main>
+  <div class="footer">© 2026 Nosaic Note</div>
 <script>
-// Utility
+// Utilities
 const randChoice=(arr)=>arr[Math.floor(Math.random()*arr.length)];
 const randSample=(arr,k)=>{const copy=arr.slice();const out=[];while(out.length<k&&copy.length){const i=Math.floor(Math.random()*copy.length);out.push(copy.splice(i,1)[0])}return out}
 const uniqueSorted=(arr)=>Array.from(new Set(arr)).sort((a,b)=>a-b)
 
-// History storage (localStorage-backed)
+// Local storage for draws
 const DRAW_KEY = 'nosaic_draws_v1';
 function saveHistory(arr){ localStorage.setItem(DRAW_KEY, JSON.stringify(arr)); }
-function loadHistory(){ try{ const v = JSON.parse(localStorage.getItem(DRAW_KEY)||'[]'); if(!Array.isArray(v)) return []; return v; }catch(e){ return []; } }
+function loadHistory(){ try{ const v = JSON.parse(localStorage.getItem(DRAW_KEY)||'[]'); return Array.isArray(v)?v:[]; }catch(e){ return []; } }
 
-// If there's a server draws.json, prefer it for generation; otherwise use local storage
+// load draws: prefer server draws.json, else local storage, else simulated
 async function loadDraws(){
   try{
-    const res=await fetch('draws.json');
-    if(res.ok){ const d=await res.json(); // normalize to objects with nums
-      return d.map((it,idx)=> Array.isArray(it)?{round: idx+1, nums: it}: (it.nums?it:{round: idx+1, nums: it})); }
+    const res = await fetch('draws.json');
+    if(res.ok){ const d = await res.json(); return d.map((it,idx)=> Array.isArray(it)?{round: idx+1, nums: it}: (it.nums?it:{round: idx+1, nums: it})); }
     throw new Error('no draws');
-  }catch(e){
-    const local = loadHistory();
-    if(local && local.length>0) return local;
-    // generate simulated draws: 200 draws of 6 numbers
-    const sim=[]; for(let i=0;i<200;i++){const pool=[];for(let n=1;n<=45;n++)pool.push(n);sim.push({round:i+1, nums: randSample(pool,6)})} return sim
-  }
+  }catch(e){ const local = loadHistory(); if(local && local.length>0) return local; const sim=[]; for(let i=0;i<200;i++){ const pool=[]; for(let n=1;n<=45;n++) pool.push(n); sim.push({round:i+1, nums: randSample(pool,6)}); } return sim; }
 }
 
-function countsInLast(draws, n){
-  const cnt=new Map();
-  const slice = draws.slice(-n);
-  slice.forEach(obj=>{(obj.nums||[]).forEach(num=>cnt.set(num,(cnt.get(num)||0)+1))});
-  return cnt;
-}
+function countsInLast(draws, n){ const cnt=new Map(); const slice=draws.slice(-n); slice.forEach(obj=> (obj.nums||[]).forEach(num=>cnt.set(num,(cnt.get(num)||0)+1))); return cnt; }
+
+function pickRandomDistinct(pool, k, excludeSet){ const candidates = pool.filter(n=>!excludeSet.has(n)); const out=[]; while(out.length<k && candidates.length>0){ const idx=Math.floor(Math.random()*candidates.length); const n=candidates.splice(idx,1)[0]; excludeSet.add(n); out.push(n); } return out; }
 
 async function generateOne(){
   const draws = await loadDraws();
-  const cnt60 = countsInLast(draws,60);
+  const last60 = draws.slice(-60);
+  if(last60.length<10) throw new Error('최근 60회 데이터가 부족합니다. 데이터 박스에 기록을 추가하세요.');
+  const fm = countsInLast(last60,60);
   const cnt3 = countsInLast(draws,3);
-
-  const top10plus = Array.from(cnt60.entries()).filter(([num,c])=>c>=10).map(r=>r[0]);
-  const fivePlus = Array.from(cnt60.entries()).filter(([num,c])=>c>=5).map(r=>r[0]);
-  const last3Nums = Array.from(cnt3.keys());
-
-  const pick = [];
-  if(top10plus.length>0){ const take=Math.min(2, top10plus.length); pick.push(...randSample(top10plus,take)); }
-  const poolSet = new Set([...fivePlus, ...last3Nums]);
-  const pool = Array.from(poolSet).filter(n=>!pick.includes(n));
-  if(pool.length>0){ const take=Math.min(2,pool.length); pick.push(...randSample(pool,take)); }
-
-  const all = Array.from({length:45},(_,i)=>i+1).filter(n=>!pick.includes(n));
-  while(pick.length<6){ const c=randChoice(all); pick.push(c); const idx=all.indexOf(c); if(idx>-1) all.splice(idx,1); }
-  return uniqueSorted(pick);
+  const pool10 = []; const pool5 = [];
+  for(let n=1;n<=45;n++){ const f = fm.get(n)||0; if(f>=10) pool10.push(n); if(f>=5) pool5.push(n); }
+  const recent3 = new Set(); draws.slice(-3).forEach(d=> (d.nums||[]).forEach(n=>recent3.add(n)));
+  const pool5_recent3 = pool5.filter(n=>recent3.has(n));
+  const chosen = []; const used = new Set();
+  chosen.push(...pickRandomDistinct(pool10.length?pool10:[...Array(45)].map((_,i)=>i+1), 2, used));
+  chosen.push(...pickRandomDistinct(pool5_recent3.length?pool5_recent3: (pool5.length?pool5:[...Array(45)].map((_,i)=>i+1)), 2, used));
+  const all = [...Array(45)].map((_,i)=>i+1);
+  chosen.push(...pickRandomDistinct(all, 6 - chosen.length, used));
+  return uniqueSorted(chosen);
 }
 
-async function generateSets(k){ const out=[]; for(let i=0;i<k;i++){ out.push(await generateOne()); } return out; }
+// UI helpers
+function ballsHtml(nums){ return '<div class="nums">' + nums.map(n=>`<div class="ball">${n}</div>`).join('') + '</div>'; }
+function renderOne(){ generateOne().then(nums=>{ document.getElementById('resultArea').innerHTML = `<div class="setBlock"><div class="setHeader"><div class="pill">추천 번호</div><div class="pill">${new Date().toLocaleString()}</div></div>${ballsHtml(nums)}</div>`; }).catch(err=>{ alert(err.message); }); }
+function renderFive(){ (async ()=>{ const sets=[]; for(let i=0;i<5;i++){ sets.push(await generateOne()); } document.getElementById('resultArea').innerHTML = sets.map((s,idx)=>`<div class="setBlock"><div class="setHeader"><div class="pill">세트 ${idx+1}</div><div class="pill">${new Date().toLocaleString()}</div></div>${ballsHtml(s)}</div>`).join(''); })(); }
 
-function showSet(set){ const container=document.getElementById('out'); container.innerHTML=''; set.forEach(n=>{const d=document.createElement('div');d.className='ball';d.textContent=n;container.appendChild(d)}); }
-function appendLog(text){ const t=document.getElementById('log'); t.value = text + '\n' + t.value }
-
-// Data box helpers (user-provided logic integrated)
-function syncBox(){
-  const hist = loadHistory().slice().sort((a,b)=> (b.round||0)-(a.round||0)).slice(0,60);
-  document.getElementById('dataBox').value = JSON.stringify(hist, null, 2);
-}
-function saveBox(){
-  try{
-    const arr = JSON.parse(document.getElementById('dataBox').value);
-    if(!Array.isArray(arr)) throw new Error('배열이 아님');
-    // normalize and validate
-    const norm = arr.map((x,idx)=>{
-      if(Array.isArray(x)){
-        if(x.length!==6) throw new Error('배열 요소가 6개 숫자가 아님');
-        return {round: x.round || (idx+1), nums: x};
-      }
-      if(!Array.isArray(x.nums) || x.nums.length!==6) throw new Error('nums는 6개 배열이어야 함');
-      return {round: x.round || (idx+1), nums: x.nums};
-    });
-    saveHistory(norm);
-    alert('로또 데이터 저장 완료!');
-    syncBox();
-  }catch(e){ alert('JSON 형식이 올바르지 않거나 구조가 잘못되었습니다. '+(e.message||'')); }
-}
+// data box functions
+function syncBox(){ const hist = loadHistory().slice().sort((a,b)=> (b.round||0)-(a.round||0)).slice(0,60); document.getElementById('dataBox').value = JSON.stringify(hist, null, 2); }
+function saveBox(){ try{ const arr = JSON.parse(document.getElementById('dataBox').value); if(!Array.isArray(arr)) throw new Error('배열이 아님'); const norm = arr.map((x,idx)=>{ if(Array.isArray(x)){ if(x.length!==6) throw new Error('배열 요소가 6개 숫자가 아님'); return {round: x.round || (idx+1), nums: x}; } if(!Array.isArray(x.nums) || x.nums.length!==6) throw new Error('nums는 6개 배열이어야 함'); return {round: x.round || (idx+1), nums: x.nums}; }); saveHistory(norm); alert('로또 데이터 저장 완료!'); syncBox(); }catch(e){ alert('JSON 형식이 올바르지 않거나 구조가 잘못되었습니다. '+(e.message||'')); } }
 
 // wire buttons
-document.getElementById('gen').addEventListener('click', async ()=>{ const s = await generateOne(); showSet(s); appendLog(s.join(', ')); });
-document.getElementById('gen5').addEventListener('click', async ()=>{ const sets = await generateSets(5); document.getElementById('log').value = ''; sets.forEach(s=>{ appendLog(s.join(', ')) }); showSet(sets[0]); });
+document.getElementById('gen').addEventListener('click', renderOne);
+document.getElementById('gen5').addEventListener('click', renderFive);
 document.getElementById('syncBoxBtn').addEventListener('click', syncBox);
 document.getElementById('saveData').addEventListener('click', saveBox);
-
 // initial sync
 syncBox();
 </script>
