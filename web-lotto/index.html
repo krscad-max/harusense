@@ -5,48 +5,79 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>krscad — Personal Tools</title>
   <link rel="stylesheet" href="styles.css">
-  <style>
-    /* Card styles provided by user */
-    .card { position: relative; background: white; border-radius: 14px; padding: 30px 20px; text-align: center; box-shadow: 0 4px 12px rgba(0,0,0,0.08); transition: transform 0.35s ease, box-shadow 0.35s ease; text-decoration: none; color: inherit; overflow: hidden; }
-    /* light highlight effect */
-    .card::before { content: ""; position: absolute; top: -100%; left: -50%; width: 200%; height: 200%; background: linear-gradient( 120deg, transparent, rgba(255,255,255,0.6), transparent ); transform: rotate(25deg); transition: top 0.5s ease; }
-    .card:hover::before { top: 100%; }
-    .card:hover { transform: translateY(-10px) scale(1.03); box-shadow: 0 18px 35px rgba(0,0,0,0.18); }
-
-    /* Basic layout */
-    body{font-family:Arial,Helvetica,sans-serif;margin:0;padding:0;background:#f5f7fb}
-    .container{max-width:980px;margin:32px auto;padding:0 16px}
-    .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
-    a.card{display:block}
-  </style>
 </head>
 <body>
-  <main class="container">
-    <h1>krscad — Personal Tools</h1>
-    <p class="lead">A lightweight portal collecting small utilities and mini-projects.</p>
+  <div class="container">
+    <header class="header">
+      <div class="logo">krscad</div>
+      <nav class="nav">
+        <a href="./index.html">Home</a>
+        <a href="./posts/index.html">Articles</a>
+        <a href="./lotto.html">Lotto</a>
+        <button id="themeBtn" class="theme-toggle">Toggle Dark</button>
+      </nav>
+    </header>
 
-    <section class="cards">
+    <section class="hero">
+      <div class="copy">
+        <h1>Personal tools, essays and small experiments</h1>
+        <p>Concise, focused utilities and writeups. Browse articles, try the lotto helper, or explore small technical notes.</p>
+        <div class="ctas">
+          <a class="btn btn-primary" href="./posts/index.html">Read articles</a>
+          <a class="btn btn-ghost" href="./lotto.html">Open Lotto helper</a>
+        </div>
+      </div>
+      <div class="visual" aria-hidden="true" style="min-width:220px;display:flex;align-items:center;justify-content:center">
+        <svg width="160" height="120" viewBox="0 0 160 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="4" y="8" width="152" height="104" rx="12" fill="#ffffff" opacity="0.6"/>
+          <circle cx="48" cy="56" r="18" fill="#2b8cff"/>
+          <rect x="78" y="40" width="64" height="10" rx="5" fill="#4fb1ff"/>
+          <rect x="78" y="60" width="40" height="10" rx="5" fill="#ff6b6b"/>
+        </svg>
+      </div>
+    </section>
+
+    <section class="cards" aria-label="tools and articles">
       <a class="card" href="./posts/index.html">
         <h3>Articles</h3>
-        <p>Long-form guides and writeups.</p>
+        <p>Long-form guides, travel notes and how-tos with photo attribution.</p>
       </a>
       <a class="card" href="./lotto.html">
         <h3>Lotto Helper</h3>
-        <p>Past results and recommendation tools.</p>
+        <p>Historical results, simple analysis and pick recommendations.</p>
       </a>
       <a class="card" href="#">
-        <h3>Misc</h3>
-        <p>Tools and experiments.</p>
+        <h3>Experiments</h3>
+        <p>Small projects: automation snippets, data tools, and notes.</p>
       </a>
       <a class="card" href="#">
-        <h3>Other</h3>
-        <p>Various links.</p>
+        <h3>Contact</h3>
+        <p>Contact and project links (placeholder).</p>
       </a>
     </section>
 
-    <footer style="margin-top:28px;color:#666">
-      <p>Site reset at user request.</p>
-    </footer>
-  </main>
+    <div class="footer">© krscad — Built with care. <a href="./sitemap.xml">Sitemap</a></div>
+
+  </div>
+
+<script>
+(function(){
+  const btn=document.getElementById('themeBtn');
+  const root=document.documentElement;
+  function setTheme(t){
+    if(t==='dark') root.setAttribute('data-theme','dark'); else root.removeAttribute('data-theme');
+    try{localStorage.setItem('krscad_theme',t)}catch(e){}
+  }
+  const saved=localStorage.getItem('krscad_theme')||(window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');
+  setTheme(saved);
+  btn.addEventListener('click',()=>{
+    const now=root.getAttribute('data-theme')==='dark'?'light':'dark';
+    setTheme(now);
+    btn.textContent = now==='dark'?'Light mode':'Dark mode';
+  });
+  // set button label
+  btn.textContent = root.getAttribute('data-theme')==='dark'?'Light mode':'Dark mode';
+})();
+</script>
 </body>
 </html>
