@@ -24,8 +24,13 @@
 <aside>
   <div class="card">
     <h3>데이터</h3>
-    <p class="small">최근 추첨 기록이 포함된 draws.json(최근 회차 배열)이 있으면 더 정확한 추천을 제공합니다. 기본적으로 샘플/시뮬레이션 데이터가 사용됩니다.</p>
-    <p class="small">파일 형식: [[ [n1,n2,...,n6], ... ]] — 최신 회차가 배열의 마지막이어야 합니다.</p>
+    <p class="small">최근 추첨 기록을 직접 편집할 수 있습니다. 편집 후 <strong>저장</strong>하면 로컬(브라우저 저장)으로 반영됩니다. draws.json 파일을 서버에 올릴 권한이 있으면 서버 업로드 후 사용 가능합니다.</p>
+    <p class="small">저장 형식: JSON 배열. 각 항목은 {"round":<num>,"nums":[n1,...,n6]} 형태 권장. (예: [{"round":1040,"nums":[1,2,3,4,5,6]}, ...])</p>
+    <div style="margin-top:12px;">
+      <button class="btn" id="syncBoxBtn">동기화(불러오기)</button>
+      <button class="btn" id="saveData">저장(로컬)</button>
+    </div>
+    <textarea id="dataBox" style="margin-top:12px;min-height:260px;" aria-label="data box"></textarea>
   </div>
 </aside>
 </main>
@@ -37,81 +42,90 @@ const randChoice=(arr)=>arr[Math.floor(Math.random()*arr.length)];
 const randSample=(arr,k)=>{const copy=arr.slice();const out=[];while(out.length<k&&copy.length){const i=Math.floor(Math.random()*copy.length);out.push(copy.splice(i,1)[0])}return out}
 const uniqueSorted=(arr)=>Array.from(new Set(arr)).sort((a,b)=>a-b)
 
+// History storage (localStorage-backed)
+const DRAW_KEY = 'nosaic_draws_v1';
+function saveHistory(arr){ localStorage.setItem(DRAW_KEY, JSON.stringify(arr)); }
+function loadHistory(){ try{ const v = JSON.parse(localStorage.getItem(DRAW_KEY)||'[]'); if(!Array.isArray(v)) return []; return v; }catch(e){ return []; } }
+
+// If there's a server draws.json, prefer it for generation; otherwise use local storage
 async function loadDraws(){
   try{
     const res=await fetch('draws.json');
-    if(!res.ok) throw new Error('no draws');
-    const d=await res.json();
-    return d; // array of arrays
+    if(res.ok){ const d=await res.json(); // normalize to objects with nums
+      return d.map((it,idx)=> Array.isArray(it)?{round: idx+1, nums: it}: (it.nums?it:{round: idx+1, nums: it})); }
+    throw new Error('no draws');
   }catch(e){
+    const local = loadHistory();
+    if(local && local.length>0) return local;
     // generate simulated draws: 200 draws of 6 numbers
-    const sim=[]; for(let i=0;i<200;i++){const pool=[];for(let n=1;n<=45;n++)pool.push(n);sim.push(randSample(pool,6))} return sim
+    const sim=[]; for(let i=0;i<200;i++){const pool=[];for(let n=1;n<=45;n++)pool.push(n);sim.push({round:i+1, nums: randSample(pool,6)})} return sim
   }
 }
 
-function countsInLast(draws, n){ // last n draws
+function countsInLast(draws, n){
   const cnt=new Map();
   const slice = draws.slice(-n);
-  slice.forEach(arr=>arr.forEach(num=>cnt.set(num,(cnt.get(num)||0)+1)));
+  slice.forEach(obj=>{(obj.nums||[]).forEach(num=>cnt.set(num,(cnt.get(num)||0)+1))});
   return cnt;
 }
 
 async function generateOne(){
   const draws = await loadDraws();
-  // Use last 60 draws
-  const last60 = draws.slice(-60);
   const cnt60 = countsInLast(draws,60);
   const cnt3 = countsInLast(draws,3);
 
-  // candidates
   const top10plus = Array.from(cnt60.entries()).filter(([num,c])=>c>=10).map(r=>r[0]);
   const fivePlus = Array.from(cnt60.entries()).filter(([num,c])=>c>=5).map(r=>r[0]);
   const last3Nums = Array.from(cnt3.keys());
 
   const pick = [];
-
-  // pick up to 2 from top10plus
-  if(top10plus.length>0){
-    const take = Math.min(2, top10plus.length);
-    pick.push(...randSample(top10plus,take));
-  }
-
-  // pick up to 2 from (fivePlus U last3Nums) but not already picked
+  if(top10plus.length>0){ const take=Math.min(2, top10plus.length); pick.push(...randSample(top10plus,take)); }
   const poolSet = new Set([...fivePlus, ...last3Nums]);
   const pool = Array.from(poolSet).filter(n=>!pick.includes(n));
-  if(pool.length>0){
-    const take = Math.min(2, pool.length);
-    pick.push(...randSample(pool,take));
-  }
+  if(pool.length>0){ const take=Math.min(2,pool.length); pick.push(...randSample(pool,take)); }
 
-  // fill remaining with random distinct numbers from 1..45
   const all = Array.from({length:45},(_,i)=>i+1).filter(n=>!pick.includes(n));
-  while(pick.length<6){ pick.push(randChoice(all)); const idx=all.indexOf(pick[pick.length-1]); if(idx>-1) all.splice(idx,1); }
-
+  while(pick.length<6){ const c=randChoice(all); pick.push(c); const idx=all.indexOf(c); if(idx>-1) all.splice(idx,1); }
   return uniqueSorted(pick);
 }
 
-async function generateSets(k){
-  const out=[];
-  for(let i=0;i<k;i++){ out.push(await generateOne()); }
-  return out;
-}
+async function generateSets(k){ const out=[]; for(let i=0;i<k;i++){ out.push(await generateOne()); } return out; }
 
-function showSet(set){
-  const container=document.getElementById('out'); container.innerHTML='';
-  set.forEach(n=>{const d=document.createElement('div');d.className='ball';d.textContent=n;container.appendChild(d)});
-}
-
+function showSet(set){ const container=document.getElementById('out'); container.innerHTML=''; set.forEach(n=>{const d=document.createElement('div');d.className='ball';d.textContent=n;container.appendChild(d)}); }
 function appendLog(text){ const t=document.getElementById('log'); t.value = text + '\n' + t.value }
 
-document.getElementById('gen').addEventListener('click', async ()=>{
-  const s = await generateOne(); showSet(s); appendLog(s.join(', '));
-});
+// Data box helpers (user-provided logic integrated)
+function syncBox(){
+  const hist = loadHistory().slice().sort((a,b)=> (b.round||0)-(a.round||0)).slice(0,60);
+  document.getElementById('dataBox').value = JSON.stringify(hist, null, 2);
+}
+function saveBox(){
+  try{
+    const arr = JSON.parse(document.getElementById('dataBox').value);
+    if(!Array.isArray(arr)) throw new Error('배열이 아님');
+    // normalize and validate
+    const norm = arr.map((x,idx)=>{
+      if(Array.isArray(x)){
+        if(x.length!==6) throw new Error('배열 요소가 6개 숫자가 아님');
+        return {round: x.round || (idx+1), nums: x};
+      }
+      if(!Array.isArray(x.nums) || x.nums.length!==6) throw new Error('nums는 6개 배열이어야 함');
+      return {round: x.round || (idx+1), nums: x.nums};
+    });
+    saveHistory(norm);
+    alert('로또 데이터 저장 완료!');
+    syncBox();
+  }catch(e){ alert('JSON 형식이 올바르지 않거나 구조가 잘못되었습니다. '+(e.message||'')); }
+}
 
-document.getElementById('gen5').addEventListener('click', async ()=>{
-  const sets = await generateSets(5); const t=document.getElementById('log'); t.value = '';
-  sets.forEach(s=>{ appendLog(s.join(', ')) }); showSet(sets[0]);
-});
+// wire buttons
+document.getElementById('gen').addEventListener('click', async ()=>{ const s = await generateOne(); showSet(s); appendLog(s.join(', ')); });
+document.getElementById('gen5').addEventListener('click', async ()=>{ const sets = await generateSets(5); document.getElementById('log').value = ''; sets.forEach(s=>{ appendLog(s.join(', ')) }); showSet(sets[0]); });
+document.getElementById('syncBoxBtn').addEventListener('click', syncBox);
+document.getElementById('saveData').addEventListener('click', saveBox);
+
+// initial sync
+syncBox();
 </script>
 </body>
 </html>
