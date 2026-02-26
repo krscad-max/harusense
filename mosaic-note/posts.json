@@ -1,0 +1,11 @@
+[
+  {
+    "id": "example-post",
+    "title": "예시 글",
+    "date": "2026-02-24",
+    "tag": "example",
+    "thumbnail": "images/example.jpg",
+    "desc": "예시 글 설명",
+    "file": "example.md"
+  }
+]

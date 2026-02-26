@@ -1,0 +1,19 @@
+[
+  {
+    "id": "useful",
+    "title": "Useful Links",
+    "subtitle": "",
+    "badge": "",
+    "icon": "#",
+    "priority": 1,
+    "items": [
+      {
+        "name": "Example",
+        "desc": "An example link",
+        "url": "https://example.com",
+        "phone": "",
+        "priority": 1
+      }
+    ]
+  }
+]

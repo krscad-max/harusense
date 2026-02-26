@@ -1,0 +1,16 @@
+::ffff:127.0.0.1 - - [24/Feb/2026 18:10:57] code 404, message File not found
+::ffff:127.0.0.1 - - [24/Feb/2026 18:10:57] "HEAD /index.html HTTP/1.1" 404 -
+::ffff:127.0.0.1 - - [24/Feb/2026 18:12:00] "HEAD /index.html HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [24/Feb/2026 22:16:40] "GET / HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [24/Feb/2026 22:16:40] "GET /assets/common.css HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [24/Feb/2026 22:16:40] "GET /assets/app.js HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [24/Feb/2026 22:16:41] "GET /posts.json HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [24/Feb/2026 22:16:41] code 404, message File not found
+::ffff:127.0.0.1 - - [24/Feb/2026 22:16:41] "GET /favicon.ico HTTP/1.1" 404 -
+::ffff:127.0.0.1 - - [24/Feb/2026 22:16:46] code 404, message File not found
+::ffff:127.0.0.1 - - [24/Feb/2026 22:16:46] "GET /search.html HTTP/1.1" 404 -
+::ffff:127.0.0.1 - - [24/Feb/2026 22:17:12] "GET /assets/common.css HTTP/1.1" 304 -
+::ffff:127.0.0.1 - - [24/Feb/2026 22:17:21] code 404, message File not found
+::ffff:127.0.0.1 - - [24/Feb/2026 22:17:21] "GET /useful-links.html HTTP/1.1" 404 -
+::ffff:127.0.0.1 - - [24/Feb/2026 22:17:26] "GET /post.html?id=example-post HTTP/1.1" 200 -
+::ffff:127.0.0.1 - - [24/Feb/2026 22:17:26] "GET /posts/example.md HTTP/1.1" 200 -

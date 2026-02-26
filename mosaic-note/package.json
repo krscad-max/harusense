@@ -1,0 +1,13 @@
+{
+  "type": "module",
+  "name": "mosaic-note",
+  "version": "0.1.0",
+  "scripts": {
+    "watch": "node watch.mjs",
+    "validate:links": "node validate-links-csv.mjs",
+    "build:links": "node generate-links.mjs",
+    "build:posts": "node generate-posts.mjs",
+    "validate": "node validate.mjs",
+    "build:all": "node validate-links-csv.mjs && node generate-links.mjs && node generate-posts.mjs && node validate.mjs"
+  }
+}
