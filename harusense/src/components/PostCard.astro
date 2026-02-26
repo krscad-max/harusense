@@ -1,0 +1,10 @@
+---
+const { post } = Astro.props
+---
+<article class="post-card">
+  <a href={`/post/${post.slug}.html`}>
+    <img src={post.image || '/images/post-placeholder.jpg'} alt={post.title} />
+    <h3>{post.title}</h3>
+    <p class="excerpt">{post.excerpt}</p>
+  </a>
+</article>
