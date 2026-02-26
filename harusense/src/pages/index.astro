@@ -15,7 +15,11 @@ import posts from '../../content/posts/index.js'
       </div>
     </div>
     <div class="hero-image">
-      <img src="/images/hero-placeholder.jpg" alt="HaruSense hero" />
+      <picture>
+        <source type="image/webp" srcset="/images/hero-desktop.webp 1x, /images/hero-desktop@2x.webp 2x">
+        <source srcset="/images/hero-desktop.jpg 1x, /images/hero-desktop@2x.jpg 2x">
+        <img src="/images/hero-placeholder.jpg" alt="HaruSense hero" loading="lazy" />
+      </picture>
     </div>
   </section>
 

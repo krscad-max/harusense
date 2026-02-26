@@ -3,7 +3,10 @@ const { post } = Astro.props
 ---
 <article class="post-card">
   <a href={`/post/${post.slug}.html`}>
-    <img src={post.image || '/images/post-placeholder.jpg'} alt={post.title} />
+    <picture>
+      <source type="image/webp" srcset={(post.imageWebp || '/images/post-placeholder.webp') + ' 1x'}>
+      <img src={post.image || '/images/post-placeholder.jpg'} alt={post.title} loading="lazy" />
+    </picture>
     <h3>{post.title}</h3>
     <p class="excerpt">{post.excerpt}</p>
   </a>
