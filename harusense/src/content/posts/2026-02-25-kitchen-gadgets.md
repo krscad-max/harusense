@@ -3,7 +3,9 @@ title: "가성비 주방 가젯 7선 (진짜 ‘쓰는’ 것만)"
 date: 2026-02-25
 tags: [kitchen, gadgets, shopping]
 description: "주방 살림이 편해지는 가젯은 따로 있습니다. 설거지·보관·조리 시간을 줄여주는 ‘실사용률 높은’ 아이템 7가지를 상황별로 정리했습니다."
-coverImage: "/images/post-placeholder.jpg"
+coverImage: "/images/unsplash/u1.jpg"
+coverCredit: "Unsplash"
+coverCreditUrl: "https://unsplash.com"
 ---
 
 주방 가젯은 ‘있으면 좋다’가 아니라 **‘매일 쓰인다’**가 기준입니다. 아래 7개는 대부분의 집에서 *실사용률이 높은 편*이라 추천하기 좋습니다.

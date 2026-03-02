@@ -3,8 +3,8 @@ title: "정리 시작이 어려운 사람을 위한 15분 “현관 리셋”"
 date: 2026-03-03
 tags: [organization, routine]
 description: "집 정리의 시작점을 현관으로 잡으면 실패 확률이 낮습니다. 15분 체크리스트로 동선을 복구하세요."
-coverImage: "/images/post-placeholder.webp"
-coverCredit: "Placeholder"
+coverImage: "/images/unsplash/u2.jpg"
+coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
 ---
 정리는 의지 게임이 아니라 **마찰(귀찮음)을 낮추는 설계**입니다. 한 번에 완벽히 하려는 마음이 실패 원인 1위예요.

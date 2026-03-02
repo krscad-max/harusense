@@ -3,7 +3,9 @@ title: "월말에 돈이 남는 사람들의 ‘지출 점검’ 체크리스트
 date: 2026-02-25
 tags: [saving, budgeting, checklist]
 description: "월 1회 15분만 투자해도 새는 돈을 막을 수 있습니다. 구독·통신·보험·배달·마켓·카드 고정비를 한 번에 점검하는 실전 체크리스트."
-coverImage: "/images/post-placeholder.webp"
+coverImage: "/images/unsplash/u3.jpg"
+coverCredit: "Unsplash"
+coverCreditUrl: "https://unsplash.com"
 ---
 
 절약은 ‘아끼는 마음’이 아니라 **점검 루틴**입니다. 아래 체크리스트는 월 1회, 15~20분이면 끝나는 버전으로 만들었습니다.

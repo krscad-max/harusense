@@ -2,5 +2,8 @@
 title: "월말에 바로 쓰는 통장 정리 체크리스트"
 date: 2026-02-26
 tags: [finance, saving, checklist]
+coverImage: "/images/unsplash/u7.jpg"
+coverCredit: "Unsplash"
+coverCreditUrl: "https://unsplash.com"
 ---
 월말마다 통장을 정리하면 돈 흐름이 한눈에 들어옵니다. 급여·고정비·저축·미지급 항목을 표로 정리하고 자동이체 내역을 점검해 중복 결제가 없는지 확인하세요. 또한 다음 달 예산을 간단히 설정하면 불필요한 지출을 미연에 방지할 수 있습니다.

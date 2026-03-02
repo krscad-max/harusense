@@ -3,8 +3,8 @@ title: "집이 더러워지기 전에 끝내는 주간 청소 루틴(30분)"
 date: 2026-03-10
 tags: [organization, routine]
 description: "청소는 몰아서 하면 지치고, 나눠 하면 유지됩니다. 30분 루틴을 제안합니다."
-coverImage: "/images/post-stock.jpg"
-coverCredit: "Unsplash (free photos)"
+coverImage: "/images/unsplash/u9.jpg"
+coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
 ---
 정리는 의지 게임이 아니라 **마찰(귀찮음)을 낮추는 설계**입니다. 한 번에 완벽히 하려는 마음이 실패 원인 1위예요.

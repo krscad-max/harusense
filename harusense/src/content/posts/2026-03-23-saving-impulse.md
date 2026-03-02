@@ -3,8 +3,8 @@ title: "충동결제 직전 멈추는 20초 질문 5개"
 date: 2026-03-23
 tags: [saving, consumption]
 description: "충동구매를 ‘심리’가 아니라 ‘질문’으로 차단."
-coverImage: "/images/hero-stock.jpg"
-coverCredit: "Unsplash (free photos)"
+coverImage: "/images/unsplash/u2.jpg"
+coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
 ---
 절약은 “참기”가 아니라 **새는 구멍을 막는 작업**입니다. 특히 구독/고정비/배달이 큰 구멍입니다.

@@ -3,8 +3,8 @@ title: "칼/도마 위생 루틴: 식중독 걱정 줄이는 3단계"
 date: 2026-03-06
 tags: [kitchen, routine]
 description: "세척/소독/건조를 루틴화하면 안전과 냄새 문제가 같이 해결됩니다."
-coverImage: "/images/post-placeholder.webp"
-coverCredit: "Placeholder"
+coverImage: "/images/unsplash/u5.jpg"
+coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
 ---
 주방 문제는 “요리 실력”이 아니라 **동선/재고/결정 피로**에서 터집니다. 그래서 이 글은 레시피보다 ‘시스템’을 먼저 잡습니다.

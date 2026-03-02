@@ -3,8 +3,8 @@ title: "일요일 45분 루틴: 월요일이 쉬워지는 최소 준비"
 date: 2026-03-21
 tags: [routine, organization]
 description: "한 주를 덜 힘들게 만드는 준비 루틴."
-coverImage: "/images/post-placeholder.webp"
-coverCredit: "Placeholder"
+coverImage: "/images/unsplash/u10.jpg"
+coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
 ---
 정리는 의지 게임이 아니라 **마찰(귀찮음)을 낮추는 설계**입니다. 한 번에 완벽히 하려는 마음이 실패 원인 1위예요.

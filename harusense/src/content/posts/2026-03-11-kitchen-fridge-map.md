@@ -3,8 +3,8 @@ title: "냉장고 “구역 나누기”로 식재료 버림 줄이기"
 date: 2026-03-11
 tags: [kitchen, saving, organization]
 description: "상단/중단/하단/문칸을 용도별로 나눠 음식물 쓰레기를 줄이는 방법."
-coverImage: "/images/hero-stock.jpg"
-coverCredit: "Unsplash (free photos)"
+coverImage: "/images/unsplash/u10.jpg"
+coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
 ---
 주방 문제는 “요리 실력”이 아니라 **동선/재고/결정 피로**에서 터집니다. 그래서 이 글은 레시피보다 ‘시스템’을 먼저 잡습니다.

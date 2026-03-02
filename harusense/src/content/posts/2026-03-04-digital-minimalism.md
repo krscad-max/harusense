@@ -3,8 +3,8 @@ title: "휴대폰 알림 다이어트: 하루 집중력이 돌아오는 설정 1
 date: 2026-03-04
 tags: [routine, productivity]
 description: "알림/위젯/배지/홈화면을 최소화해 ‘집중력 누수’를 막는 실전 세팅."
-coverImage: "/images/post-stock.jpg"
-coverCredit: "Unsplash (free photos)"
+coverImage: "/images/unsplash/u3.jpg"
+coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
 ---
 생산성은 시간 관리가 아니라 **집중력 누수**를 줄이는 게임입니다. 누수를 막으면 같은 시간에 더 합니다.

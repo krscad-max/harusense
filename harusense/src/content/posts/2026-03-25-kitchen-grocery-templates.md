@@ -3,8 +3,8 @@ title: "장보기 리스트 템플릿(프린트용): 기본 식재료/양념/비
 date: 2026-03-25
 tags: [kitchen, saving]
 description: "장보기 시간을 줄이는 템플릿 제공."
-coverImage: "/images/post-stock.jpg"
-coverCredit: "Unsplash (free photos)"
+coverImage: "/images/unsplash/u4.jpg"
+coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
 ---
 주방 문제는 “요리 실력”이 아니라 **동선/재고/결정 피로**에서 터집니다. 그래서 이 글은 레시피보다 ‘시스템’을 먼저 잡습니다.

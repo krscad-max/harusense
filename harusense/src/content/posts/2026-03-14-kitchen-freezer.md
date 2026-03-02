@@ -3,8 +3,8 @@ title: "냉동실이 답이다: 바쁜 날을 구하는 비상식 재고 12개"
 date: 2026-03-14
 tags: [kitchen, saving]
 description: "비상식 재고 리스트와 보관/소진 루틴으로 배달을 막습니다."
-coverImage: "/images/hero-stock.jpg"
-coverCredit: "Unsplash (free photos)"
+coverImage: "/images/unsplash/u3.jpg"
+coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
 ---
 주방 문제는 “요리 실력”이 아니라 **동선/재고/결정 피로**에서 터집니다. 그래서 이 글은 레시피보다 ‘시스템’을 먼저 잡습니다.

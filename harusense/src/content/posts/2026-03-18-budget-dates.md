@@ -3,8 +3,8 @@ title: "월급날/카드결제일/자동이체일을 ‘한 날’로 모으는 
 date: 2026-03-18
 tags: [budgeting, saving]
 description: "날짜가 흩어지면 관리가 깨집니다. 월간 현금흐름을 단순화하세요."
-coverImage: "/images/post-placeholder.webp"
-coverCredit: "Placeholder"
+coverImage: "/images/unsplash/u7.jpg"
+coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
 ---
 가계부가 안 되는 이유는 기록이 귀찮아서가 아니라, **결제/출금 흐름이 복잡해서**입니다. 흐름을 단순화하면 관리가 됩니다.

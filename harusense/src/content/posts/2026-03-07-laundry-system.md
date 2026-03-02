@@ -3,8 +3,8 @@ title: "세탁이 쌓이지 않는 집의 “바구니 시스템”"
 date: 2026-03-07
 tags: [organization, routine]
 description: "세탁의 병목은 ‘돌리는 것’이 아니라 ‘분류/건조/정리’입니다. 시스템으로 해결하세요."
-coverImage: "/images/post-stock.jpg"
-coverCredit: "Unsplash (free photos)"
+coverImage: "/images/unsplash/u6.jpg"
+coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
 ---
 정리는 의지 게임이 아니라 **마찰(귀찮음)을 낮추는 설계**입니다. 한 번에 완벽히 하려는 마음이 실패 원인 1위예요.

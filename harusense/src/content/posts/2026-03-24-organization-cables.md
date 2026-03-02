@@ -3,8 +3,8 @@ title: "충전 케이블 지옥 끝내기: 케이블/충전기 1세트 원칙"
 date: 2026-03-24
 tags: [organization]
 description: "집 안 케이블을 줄이고 찾는 시간을 없애는 규칙."
-coverImage: "/images/post-placeholder.webp"
-coverCredit: "Placeholder"
+coverImage: "/images/unsplash/u3.jpg"
+coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
 ---
 정리는 의지 게임이 아니라 **마찰(귀찮음)을 낮추는 설계**입니다. 한 번에 완벽히 하려는 마음이 실패 원인 1위예요.

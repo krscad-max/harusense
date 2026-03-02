@@ -3,8 +3,8 @@ title: "종이 서류 정리: 1시간에 끝내는 3분류 시스템"
 date: 2026-03-15
 tags: [organization]
 description: "보관/폐기/스캔 3분류로 서류 산을 정리하는 방법."
-coverImage: "/images/post-placeholder.webp"
-coverCredit: "Placeholder"
+coverImage: "/images/unsplash/u4.jpg"
+coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
 ---
 정리는 의지 게임이 아니라 **마찰(귀찮음)을 낮추는 설계**입니다. 한 번에 완벽히 하려는 마음이 실패 원인 1위예요.

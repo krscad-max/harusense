@@ -3,8 +3,8 @@ title: "오후 졸림을 줄이는 10분 에너지 루틴(카페인 말고)"
 date: 2026-03-08
 tags: [routine, productivity]
 description: "걷기/수분/빛/간식으로 오후 집중력을 회복하는 간단 루틴."
-coverImage: "/images/hero-stock.jpg"
-coverCredit: "Unsplash (free photos)"
+coverImage: "/images/unsplash/u7.jpg"
+coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
 ---
 생산성은 시간 관리가 아니라 **집중력 누수**를 줄이는 게임입니다. 누수를 막으면 같은 시간에 더 합니다.

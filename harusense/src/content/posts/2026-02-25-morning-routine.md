@@ -3,7 +3,9 @@ title: "5분 아침 루틴으로 생산성 끌어올리기"
 date: 2026-02-25
 tags: [morning, productivity, routine]
 description: "기상 직후 5분만 투자해도 하루 집중력이 달라집니다. 물·스트레칭·호흡·우선순위 메모로 ‘뇌를 깨우는’ 초간단 루틴을 만들어 보세요."
-coverImage: "/images/post-stock.jpg"
+coverImage: "/images/unsplash/u2.jpg"
+coverCredit: "Unsplash"
+coverCreditUrl: "https://unsplash.com"
 ---
 
 아침을 바꾸는 가장 쉬운 방법은 **‘의지’가 아니라 ‘구조’**를 만드는 겁니다. 아래 루틴은 *도구 없이도* 가능한 버전이고, 숙련되면 자연스럽게 자동화됩니다.

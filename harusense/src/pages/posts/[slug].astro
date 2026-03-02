@@ -11,6 +11,8 @@ const { post } = Astro.props;
 const { Content, headings } = await post.render();
 
 const description = post.data.description ?? post.body.split('\n').find((l) => l.trim().length > 0)?.slice(0, 160);
+const coverCredit = post.data.coverCredit;
+const coverCreditUrl = post.data.coverCreditUrl;
 ---
 <BaseLayout
   title={`${post.data.title} — HaruSense`}
@@ -29,6 +31,12 @@ const description = post.data.description ?? post.body.split('\n').find((l) => l
       <div class="content">
         <Content />
       </div>
+
+      {coverCredit ? (
+        <div class="credit">
+          이미지 출처: {coverCreditUrl ? <a href={coverCreditUrl} target="_blank" rel="noreferrer">{coverCredit}</a> : coverCredit}
+        </div>
+      ) : null}
 
       {headings?.length ? (
         <aside style="margin-top:28px;padding-top:18px;border-top:1px solid var(--border);color:var(--muted);font-size:14px;">

@@ -3,8 +3,8 @@ title: "구독 서비스 정리법: 안 쓰는 결제 5분 만에 찾는 법"
 date: 2026-03-09
 tags: [saving, budgeting]
 description: "결제내역에서 구독만 추출해 한 번에 정리하는 방법과 해지 순서."
-coverImage: "/images/post-placeholder.webp"
-coverCredit: "Placeholder"
+coverImage: "/images/unsplash/u8.jpg"
+coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
 ---
 가계부가 안 되는 이유는 기록이 귀찮아서가 아니라, **결제/출금 흐름이 복잡해서**입니다. 흐름을 단순화하면 관리가 됩니다.
