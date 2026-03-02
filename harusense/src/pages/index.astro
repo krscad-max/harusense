@@ -4,7 +4,10 @@ import PostCard from '../components/PostCard.astro';
 import { getCollection } from 'astro:content';
 
 const allPosts = await getCollection('posts', ({ data }) => !data.draft);
-const posts = allPosts
+const today = new Date();
+const visiblePosts = allPosts.filter((p) => p.data.date.getTime() <= today.getTime());
+
+const posts = visiblePosts
   .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
   .slice(0, 8);
 
@@ -15,7 +18,7 @@ const featuredSlugs = [
   '2026-02-26-smart-shopping',
 ];
 
-const featured = allPosts
+const featured = visiblePosts
   .filter((p) => featuredSlugs.includes(p.slug))
   .sort((a, b) => featuredSlugs.indexOf(a.slug) - featuredSlugs.indexOf(b.slug));
 ---
@@ -41,8 +44,8 @@ const featured = allPosts
           <h2 style="margin:0;font-size:18px;color:var(--muted);font-weight:600;">추천 글(필독)</h2>
           <a href="/posts" style="color:var(--muted);text-decoration:none;font-size:14px;">전체 보기 →</a>
         </div>
-        <div class="grid">
-          {featured.map((post) => <PostCard post={post} />)}
+        <div class="grid squares">
+          {featured.map((post) => <PostCard post={post} variant="square" />)}
         </div>
       </div>
     </section>
@@ -54,8 +57,8 @@ const featured = allPosts
         <h2 style="margin:0;font-size:18px;color:var(--muted);font-weight:600;">최근 글</h2>
         <a href="/posts" style="color:var(--muted);text-decoration:none;font-size:14px;">전체 보기 →</a>
       </div>
-      <div class="grid">
-        {posts.map((post) => <PostCard post={post} />)}
+      <div class="grid squares">
+        {posts.map((post) => <PostCard post={post} variant="square" />)}
       </div>
     </div>
   </section>

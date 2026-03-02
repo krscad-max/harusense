@@ -1,11 +1,13 @@
 ---
-const { post } = Astro.props;
+const { post, variant = 'default' } = Astro.props;
 const { data } = post;
 const href = `/posts/${post.slug}/`;
 const cover = data.coverImage ?? '/images/post-placeholder.webp';
 const excerpt = data.description ?? post.body?.slice?.(0, 140);
+const classes = ['card'];
+if (variant === 'square') classes.push('square');
 ---
-<article class="card">
+<article class={classes.join(' ')}>
   <a class="thumb" href={href} aria-label={data.title}>
     <img src={cover} alt="" loading="lazy" />
   </a>
