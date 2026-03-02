@@ -7,12 +7,11 @@ coverImage: "/images/unsplash/u9.jpg"
 coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
 ---
-
 캐나다 뉴스를 ‘다’ 챙겨보는 건 현실적으로 불가능해요. 그런데 한국인 입장에서 **체감이 큰 분야**는 놀랍도록 반복됩니다.
 
 이 글은 “오늘 뉴스가 내 생활에 영향 있나?”를 10분 안에 판단하는 **뉴스 필터 루틴**입니다.
 
-![](/images/unsplash/u9.jpg)
+![](/images/unsplash/u3.jpg)
 
 ## 한국인에게 체감 큰 뉴스 6가지
 1) **이민/비자/체류 규정**: 신청 요건, 처리 지연, 쿼터, 정책 변경
@@ -44,7 +43,7 @@ coverCreditUrl: "https://unsplash.com"
 메모는 한 줄이면 충분.
 - `[날짜] 주제: 결론 1줄 / 내 액션 1줄`
 
-![](/images/unsplash/u3.jpg)
+![](/images/unsplash/u8.jpg)
 
 ## 자주 묻는 질문(FAQ)
 **Q. 뉴스를 보면 불안해져요.**

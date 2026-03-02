@@ -9,7 +9,7 @@ coverCreditUrl: "https://unsplash.com"
 ---
 주방 문제는 “요리 실력”이 아니라 **동선/재고/결정 피로**에서 터집니다. 그래서 이 글은 레시피보다 ‘시스템’을 먼저 잡습니다.
 
-![](/images/unsplash/u4.jpg)
+![](/images/unsplash/u1.jpg)
 
 ## 이 글의 목표(오늘 바로 체감)
 - **15~30분 안에 끝나는 버전**으로 시작
@@ -74,7 +74,7 @@ coverCreditUrl: "https://unsplash.com"
 - **주 1회 밀프렙:** 단백질 1종 + 야채 1종만 미리 만들어두기
 - **배달 눌렀을 때 대체 행동:** 물 한 컵 마시고 5분만 ‘집에 있는 재료’ 확인
 
-![](/images/unsplash/u7.jpg)
+![](/images/unsplash/u6.jpg)
 
 ## 자주 묻는 질문(FAQ)
 **Q. 시간이 없어서 못 하겠어요.**

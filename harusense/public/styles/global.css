@@ -1,15 +1,5 @@
 :root{
-  --bg:#0b0d12;
-  --card:#111625;
-  --text:#e9eefc;
-  --muted:#a9b4d0;
-  --brand:#7c5cff;
-  --border:rgba(255,255,255,.10);
-  --shadow:0 10px 26px rgba(0,0,0,.30);
-}
-
-/* Light theme */
-:root[data-theme="light"]{
+  /* Default = LIGHT (웹에서 밝게) */
   --bg:#f6f7fb;
   --card:#ffffff;
   --text:#141826;
@@ -106,7 +96,18 @@ a{color:inherit}
 .article .meta{color:var(--muted);font-size:13px;margin-bottom:18px}
 .article .content{max-width:78ch}
 .article .content :is(h2,h3){margin-top:30px}
-.article .content a{color:#b9f6ff}
+.article .content a{color:#0a7ea4}
+:root[data-theme="dark"] .article .content a{color:#b9f6ff}
+
+.article .content img{
+  display:block;
+  width:100%;
+  max-width:720px;
+  height:auto;
+  margin:14px auto;
+  border-radius:14px;
+  border:1px solid var(--border);
+}
 
 .credit{margin-top:18px;color:var(--muted);font-size:12px}
 .credit a{color:var(--muted)}

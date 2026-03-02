@@ -11,7 +11,8 @@
     const root = document.documentElement;
 
     function getPreferred(){
-      return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      // 기본은 라이트(밝은 배경). 다크는 사용자가 토글로 선택.
+      return 'light';
     }
 
     function apply(theme){

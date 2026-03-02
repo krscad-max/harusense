@@ -9,7 +9,7 @@ coverCreditUrl: "https://unsplash.com"
 ---
 가계부가 안 되는 이유는 기록이 귀찮아서가 아니라, **결제/출금 흐름이 복잡해서**입니다. 흐름을 단순화하면 관리가 됩니다.
 
-![](/images/unsplash/u1.jpg)
+![](/images/unsplash/u10.jpg)
 
 ## 이 글의 목표(오늘 바로 체감)
 - **15~30분 안에 끝나는 버전**으로 시작
@@ -74,7 +74,7 @@ coverCreditUrl: "https://unsplash.com"
 - **변동비 봉투 4개:** 식비/생활/이동/즐거움만 관리(세분화 금지)
 - **월 1회 리셋:** 구독/통신/보험만 점검해도 새는 돈이 줄어듦
 
-![](/images/unsplash/u4.jpg)
+![](/images/unsplash/u9.jpg)
 
 ## 자주 묻는 질문(FAQ)
 **Q. 시간이 없어서 못 하겠어요.**

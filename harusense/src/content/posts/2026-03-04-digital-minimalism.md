@@ -9,7 +9,7 @@ coverCreditUrl: "https://unsplash.com"
 ---
 생산성은 시간 관리가 아니라 **집중력 누수**를 줄이는 게임입니다. 누수를 막으면 같은 시간에 더 합니다.
 
-![](/images/unsplash/u3.jpg)
+![](/images/unsplash/u9.jpg)
 
 ## 이 글의 목표(오늘 바로 체감)
 - **15~30분 안에 끝나는 버전**으로 시작
@@ -74,7 +74,7 @@ coverCreditUrl: "https://unsplash.com"
 - **규칙은 1개만:** “일요일 15분 점검” 같은 최소 유지 장치
 - **실패해도 축소:** 10분 버전으로라도 ‘끊기지 않게’ 유지
 
-![](/images/unsplash/u6.jpg)
+![](/images/unsplash/u3.jpg)
 
 ## 자주 묻는 질문(FAQ)
 **Q. 시간이 없어서 못 하겠어요.**

@@ -9,7 +9,7 @@ coverCreditUrl: "https://unsplash.com"
 ---
 아침 루틴의 핵심은 “대단한 루틴”이 아니라 **첫 5분의 흐름**입니다. 시작이 쉬우면 지속됩니다.
 
-![](/images/unsplash/u2.jpg)
+![](/images/unsplash/u9.jpg)
 
 ## 이 글의 목표(오늘 바로 체감)
 - **15~30분 안에 끝나는 버전**으로 시작
@@ -74,7 +74,7 @@ coverCreditUrl: "https://unsplash.com"
 - **규칙은 1개만:** “일요일 15분 점검” 같은 최소 유지 장치
 - **실패해도 축소:** 10분 버전으로라도 ‘끊기지 않게’ 유지
 
-![](/images/unsplash/u5.jpg)
+![](/images/unsplash/u3.jpg)
 
 ## 자주 묻는 질문(FAQ)
 **Q. 시간이 없어서 못 하겠어요.**

@@ -9,7 +9,7 @@ coverCreditUrl: "https://unsplash.com"
 ---
 아침을 바꾸는 가장 쉬운 방법은 **‘의지’가 아니라 ‘구조’**를 만드는 겁니다. 아래 루틴은 *도구 없이도* 가능한 버전이고, 숙련되면 자연스럽게 자동화됩니다.
 
-![](/images/unsplash/u2.jpg)
+![](/images/unsplash/u9.jpg)
 
 ## 0분 준비(전날 20초)
 - 침대 옆에 **물 한 컵**(또는 텀블러)을 둡니다.
@@ -62,7 +62,7 @@ coverCreditUrl: "https://unsplash.com"
 - **규칙은 1개만:** “일요일 15분 점검” 같은 최소 유지 장치
 - **실패해도 축소:** 10분 버전으로라도 ‘끊기지 않게’ 유지
 
-![](/images/unsplash/u5.jpg)
+![](/images/unsplash/u3.jpg)
 
 ## 자주 묻는 질문(FAQ)
 **Q. 시간이 없어서 못 하겠어요.**

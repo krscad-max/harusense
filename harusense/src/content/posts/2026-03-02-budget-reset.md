@@ -72,7 +72,7 @@ coverCreditUrl: "https://unsplash.com"
 - **변동비 봉투 4개:** 식비/생활/이동/즐거움만 관리(세분화 금지)
 - **월 1회 리셋:** 구독/통신/보험만 점검해도 새는 돈이 줄어듦
 
-![](/images/unsplash/u3.jpg)
+![](/images/unsplash/u9.jpg)
 
 ## 자주 묻는 질문(FAQ)
 **Q. 시간이 없어서 못 하겠어요.**
