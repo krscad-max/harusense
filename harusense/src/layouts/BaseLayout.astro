@@ -1,0 +1,63 @@
+---
+const {
+  title = 'HaruSense — 하루센스',
+  description = '매일 쓸모 있는 한 가지. 생활 팁과 절약, 루틴, 정리, 소비를 더 똑똑하게 만드는 가이드.',
+  image = '/images/hero-desktop.webp',
+  canonical,
+} = Astro.props;
+
+const site = Astro.site ?? 'https://harusense.example';
+const url = canonical ? new URL(canonical, site) : Astro.url;
+---
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={url.toString()} />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={url.toString()} />
+    <meta property="og:image" content={new URL(image, site).toString()} />
+
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="stylesheet" href="/styles/global.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <a class="brand" href="/">
+            <img src="/images/logo-option-a.svg" alt="HaruSense" width="28" height="28" loading="eager" />
+            <div>
+              <b>HaruSense</b>
+              <small>하루에 하나, 실용 생활 팁</small>
+            </div>
+          </a>
+          <div class="navlinks">
+            <a href="/posts">글</a>
+            <a href="/about">소개</a>
+            <a href="/privacy">개인정보</a>
+            <a href="/ads">광고/제휴</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <slot />
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div>© {new Date().getFullYear()} HaruSense. 실용적인 정보를 쉽고 짧게.</div>
+      </div>
+    </footer>
+  </body>
+</html>

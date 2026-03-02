@@ -1,35 +1,37 @@
 ---
-import Layout from '../components/Layout.astro'
-import PostCard from '../components/PostCard.astro'
-import posts from '../../content/posts/index.js'
----
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PostCard from '../components/PostCard.astro';
+import { getCollection } from 'astro:content';
 
-<Layout title="HaruSense — 하루센스">
+const allPosts = await getCollection('posts', ({ data }) => !data.draft);
+const posts = allPosts
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
+  .slice(0, 8);
+---
+<BaseLayout>
   <section class="hero">
-    <div class="hero-inner">
-      <h1>매일 쓸모 있는 한 가지, 하루센스</h1>
-      <p>생활을 더 편하게 만드는 실용 팁·절약 노하우·검증된 아이디어를 매일 제공합니다.</p>
+    <div class="container">
+      <h1>오늘도, 쓸모 있는 한 가지.</h1>
+      <p>
+        HaruSense(하루센스)는 ‘생활이 실제로 쉬워지는’ 팁만 모읍니다.
+        루틴·절약·정리·구매·집안일을 더 똑똑하게.
+      </p>
       <div class="cta">
-        <a class="btn primary" href="/category/lifehacks">오늘의 팁 보기</a>
-        <a class="btn" href="/category/saving">카테고리 둘러보기</a>
+        <a class="button primary" href="/posts">최신 글 보러가기</a>
+        <a class="button" href="/about">하루센스 소개</a>
       </div>
     </div>
-    <div class="hero-image">
-      <picture>
-        <source type="image/webp" srcset="/images/hero-desktop.webp 1x, /images/hero-desktop@2x.webp 2x">
-        <source srcset="/images/hero-desktop.jpg 1x, /images/hero-desktop@2x.jpg 2x">
-        <img src="/images/hero-placeholder.jpg" alt="HaruSense hero" loading="lazy" />
-      </picture>
-    </div>
   </section>
 
-  <section class="latest">
-    <h2>최신 글</h2>
-    <div class="post-grid">
-      {posts.slice(0,6).map(post => (
-        <PostCard post={post} />
-      ))}
+  <section>
+    <div class="container">
+      <div style="display:flex;align-items:end;justify-content:space-between;gap:12px;">
+        <h2 style="margin:0;font-size:18px;color:var(--muted);font-weight:600;">최근 글</h2>
+        <a href="/posts" style="color:var(--muted);text-decoration:none;font-size:14px;">전체 보기 →</a>
+      </div>
+      <div class="grid">
+        {posts.map((post) => <PostCard post={post} />)}
+      </div>
     </div>
   </section>
-
-</Layout>
+</BaseLayout>

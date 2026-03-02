@@ -2,3 +2,15 @@
 logs/
 tmp/
 openclaw/
+
+# Astro builds / deps
+harusense/node_modules/
+harusense/dist/
+
+# General Node
+**/node_modules/
+**/.astro/
+**/dist/
+
+# Archives
+*.zip

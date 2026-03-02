@@ -1,0 +1,15 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getEntry } from 'astro:content';
+
+const page = await getEntry('pages', 'ads');
+const { Content } = await page.render();
+---
+<BaseLayout title="광고/제휴 — HaruSense">
+  <article class="article">
+    <div class="container">
+      <h1>광고/제휴 안내</h1>
+      <div class="content"><Content /></div>
+    </div>
+  </article>
+</BaseLayout>
