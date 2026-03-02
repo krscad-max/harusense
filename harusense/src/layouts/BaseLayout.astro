@@ -1,4 +1,6 @@
 ---
+import ThemeToggle from '../components/ThemeToggle.astro';
+
 const {
   title = 'HaruSense — 하루센스',
   description = '매일 쓸모 있는 한 가지. 생활 팁과 절약, 루틴, 정리, 소비를 더 똑똑하게 만드는 가이드.',
@@ -44,6 +46,9 @@ const url = canonical ? new URL(canonical, site) : Astro.url;
             <a href="/about">소개</a>
             <a href="/privacy">개인정보</a>
             <a href="/ads">광고/제휴</a>
+          </div>
+          <div style="display:flex;align-items:center;gap:10px;">
+            <ThemeToggle />
           </div>
         </nav>
       </div>
