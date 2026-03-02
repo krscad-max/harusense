@@ -1,6 +1,6 @@
 ---
 title: "정리 시작이 어려운 사람을 위한 15분 “현관 리셋”"
-date: 2026-03-01
+date: 2026-02-20
 tags: [organization, routine]
 description: "집 정리의 시작점을 현관으로 잡으면 실패 확률이 낮습니다. 15분 체크리스트로 동선을 복구하세요."
 coverImage: "/images/unsplash2/b4.jpg"

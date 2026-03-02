@@ -1,6 +1,6 @@
 ---
 title: "카드 혜택이 ‘진짜 이득’인지 10분만에 판별하는 법"
-date: 2026-03-01
+date: 2026-01-20
 tags: [saving, budgeting, consumption]
 description: "연회비 대비 실사용 혜택을 계산하는 간단 체크리스트."
 coverImage: "/images/unsplash2/b2.jpg"

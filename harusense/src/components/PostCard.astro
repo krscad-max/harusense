@@ -25,6 +25,21 @@ const categoryLabel = categoryLabelMap[category] ?? category;
 
 const body = post.body ?? '';
 const readingMinutes = Math.max(1, Math.round(body.replace(/\s+/g, ' ').trim().length / 900)); // rough char-based
+
+function relativeDate(d) {
+  const now = new Date();
+  const diffMs = now.getTime() - d.getTime();
+  const days = Math.floor(diffMs / (1000 * 60 * 60 * 24));
+  if (days <= 0) return '오늘';
+  if (days === 1) return '어제';
+  if (days < 30) return `${days}일 전`;
+  const months = Math.floor(days / 30);
+  if (months < 12) return `${months}개월 전`;
+  const years = Math.floor(months / 12);
+  return `${years}년 전`;
+}
+
+const rel = relativeDate(data.date);
 ---
 <article class={classes.join(' ')}>
   <a class="thumb" href={href} aria-label={data.title}>
@@ -35,7 +50,7 @@ const readingMinutes = Math.max(1, Math.round(body.replace(/\s+/g, ' ').trim().l
     <h3><a href={href} style="text-decoration:none;">{data.title}</a></h3>
     <p>{excerpt}</p>
     <div class="meta">
-      <span>{data.date.toLocaleDateString('ko-KR')}</span>
+      <span title={data.date.toLocaleDateString('ko-KR')}>{rel}</span>
       <span>읽는 시간 {readingMinutes}분</span>
       {tags?.length ? <span>#{tags.slice(0, 3).join(' #')}{tags.length > 3 ? '…' : ''}</span> : null}
     </div>

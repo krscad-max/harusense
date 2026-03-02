@@ -1,6 +1,6 @@
 ---
 title: "식기세척기/설거지 스트레스 줄이는 “마감 루틴”"
-date: 2026-03-01
+date: 2025-12-31
 tags: [kitchen, routine]
 description: "밤 7분 마감으로 설거지를 밀리지 않게."
 coverImage: "/images/unsplash2/b6.jpg"

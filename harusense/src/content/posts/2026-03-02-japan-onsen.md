@@ -1,6 +1,6 @@
 ---
 title: "온천/대중목욕탕 매너: 처음 가는 사람을 위한 최소 가이드"
-date: 2026-03-01
+date: 2026-01-25
 tags: [japan, travel, hotel, routine]
 description: "여행에서 민망함을 줄이는 온천 기본 룰. 준비물/세정/수건/사진 금지까지."
 coverImage: "/images/japan/jp5.jpg"

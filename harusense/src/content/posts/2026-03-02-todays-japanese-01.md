@@ -1,6 +1,6 @@
 ---
 title: "오늘의 일본어: '大丈夫(だいじょうぶ)' (진짜 많이 쓰는 만능 표현)"
-date: 2026-03-01
+date: 2026-02-08
 tags: [japanese, routine, productivity]
 description: "일본어 초보도 바로 쓸 수 있는 '다이죠부'. 뜻이 여러 개라서 상황별로 정리해드립니다."
 coverImage: "/images/japan/jp4.jpg"

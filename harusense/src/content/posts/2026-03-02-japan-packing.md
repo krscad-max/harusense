@@ -1,6 +1,6 @@
 ---
 title: "일본 여행 짐 싸기: “가볍게 가서 현지에서 산다” 전략"
-date: 2026-03-01
+date: 2026-02-04
 tags: [japan, travel, organization, saving]
 description: "캐리어를 가볍게 하면 이동이 쉬워져요. 꼭 챙길 것/현지 조달할 것/빼도 되는 것."
 coverImage: "/images/japan/jp5.jpg"

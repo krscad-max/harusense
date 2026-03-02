@@ -1,6 +1,6 @@
 ---
 title: "일본 편의점(세븐/패밀리/로손) 30분 절약 루틴"
-date: 2026-03-01
+date: 2026-01-29
 tags: [japan, travel, convenience, saving]
 description: "처음 가면 헤매는 편의점. 알면 시간을 아끼는 구매/결제/전자레인지/봉투/쓰레기 팁."
 coverImage: "/images/japan/jp5.jpg"

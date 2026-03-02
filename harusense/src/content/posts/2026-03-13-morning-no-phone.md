@@ -1,6 +1,6 @@
 ---
 title: "기상 후 30분 “노폰”이 삶을 바꾸는 이유와 실전 세팅"
-date: 2026-03-01
+date: 2025-12-17
 tags: [morning, routine, productivity]
 description: "아침 집중력을 빼앗는 패턴을 끊는 방법. 대체 행동까지 설계."
 coverImage: "/images/unsplash2/b1.jpg"

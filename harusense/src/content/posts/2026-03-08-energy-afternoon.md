@@ -1,6 +1,6 @@
 ---
 title: "오후 졸림을 줄이는 10분 에너지 루틴(카페인 말고)"
-date: 2026-03-01
+date: 2025-12-24
 tags: [routine, productivity]
 description: "걷기/수분/빛/간식으로 오후 집중력을 회복하는 간단 루틴."
 coverImage: "/images/unsplash2/b1.jpg"

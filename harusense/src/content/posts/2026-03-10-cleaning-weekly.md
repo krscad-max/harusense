@@ -1,6 +1,6 @@
 ---
 title: "집이 더러워지기 전에 끝내는 주간 청소 루틴(30분)"
-date: 2026-03-01
+date: 2026-01-25
 tags: [organization, routine]
 description: "청소는 몰아서 하면 지치고, 나눠 하면 유지됩니다. 30분 루틴을 제안합니다."
 coverImage: "/images/unsplash2/b4.jpg"

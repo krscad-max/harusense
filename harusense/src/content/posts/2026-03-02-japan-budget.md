@@ -1,6 +1,6 @@
 ---
 title: "일본 여행 예산 템플릿: 하루 얼마가 현실적일까?"
-date: 2026-03-01
+date: 2026-01-26
 tags: [japan, travel, budgeting, saving]
 description: "교통/식비/입장료/쇼핑을 분리하면 예산이 덜 흔들립니다. 하루 예산 템플릿 제공."
 coverImage: "/images/japan/jp5.jpg"

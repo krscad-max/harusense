@@ -1,6 +1,6 @@
 ---
 title: "주방에서 시간을 절여주는 간단한 요령 9가지"
-date: 2026-03-01
+date: 2025-12-19
 tags: [kitchen, lifehack]
 coverImage: "/images/unsplash2/b6.jpg"
 coverCredit: "Unsplash"

@@ -1,6 +1,6 @@
 ---
 title: "주방 정리의 핵심: 자주 쓰는 것만 “손 닿는 곳”에 두기"
-date: 2026-03-01
+date: 2025-12-22
 tags: [kitchen, organization]
 description: "동선 기준으로 수납을 재배치하는 실전 가이드."
 coverImage: "/images/unsplash2/b6.jpg"

@@ -1,6 +1,6 @@
 ---
 title: "종이 서류 정리: 1시간에 끝내는 3분류 시스템"
-date: 2026-03-01
+date: 2026-01-14
 tags: [organization]
 description: "보관/폐기/스캔 3분류로 서류 산을 정리하는 방법."
 coverImage: "/images/unsplash2/b4.jpg"

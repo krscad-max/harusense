@@ -1,6 +1,6 @@
 ---
 title: "월말에 바로 쓰는 통장 정리 체크리스트"
-date: 2026-03-01
+date: 2026-02-15
 tags: [finance, saving, checklist]
 coverImage: "/images/unsplash2/b2.jpg"
 coverCredit: "Unsplash"

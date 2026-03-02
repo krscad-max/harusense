@@ -1,6 +1,6 @@
 ---
 title: "오늘의 일본어(편의점): “どこですか” — 봉투/젓가락"
-date: 2026-03-01
+date: 2026-02-19
 tags: [japanese, convenience, routine]
 description: "편의점에서 자주 쓰는 표현 1개. 뜻/상황별 활용/예문/단어까지."
 coverImage: "/images/japan/jp4.jpg"

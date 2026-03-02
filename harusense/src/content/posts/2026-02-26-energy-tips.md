@@ -1,6 +1,6 @@
 ---
 title: "집에서 간단히 할 수 있는 에너지 절약 팁 7가지"
-date: 2026-03-01
+date: 2026-01-03
 tags: [saving, energy]
 coverImage: "/images/unsplash2/b2.jpg"
 coverCredit: "Unsplash"

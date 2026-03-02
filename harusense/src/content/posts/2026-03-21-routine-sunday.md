@@ -1,6 +1,6 @@
 ---
 title: "일요일 45분 루틴: 월요일이 쉬워지는 최소 준비"
-date: 2026-03-01
+date: 2025-12-23
 tags: [routine, organization]
 description: "한 주를 덜 힘들게 만드는 준비 루틴."
 coverImage: "/images/unsplash2/b4.jpg"

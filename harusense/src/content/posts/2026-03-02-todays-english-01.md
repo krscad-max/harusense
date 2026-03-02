@@ -1,6 +1,6 @@
 ---
 title: "오늘의 영어: 'Let me think' (자연스럽게 시간 벌기)"
-date: 2026-03-01
+date: 2026-02-10
 tags: [english, routine, productivity]
 description: "대답을 바로 못 할 때 어색함 없이 시간을 버는 표현. 짧은 문장 + 활용법 + 대체 표현까지."
 coverImage: "/images/unsplash2/b8.jpg"

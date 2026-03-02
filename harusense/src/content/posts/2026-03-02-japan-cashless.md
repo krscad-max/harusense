@@ -1,6 +1,6 @@
 ---
 title: "일본 여행 현금/카드/결제: 얼마를, 어떻게 가져갈까?"
-date: 2026-03-01
+date: 2026-02-01
 tags: [japan, travel, budgeting, saving]
 description: "현금이 필요한 순간과 카드가 되는 곳. 예산이 흔들리지 않게 결제 전략을 잡기."
 coverImage: "/images/japan/jp5.jpg"

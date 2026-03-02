@@ -1,6 +1,6 @@
 ---
 title: "월급날/카드결제일/자동이체일을 ‘한 날’로 모으는 이유"
-date: 2026-03-01
+date: 2025-12-21
 tags: [budgeting, saving]
 description: "날짜가 흩어지면 관리가 깨집니다. 월간 현금흐름을 단순화하세요."
 coverImage: "/images/unsplash2/b2.jpg"

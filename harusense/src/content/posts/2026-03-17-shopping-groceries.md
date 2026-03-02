@@ -1,6 +1,6 @@
 ---
 title: "장보기 실패 줄이기: 10가지 “고정 메뉴”로 결정 피로 없애기"
-date: 2026-03-01
+date: 2025-12-30
 tags: [kitchen, consumption, saving]
 description: "장보기는 메뉴가 아니라 패턴입니다. 고정 메뉴를 만들면 지출이 안정됩니다."
 coverImage: "/images/unsplash2/b6.jpg"

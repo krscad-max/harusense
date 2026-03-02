@@ -1,6 +1,6 @@
 ---
 title: "오늘의 일본어(여행): “お願いします” — 사진 부탁"
-date: 2026-03-01
+date: 2026-01-29
 tags: [japanese, travel, routine]
 description: "여행에서 자주 쓰는 표현 1개. 뜻/상황별 활용/예문/단어까지."
 coverImage: "/images/japan/jp4.jpg"

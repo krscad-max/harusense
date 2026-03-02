@@ -1,6 +1,6 @@
 ---
 title: "오늘의 영어(렌트): “I’m calling about...” — 수리 요청"
-date: 2026-03-01
+date: 2026-02-23
 tags: [english, rent, routine]
 description: "렌트 상황에서 바로 쓸 수 있는 문장. 짧은 예문 + 대체 표현 + 실전 미션."
 coverImage: "/images/unsplash2/b8.jpg"

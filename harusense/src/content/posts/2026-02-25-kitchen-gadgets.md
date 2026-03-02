@@ -1,6 +1,6 @@
 ---
 title: "가성비 주방 가젯 7선 (진짜 ‘쓰는’ 것만)"
-date: 2026-03-01
+date: 2026-02-08
 tags: [kitchen, gadgets, shopping]
 description: "주방 살림이 편해지는 가젯은 따로 있습니다. 설거지·보관·조리 시간을 줄여주는 ‘실사용률 높은’ 아이템 7가지를 상황별로 정리했습니다."
 coverImage: "/images/unsplash2/b6.jpg"

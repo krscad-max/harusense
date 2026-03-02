@@ -1,6 +1,6 @@
 ---
 title: "오늘의 일본어(숙소): “大丈夫です” — 체크인"
-date: 2026-03-01
+date: 2026-02-21
 tags: [japanese, hotel, routine]
 description: "숙소에서 자주 쓰는 표현 1개. 뜻/상황별 활용/예문/단어까지."
 coverImage: "/images/japan/jp4.jpg"

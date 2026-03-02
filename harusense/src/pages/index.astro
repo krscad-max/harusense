@@ -7,9 +7,15 @@ const allPosts = await getCollection('posts', ({ data }) => !data.draft);
 const today = new Date();
 const visiblePosts = allPosts.filter((p) => p.data.date.getTime() <= today.getTime());
 
-const posts = visiblePosts
-  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
-  .slice(0, 8);
+const sorted = visiblePosts.sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+const posts = sorted.slice(0, 8);
+
+const groups = {
+  japan: sorted.filter((p) => p.data.tags?.includes('japan') || p.data.tags?.includes('travel')).slice(0, 8),
+  life: sorted.filter((p) => ['saving','budgeting','organization','routine','kitchen','consumption'].some((t) => p.data.tags?.includes(t))).slice(0, 8),
+  english: sorted.filter((p) => p.data.tags?.includes('english')).slice(0, 8),
+  japanese: sorted.filter((p) => p.data.tags?.includes('japanese')).slice(0, 8),
+};
 
 const featuredSlugs = [
   '2026-02-25-morning-routine',
@@ -60,6 +66,61 @@ const featured = visiblePosts
       <div class="grid squares">
         {posts.map((post) => <PostCard post={post} variant="square" />)}
       </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <h2 style="margin:0;font-size:18px;color:var(--muted);font-weight:600;">카테고리별</h2>
+
+      {groups.japan.length ? (
+        <div style="margin-top:14px;">
+          <div style="display:flex;align-items:end;justify-content:space-between;gap:12px;">
+            <h3 style="margin:0;font-size:16px;">일본/여행</h3>
+            <a href="/posts" style="color:var(--muted);text-decoration:none;font-size:14px;">전체 보기 →</a>
+          </div>
+          <div class="grid squares">
+            {groups.japan.map((post) => <PostCard post={post} variant="square" />)}
+          </div>
+        </div>
+      ) : null}
+
+      {groups.life.length ? (
+        <div style="margin-top:6px;">
+          <div style="display:flex;align-items:end;justify-content:space-between;gap:12px;">
+            <h3 style="margin:0;font-size:16px;">생활/절약/정리</h3>
+            <a href="/posts" style="color:var(--muted);text-decoration:none;font-size:14px;">전체 보기 →</a>
+          </div>
+          <div class="grid squares">
+            {groups.life.map((post) => <PostCard post={post} variant="square" />)}
+          </div>
+        </div>
+      ) : null}
+
+      {groups.english.length ? (
+        <div style="margin-top:6px;">
+          <div style="display:flex;align-items:end;justify-content:space-between;gap:12px;">
+            <h3 style="margin:0;font-size:16px;">오늘의 영어</h3>
+            <a href="/posts" style="color:var(--muted);text-decoration:none;font-size:14px;">전체 보기 →</a>
+          </div>
+          <div class="grid squares">
+            {groups.english.map((post) => <PostCard post={post} variant="square" />)}
+          </div>
+        </div>
+      ) : null}
+
+      {groups.japanese.length ? (
+        <div style="margin-top:6px;">
+          <div style="display:flex;align-items:end;justify-content:space-between;gap:12px;">
+            <h3 style="margin:0;font-size:16px;">오늘의 일본어</h3>
+            <a href="/posts" style="color:var(--muted);text-decoration:none;font-size:14px;">전체 보기 →</a>
+          </div>
+          <div class="grid squares">
+            {groups.japanese.map((post) => <PostCard post={post} variant="square" />)}
+          </div>
+        </div>
+      ) : null}
+
     </div>
   </section>
 </BaseLayout>
