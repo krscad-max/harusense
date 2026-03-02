@@ -9,7 +9,7 @@ coverCreditUrl: "https://unsplash.com"
 ---
 절약은 “참기”가 아니라 **새는 구멍을 막는 작업**입니다. 특히 구독/고정비/배달이 큰 구멍입니다.
 
-![](/images/unsplash/u2.jpg)
+![](/images/unsplash2/b2.jpg)
 
 ## 이 글의 목표(오늘 바로 체감)
 - **15~30분 안에 끝나는 버전**으로 시작
@@ -74,7 +74,7 @@ coverCreditUrl: "https://unsplash.com"
 - **장바구니 24시간:** 급하게 사고 싶은 건 하루만 묵히기
 - **지출 브레이크 1개:** 배달 ‘주 2회’처럼 단순한 제한부터
 
-![](/images/unsplash/u5.jpg)
+![](/images/unsplash2/b5.jpg)
 
 ## 자주 묻는 질문(FAQ)
 **Q. 시간이 없어서 못 하겠어요.**

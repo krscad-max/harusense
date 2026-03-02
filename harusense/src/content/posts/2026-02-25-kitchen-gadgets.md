@@ -9,7 +9,7 @@ coverCreditUrl: "https://unsplash.com"
 ---
 주방 가젯은 ‘있으면 좋다’가 아니라 **‘매일 쓰인다’**가 기준입니다. 아래 7개는 대부분의 집에서 *실사용률이 높은 편*이라 추천하기 좋습니다.
 
-![](/images/unsplash/u1.jpg)
+![](/images/unsplash2/b6.jpg)
 
 ## 1) 실리콘 조리도구(뒤집개/스패튤러)
 - 팬 코팅 보호 + 세척 쉬움
@@ -53,7 +53,7 @@ coverCreditUrl: "https://unsplash.com"
 - **주 1회 밀프렙:** 단백질 1종 + 야채 1종만 미리 만들어두기
 - **배달 눌렀을 때 대체 행동:** 물 한 컵 마시고 5분만 ‘집에 있는 재료’ 확인
 
-![](/images/unsplash/u6.jpg)
+![](/images/unsplash2/b1.jpg)
 
 ## 자주 묻는 질문(FAQ)
 **Q. 시간이 없어서 못 하겠어요.**

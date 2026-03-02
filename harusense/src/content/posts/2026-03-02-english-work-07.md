@@ -7,10 +7,9 @@ coverImage: "/images/unsplash2/b7.jpg"
 coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
 ---
-
 영어는 단어를 많이 아는 것보다 **자주 쓰는 문장 뼈대**를 익히는 게 훨씬 빨라요. 오늘은 직장 상황에서 특히 유용한 표현 하나를 잡습니다.
 
-![](/images/unsplash2/b7.jpg)
+![](/images/unsplash2/b8.jpg)
 
 ## 오늘의 문장
 **I’m not sure, but...**

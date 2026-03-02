@@ -1,12 +1,12 @@
 :root{
   /* Default = LIGHT (웹에서 밝게) */
-  --bg:#f6f7fb;
+  --bg:#ffffff;
   --card:#ffffff;
   --text:#141826;
   --muted:#5b647a;
   --brand:#5b48ff;
-  --border:rgba(20,24,38,.12);
-  --shadow:0 10px 26px rgba(20,24,38,.08);
+  --border:rgba(20,24,38,.10);
+  --shadow:0 10px 26px rgba(20,24,38,.06);
 }
 
 /* Dark theme (explicit) */
@@ -33,7 +33,7 @@ a{color:inherit}
 
 .header{
   position:sticky;top:0;
-  background: rgba(11,13,18,.92);
+  background: color-mix(in srgb, var(--bg) 92%, transparent);
   border-bottom:1px solid var(--border);
   z-index:10;
 }
@@ -104,7 +104,7 @@ a{color:inherit}
 .article .content img{
   display:block;
   width:100%;
-  max-width:560px;
+  max-width:480px;
   height:auto;
   margin:12px auto;
   border-radius:14px;

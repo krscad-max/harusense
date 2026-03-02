@@ -7,12 +7,11 @@ coverImage: "/images/unsplash2/b4.jpg"
 coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
 ---
-
 일본어에서 **대부분의 상황을 커버하는** 표현이 있어요. 바로:
 
 **大丈夫(だいじょうぶ) = 다이죠부**
 
-![](/images/unsplash/u10.jpg)
+![](/images/japan/jp1.jpg)
 
 ## 핵심 뜻(상황별)
 1) **괜찮아요 / 문제없어요**

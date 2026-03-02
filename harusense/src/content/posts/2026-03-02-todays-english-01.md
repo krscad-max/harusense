@@ -7,12 +7,11 @@ coverImage: "/images/unsplash2/b3.jpg"
 coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
 ---
-
 영어로 대화하다가 가장 당황하는 순간이 **말을 바로 이어서 못 할 때**예요. 이때 침묵이 길어지면 더 긴장하게 되고요.
 
 그래서 오늘은 *시간을 자연스럽게 벌어주는* 표현을 하나 익혀두면 체감이 큽니다.
 
-![](/images/unsplash/u9.jpg)
+![](/images/unsplash2/b8.jpg)
 
 ## 오늘의 표현
 **Let me think.**

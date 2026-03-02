@@ -9,7 +9,7 @@ coverCreditUrl: "https://unsplash.com"
 ---
 식비를 줄이는 가장 강력한 방법은 “덜 먹기”가 아니라 **덜 망하기**입니다.
 
-![](/images/unsplash/u1.jpg)
+![](/images/unsplash2/b6.jpg)
 
 배달이 터지는 패턴은 거의 고정입니다.
 - 늦게 퇴근 → 뇌가 지침 → ‘생각하기’가 싫음 → 결제
@@ -62,7 +62,7 @@ coverCreditUrl: "https://unsplash.com"
 - **주 1회 밀프렙:** 단백질 1종 + 야채 1종만 미리 만들어두기
 - **배달 눌렀을 때 대체 행동:** 물 한 컵 마시고 5분만 ‘집에 있는 재료’ 확인
 
-![](/images/unsplash/u6.jpg)
+![](/images/unsplash2/b1.jpg)
 
 ## 자주 묻는 질문(FAQ)
 **Q. 시간이 없어서 못 하겠어요.**

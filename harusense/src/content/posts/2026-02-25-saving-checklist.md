@@ -9,7 +9,7 @@ coverCreditUrl: "https://unsplash.com"
 ---
 절약은 ‘아끼는 마음’이 아니라 **점검 루틴**입니다. 아래 체크리스트는 월 1회, 15~20분이면 끝나는 버전으로 만들었습니다.
 
-![](/images/unsplash/u10.jpg)
+![](/images/unsplash2/b10.jpg)
 
 ## 1) 구독(Subscription) 정리(5분)
 - [ ] 지난 30일 결제 내역에서 **구독 항목**만 모으기(넷플/음악/클라우드/앱)
@@ -50,7 +50,7 @@ coverCreditUrl: "https://unsplash.com"
 - **변동비 봉투 4개:** 식비/생활/이동/즐거움만 관리(세분화 금지)
 - **월 1회 리셋:** 구독/통신/보험만 점검해도 새는 돈이 줄어듦
 
-![](/images/unsplash/u9.jpg)
+![](/images/unsplash2/b9.jpg)
 
 ## 자주 묻는 질문(FAQ)
 **Q. 시간이 없어서 못 하겠어요.**

@@ -7,10 +7,9 @@ coverImage: "/images/unsplash2/b6.jpg"
 coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
 ---
-
 일본어는 짧은 표현을 몇 개만 제대로 익혀도 여행이 훨씬 편해져요. 오늘은 역에서 제일 자주 듣고 쓰는 표현 하나로 갑니다.
 
-![](/images/unsplash2/b6.jpg)
+![](/images/japan/jp1.jpg)
 
 ## 오늘의 표현
 **これは何ですか** (코레와 난데스카)
@@ -27,7 +26,7 @@ coverCreditUrl: "https://unsplash.com"
 - これ (코레): 이것
 - ちょっと (쵸또): 잠깐/조금 (거절/완충에 자주)
 
-![](/images/unsplash2/b9.jpg)
+![](/images/japan/jp4.jpg)
 
 ## 오늘의 미션(20초)
 소리 내서 3번:

@@ -9,7 +9,7 @@ coverCreditUrl: "https://unsplash.com"
 ---
 월말이 되면 항상 돈이 없고, “이번 달은 왜 이렇게 많이 썼지?”라는 느낌만 남는다면 문제는 의지가 아니라 **시스템**입니다.
 
-![](/images/unsplash/u10.jpg)
+![](/images/unsplash2/b10.jpg)
 
 이 글은 월초에 딱 30분만 투자해서 ‘돈이 남는 구조’를 다시 세팅하는 **예산 리셋 루틴**을 정리합니다.
 
@@ -72,7 +72,7 @@ coverCreditUrl: "https://unsplash.com"
 - **변동비 봉투 4개:** 식비/생활/이동/즐거움만 관리(세분화 금지)
 - **월 1회 리셋:** 구독/통신/보험만 점검해도 새는 돈이 줄어듦
 
-![](/images/unsplash/u9.jpg)
+![](/images/unsplash2/b9.jpg)
 
 ## 자주 묻는 질문(FAQ)
 **Q. 시간이 없어서 못 하겠어요.**
