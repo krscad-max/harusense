@@ -19,6 +19,6 @@
 - Google AdSense 등 광고 네트워크에 익명화된 통계 정보가 제공될 수 있습니다.
 
 5. 연락처
-- 문의: contact@harusense.example (실배포 시 실제 이메일로 변경)
+- 문의: krscad@gmail.com
 
 [참고] 이 문서는 초안이며, 실서비스 전 법률 자문을 권장합니다.

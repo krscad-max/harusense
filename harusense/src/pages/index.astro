@@ -7,6 +7,17 @@ const allPosts = await getCollection('posts', ({ data }) => !data.draft);
 const posts = allPosts
   .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
   .slice(0, 8);
+
+const featuredSlugs = [
+  '2026-02-25-morning-routine',
+  '2026-02-25-saving-checklist',
+  '2026-02-26-home-cleaning',
+  '2026-02-26-smart-shopping',
+];
+
+const featured = allPosts
+  .filter((p) => featuredSlugs.includes(p.slug))
+  .sort((a, b) => featuredSlugs.indexOf(a.slug) - featuredSlugs.indexOf(b.slug));
 ---
 <BaseLayout>
   <section class="hero">
@@ -22,6 +33,20 @@ const posts = allPosts
       </div>
     </div>
   </section>
+
+  {featured.length ? (
+    <section>
+      <div class="container">
+        <div style="display:flex;align-items:end;justify-content:space-between;gap:12px;">
+          <h2 style="margin:0;font-size:18px;color:var(--muted);font-weight:600;">추천 글(필독)</h2>
+          <a href="/posts" style="color:var(--muted);text-decoration:none;font-size:14px;">전체 보기 →</a>
+        </div>
+        <div class="grid">
+          {featured.map((post) => <PostCard post={post} />)}
+        </div>
+      </div>
+    </section>
+  ) : null}
 
   <section>
     <div class="container">

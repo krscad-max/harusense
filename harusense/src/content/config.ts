@@ -8,6 +8,8 @@ const posts = defineCollection({
     tags: z.array(z.string()).default([]),
     description: z.string().optional(),
     coverImage: z.string().optional(),
+    coverCredit: z.string().optional(),
+    coverCreditUrl: z.string().url().optional(),
     draft: z.boolean().optional().default(false),
   }),
 });
