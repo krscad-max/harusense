@@ -2,7 +2,7 @@
 title: "5분으로 끝내는 이메일 정리 루틴"
 date: 2026-02-26
 tags: [productivity, email, lifehack]
-coverImage: "/images/unsplash/u3.jpg"
+coverImage: "/images/unsplash2/b3.jpg"
 coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
 ---

@@ -2,7 +2,7 @@
 title: "일주일 식비 20% 줄이는 현실적인 전략"
 date: 2026-02-26
 tags: [saving, food, lifehack]
-coverImage: "/images/unsplash/u5.jpg"
+coverImage: "/images/unsplash2/b5.jpg"
 coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
 ---

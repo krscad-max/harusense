@@ -2,7 +2,7 @@
 title: "집에서 바로 고치는 작은 고장 6가지"
 date: 2026-02-26
 tags: [home, repair]
-coverImage: "/images/unsplash/u4.jpg"
+coverImage: "/images/unsplash2/b4.jpg"
 coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
 ---

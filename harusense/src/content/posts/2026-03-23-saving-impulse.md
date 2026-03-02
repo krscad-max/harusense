@@ -3,7 +3,7 @@ title: "충동결제 직전 멈추는 20초 질문 5개"
 date: 2026-03-23
 tags: [saving, consumption]
 description: "충동구매를 ‘심리’가 아니라 ‘질문’으로 차단."
-coverImage: "/images/unsplash/u2.jpg"
+coverImage: "/images/unsplash2/b5.jpg"
 coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
 ---

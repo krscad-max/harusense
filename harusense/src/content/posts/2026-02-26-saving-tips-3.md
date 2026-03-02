@@ -2,7 +2,7 @@
 title: "월말에 바로 쓰는 통장 정리 체크리스트"
 date: 2026-02-26
 tags: [finance, saving, checklist]
-coverImage: "/images/unsplash/u7.jpg"
+coverImage: "/images/unsplash2/b7.jpg"
 coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
 ---

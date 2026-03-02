@@ -2,7 +2,7 @@
 title: "출근 전 10분으로 하루를 정복하는 루틴"
 date: 2026-02-26
 tags: [routine, productivity]
-coverImage: "/images/unsplash/u5.jpg"
+coverImage: "/images/unsplash2/b5.jpg"
 coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
 ---

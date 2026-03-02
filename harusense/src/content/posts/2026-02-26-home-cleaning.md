@@ -2,7 +2,7 @@
 title: "10분으로 집을 깔끔하게 만드는 저녁 루틴"
 date: 2026-02-26
 tags: [home, lifehack, cleaning]
-coverImage: "/images/unsplash/u10.jpg"
+coverImage: "/images/unsplash2/b10.jpg"
 coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
 ---

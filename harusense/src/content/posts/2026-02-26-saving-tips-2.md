@@ -2,7 +2,7 @@
 title: "스마트폰 배터리 오래쓰는 8가지 습관"
 date: 2026-02-26
 tags: [tech, lifehack, tips]
-coverImage: "/images/unsplash/u6.jpg"
+coverImage: "/images/unsplash2/b6.jpg"
 coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
 ---

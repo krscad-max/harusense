@@ -2,7 +2,7 @@
 title: "스마트 쇼핑: 할인 코드를 100% 활용하는 방법"
 date: 2026-02-26
 tags: [shopping, saving]
-coverImage: "/images/unsplash/u8.jpg"
+coverImage: "/images/unsplash2/b8.jpg"
 coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
 ---

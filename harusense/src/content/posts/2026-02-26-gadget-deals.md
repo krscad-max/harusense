@@ -2,7 +2,7 @@
 title: "가성비 스마트폰 액세서리 TOP 8"
 date: 2026-02-26
 tags: [gadgets, review]
-coverImage: "/images/unsplash/u9.jpg"
+coverImage: "/images/unsplash2/b9.jpg"
 coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
 ---

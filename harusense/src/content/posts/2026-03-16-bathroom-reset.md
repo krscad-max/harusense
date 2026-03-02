@@ -3,7 +3,7 @@ title: "화장실이 지저분해지는 이유: 10분 리셋 루틴"
 date: 2026-03-16
 tags: [organization, routine]
 description: "자주 더러워지는 포인트만 잡아 빠르게 리셋하는 방법."
-coverImage: "/images/unsplash/u5.jpg"
+coverImage: "/images/unsplash2/b8.jpg"
 coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
 ---

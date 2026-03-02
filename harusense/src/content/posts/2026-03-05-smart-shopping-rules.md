@@ -3,7 +3,7 @@ title: "충동구매를 막는 7가지 구매 규칙(진짜 효과 있는 것만
 date: 2026-03-05
 tags: [consumption, saving]
 description: "장바구니 24시간, 교체 구매, 1-in-1-out 같은 규칙을 상황별로 적용하는 법."
-coverImage: "/images/unsplash/u4.jpg"
+coverImage: "/images/unsplash2/b7.jpg"
 coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
 ---
