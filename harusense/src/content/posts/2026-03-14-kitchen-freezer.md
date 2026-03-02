@@ -1,6 +1,6 @@
 ---
 title: "냉동실이 답이다: 바쁜 날을 구하는 비상식 재고 12개"
-date: 2026-03-14
+date: 2026-03-01
 tags: [kitchen, saving]
 description: "비상식 재고 리스트와 보관/소진 루틴으로 배달을 막습니다."
 coverImage: "/images/unsplash2/b6.jpg"

@@ -1,6 +1,6 @@
 ---
 title: "옷 쇼핑 줄이는 사람의 옷장 규칙(교체 구매, 캡슐 옷장)"
-date: 2026-03-20
+date: 2026-03-01
 tags: [consumption, saving]
 description: "옷은 스타일이 아니라 시스템으로 줄어듭니다."
 coverImage: "/images/unsplash2/b2.jpg"

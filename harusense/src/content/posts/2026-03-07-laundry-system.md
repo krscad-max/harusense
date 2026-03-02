@@ -1,9 +1,9 @@
 ---
 title: "세탁이 쌓이지 않는 집의 “바구니 시스템”"
-date: 2026-03-07
+date: 2026-03-01
 tags: [organization, routine]
 description: "세탁의 병목은 ‘돌리는 것’이 아니라 ‘분류/건조/정리’입니다. 시스템으로 해결하세요."
-coverImage: "/images/unsplash2/b9.jpg"
+coverImage: "/images/unsplash2/b4.jpg"
 coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
 ---

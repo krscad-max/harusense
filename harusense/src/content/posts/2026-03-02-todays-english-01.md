@@ -1,9 +1,9 @@
 ---
 title: "오늘의 영어: 'Let me think' (자연스럽게 시간 벌기)"
-date: 2026-03-02
+date: 2026-03-01
 tags: [english, routine, productivity]
 description: "대답을 바로 못 할 때 어색함 없이 시간을 버는 표현. 짧은 문장 + 활용법 + 대체 표현까지."
-coverImage: "/images/unsplash2/b3.jpg"
+coverImage: "/images/unsplash2/b8.jpg"
 coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
 ---
@@ -58,3 +58,29 @@ coverCreditUrl: "https://unsplash.com"
 ### 다음 글 추천
 - 오늘의 일본어(간단 인사/실전 문장)
 - 알림 다이어트(집중력 회복)
+
+## 실전 확장(조금 더 ‘사람 말’처럼)
+
+같은 내용도 톤이 달라지면 결과가 달라져요. 아래는 “딱딱한 문장”을 **대화체로 부드럽게** 만드는 확장입니다.
+
+### 1) 완충 한 마디 붙이기
+- **Quick question:** …
+- **Just to confirm:** …
+- **If you don’t mind:** …
+
+이 한 마디가 붙으면 상대가 ‘요구’가 아니라 ‘협조 요청’으로 받아들여요.
+
+### 2) 정보가 부족할 때(대충 말하지 않기)
+- I’m not sure, but I think …
+- I might be wrong, but …
+- Let me check and get back to you.
+
+### 3) 못 알아들었을 때(당황하지 않는 문장)
+- Could you say that again, a bit slower?
+- Could you spell that?
+- Sorry, the line is breaking up.
+
+### 4) 오늘의 미니 연습(1분)
+아래를 소리 내서 3번만 읽어도 입이 풀려요.
+
+> Hi, I’m calling about 오늘의 영어: 'Let me think' (자연스럽게 시간 벌기). Just to confirm, could you please email me the details?

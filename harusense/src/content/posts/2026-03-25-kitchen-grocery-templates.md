@@ -1,9 +1,9 @@
 ---
 title: "장보기 리스트 템플릿(프린트용): 기본 식재료/양념/비상식"
-date: 2026-03-25
+date: 2026-03-01
 tags: [kitchen, saving]
 description: "장보기 시간을 줄이는 템플릿 제공."
-coverImage: "/images/unsplash2/b7.jpg"
+coverImage: "/images/unsplash2/b6.jpg"
 coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
 ---

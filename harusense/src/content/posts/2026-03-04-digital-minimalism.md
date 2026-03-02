@@ -1,9 +1,9 @@
 ---
 title: "휴대폰 알림 다이어트: 하루 집중력이 돌아오는 설정 10가지"
-date: 2026-03-04
+date: 2026-03-01
 tags: [routine, productivity]
 description: "알림/위젯/배지/홈화면을 최소화해 ‘집중력 누수’를 막는 실전 세팅."
-coverImage: "/images/unsplash2/b6.jpg"
+coverImage: "/images/unsplash2/b1.jpg"
 coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
 ---
