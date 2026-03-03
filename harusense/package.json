@@ -8,8 +8,11 @@
     "preview": "astro preview"
   },
   "devDependencies": {
-    "astro": "^5.0.0",
     "@astrojs/rss": "^4.0.0",
-    "@astrojs/sitemap": "^3.7.0"
+    "@astrojs/sitemap": "^3.7.0",
+    "astro": "^5.0.0"
+  },
+  "dependencies": {
+    "googleapis": "^171.4.0"
   }
 }
