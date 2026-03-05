@@ -1,0 +1,15 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getEntry } from 'astro:content';
+
+const page = await getEntry('pages', 'canada-briefing');
+const { Content } = await page.render();
+---
+<BaseLayout title="캐나다 뉴스 브리핑 — HaruSense">
+  <article class="article">
+    <div class="container">
+      <h1>캐나다 뉴스 브리핑</h1>
+      <div class="content"><Content /></div>
+    </div>
+  </article>
+</BaseLayout>
