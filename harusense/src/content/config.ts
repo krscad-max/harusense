@@ -22,4 +22,16 @@ const pages = defineCollection({
   }),
 });
 
-export const collections = { posts, pages };
+const canadaNews = defineCollection({
+  type: 'content',
+  schema: z.object({
+    title: z.string(),
+    date: z.coerce.date(),
+    description: z.string().optional(),
+    source: z.string().optional(),
+    sourceUrl: z.string().url().optional(),
+    tags: z.array(z.string()).default([]),
+  }),
+});
+
+export const collections = { posts, pages, canadaNews };

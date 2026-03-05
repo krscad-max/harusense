@@ -1,0 +1,56 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const items = await getCollection('canadaNews');
+  return items.map((item) => ({ params: { slug: item.slug }, props: { item } }));
+}
+
+const { item } = Astro.props;
+const { Content, headings } = await item.render();
+const description = item.data.description ?? '';
+---
+
+<BaseLayout
+  title={`${item.data.title} — PadoHaru`}
+  description={description}
+  canonical={`/canada-news/${item.slug}/`}
+>
+  <article class="article">
+    <div class="container">
+      <h1>{item.data.title}</h1>
+      <div class="meta">
+        <span>{item.data.date.toLocaleDateString('ko-KR')}</span>
+        {item.data.sourceUrl ? (
+          <span>
+            · <a href={item.data.sourceUrl} target="_blank" rel="noreferrer" style="color:var(--muted);text-decoration:none;">원문</a>
+          </span>
+        ) : null}
+        {item.data.tags?.length ? <span> · #{item.data.tags.join(' #')}</span> : null}
+      </div>
+
+      <div class="content">
+        <Content />
+      </div>
+
+      {headings?.length ? (
+        <aside style="margin-top:28px;padding-top:18px;border-top:1px solid var(--border);color:var(--muted);font-size:14px;">
+          <div style="font-weight:700;margin-bottom:8px;color:var(--text);">목차</div>
+          <ul style="margin:0;padding-left:18px;">
+            {headings.map((h) => (
+              <li style="margin:6px 0;">
+                <a href={`#${h.slug}`} style="color:var(--muted);text-decoration:none;">{h.text}</a>
+              </li>
+            ))}
+          </ul>
+        </aside>
+      ) : null}
+
+      <div style="margin-top:26px;display:flex;gap:12px;flex-wrap:wrap;">
+        <a class="button" href="/canada-news">← 캐나다뉴스</a>
+        <a class="button" href="/">홈</a>
+      </div>
+    </div>
+  </article>
+</BaseLayout>

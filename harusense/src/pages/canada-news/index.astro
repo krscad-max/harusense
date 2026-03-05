@@ -1,0 +1,42 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const items = (await getCollection('canadaNews'))
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+---
+
+<BaseLayout title="캐나다뉴스 — PadoHaru" canonical="/canada-news">
+  <section class="hero">
+    <div class="container">
+      <h1>캐나다뉴스</h1>
+      <p>링크 기반 번역/요약과 핵심 단어 정리.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="grid" style="padding-top:10px;">
+        {items.map((it) => (
+          <article class="card" style="grid-column:span 12;">
+            <div class="inner">
+              <h3 style="margin:0 0 8px;">
+                <a href={`/canada-news/${it.slug}/`} style="text-decoration:none;">{it.data.title}</a>
+              </h3>
+              <p style="margin:0; color:var(--muted);">{it.data.description}</p>
+              <div class="meta" style="margin-top:10px;">
+                <span>{it.data.date.toLocaleDateString('ko-KR')}</span>
+                {it.data.sourceUrl ? (
+                  <span>
+                    <a href={it.data.sourceUrl} target="_blank" rel="noreferrer" style="color:var(--muted);text-decoration:none;">원문</a>
+                  </span>
+                ) : null}
+                {it.data.tags?.length ? <span>#{it.data.tags.join(' #')}</span> : null}
+              </div>
+            </div>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+</BaseLayout>
