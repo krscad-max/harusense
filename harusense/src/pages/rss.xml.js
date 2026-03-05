@@ -6,7 +6,7 @@ export async function GET(context) {
     .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
 
   return rss({
-    title: 'HaruSense — 하루센스',
+    title: 'PadoHaru — 파도하루',
     description: '매일 쓸모 있는 한 가지. 생활 팁과 절약, 루틴, 정리, 소비, 주방.',
     site: context.site,
     items: posts.map((post) => ({

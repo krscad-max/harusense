@@ -1,30 +1,16 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
-import { getEntry } from 'astro:content';
-
-const page = await getEntry('pages', 'canada-briefing');
-const { Content } = await page.render();
+// Backward compatible route. Redirect to /canada-news
+const to = '/canada-news';
 ---
-<BaseLayout title="캐나다 뉴스 노트 — PadoHaru">
-  <article class="article">
-    <div class="container">
-      <h1>캐나다 뉴스 노트</h1>
-      <div class="content noDragCopy"><Content /></div>
-    </div>
-  </article>
-</BaseLayout>
-
-<script is:inline>
-  // NOTE: This only deters casual copying/dragging. It cannot fully prevent copying.
-  (function(){
-    const root = document.querySelector('.noDragCopy');
-    if (!root) return;
-
-    // Prevent dragging images/text blocks
-    root.querySelectorAll('img,a').forEach(el => { el.setAttribute('draggable','false'); });
-    root.addEventListener('dragstart', (e) => e.preventDefault());
-
-    // Optional: discourage selection/context menu in this section
-    root.addEventListener('contextmenu', (e) => e.preventDefault());
-  })();
-</script>
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="refresh" content={`0; url=${to}`} />
+    <link rel="canonical" href={to} />
+    <title>Redirecting…</title>
+  </head>
+  <body>
+    <p>Redirecting to <a href={to}>{to}</a>…</p>
+  </body>
+</html>

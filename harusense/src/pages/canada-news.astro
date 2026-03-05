@@ -1,0 +1,26 @@
+---
+// Alias route for /canada-briefing (shorter URL)
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getEntry } from 'astro:content';
+
+const page = await getEntry('pages', 'canada-briefing');
+const { Content } = await page.render();
+---
+<BaseLayout title="캐나다 뉴스 노트 — PadoHaru" canonical="/canada-news">
+  <article class="article">
+    <div class="container">
+      <h1>캐나다 뉴스 노트</h1>
+      <div class="content noDragCopy"><Content /></div>
+    </div>
+  </article>
+</BaseLayout>
+
+<script is:inline>
+  (function(){
+    const root = document.querySelector('.noDragCopy');
+    if (!root) return;
+    root.querySelectorAll('img,a').forEach(el => { el.setAttribute('draggable','false'); });
+    root.addEventListener('dragstart', (e) => e.preventDefault());
+    root.addEventListener('contextmenu', (e) => e.preventDefault());
+  })();
+</script>
