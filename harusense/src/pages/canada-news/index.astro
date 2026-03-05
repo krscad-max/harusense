@@ -4,39 +4,41 @@ import { getCollection } from 'astro:content';
 
 const items = (await getCollection('canadaNews'))
   .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+
+const rendered = await Promise.all(items.map(async (it) => {
+  const { Content } = await it.render();
+  return { it, Content };
+}));
 ---
 
 <BaseLayout title="캐나다뉴스 — PadoHaru" canonical="/canada-news">
   <section class="hero">
     <div class="container">
       <h1>캐나다뉴스</h1>
-      <p>링크 기반 번역/요약과 핵심 단어 정리.</p>
+      <p>최신 이슈를 날짜순으로 정리합니다. (요약·번역·단어 포함)</p>
     </div>
   </section>
 
   <section>
     <div class="container">
-      <div class="grid" style="padding-top:10px;">
-        {items.map((it) => (
-          <article class="card" style="grid-column:span 12;">
-            <div class="inner">
-              <h3 style="margin:0 0 8px;">
-                <a href={`/canada-news/${it.slug}/`} style="text-decoration:none;">{it.data.title}</a>
-              </h3>
-              <p style="margin:0; color:var(--muted);">{it.data.description}</p>
-              <div class="meta" style="margin-top:10px;">
-                <span>{it.data.date.toLocaleDateString('ko-KR')}</span>
-                {it.data.sourceUrl ? (
-                  <span>
-                    <a href={it.data.sourceUrl} target="_blank" rel="noreferrer" style="color:var(--muted);text-decoration:none;">원문</a>
-                  </span>
-                ) : null}
-                {it.data.tags?.length ? <span>#{it.data.tags.join(' #')}</span> : null}
-              </div>
-            </div>
-          </article>
-        ))}
-      </div>
+      {rendered.map(({ it, Content }) => (
+        <article class="article" style="padding:18px 0 34px; border-bottom: 1px solid var(--border);">
+          <h2 style="margin:0 0 8px;font-size:22px;line-height:1.25;">{it.data.title}</h2>
+          <div class="meta" style="margin-bottom:12px;">
+            <span>{it.data.date.toLocaleDateString('ko-KR')}</span>
+            {it.data.sourceUrl ? (
+              <span>
+                · <a href={it.data.sourceUrl} target="_blank" rel="noreferrer" style="color:var(--muted);text-decoration:none;">원문</a>
+              </span>
+            ) : null}
+            {it.data.tags?.length ? <span> · #{it.data.tags.join(' #')}</span> : null}
+          </div>
+
+          <div class="content" style="max-width:78ch;">
+            <Content />
+          </div>
+        </article>
+      ))}
     </div>
   </section>
 </BaseLayout>
