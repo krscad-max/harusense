@@ -6,10 +6,10 @@ import { getCollection } from 'astro:content';
 const posts = (await getCollection('posts', ({ data }) => !data.draft))
   .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
 ---
-<BaseLayout title="글 — HaruSense">
+<BaseLayout title="블로그 — PadoHaru">
   <section class="hero">
     <div class="container">
-      <h1>글</h1>
+      <h1>블로그</h1>
       <p>짧고 실용적으로. 바로 써먹을 수 있게.</p>
     </div>
   </section>
