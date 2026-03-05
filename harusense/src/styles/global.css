@@ -39,7 +39,7 @@ a{color:inherit}
 }
 .nav{display:flex;align-items:center;justify-content:space-between;padding:14px 0;gap:14px}
 .brand{display:flex;align-items:center;gap:10px;text-decoration:none}
-.brand b{letter-spacing:.2px;font-size:20px}
+.brand b{letter-spacing:.2px;font-size:22px}
 .brand small{display:block;color:var(--muted);font-size:13px;margin-top:-1px}
 .navlinks{display:flex;gap:16px;align-items:center;flex-wrap:wrap}
 .navlinks a{color:var(--muted);text-decoration:none;font-size:15px}

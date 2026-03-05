@@ -5,10 +5,10 @@ import { getEntry } from 'astro:content';
 const page = await getEntry('pages', 'canada-briefing');
 const { Content } = await page.render();
 ---
-<BaseLayout title="북미 생활 뉴스 번역 노트 — HaruSense">
+<BaseLayout title="캐나다 뉴스 노트 — PadoHaru">
   <article class="article">
     <div class="container">
-      <h1>북미 생활 뉴스 번역 노트</h1>
+      <h1>캐나다 뉴스 노트</h1>
       <div class="content noDragCopy"><Content /></div>
     </div>
   </article>
