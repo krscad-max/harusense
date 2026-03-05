@@ -7,10 +7,13 @@ sourceUrl: "https://www.ctvnews.ca/world/mideast-conflict/article/gas-prices-sky
 tags: [gas, oil, inflation]
 ---
 
-## 핵심 요약(과장 없이)
-- 중동 지역 긴장 고조(군사 공격·보복 등)로 **원유 공급 차질 우려**가 커지면서, 캐나다 여러 지역에서 **휘발유 가격이 단기간 상승**했습니다.
-- 기사에서는 원유 수출 흐름에 영향을 줄 수 있는 요충지로 **호르무즈 해협(Strait of Hormuz)**을 언급합니다.
-- 국제유가(브렌트유)가 분쟁 이후 상승했고, 추가 인상 가능성도 거론됩니다.
+## 기사 요약
+이 기사는 “중동 긴장 고조 → 원유 공급 우려 → 국제유가 상승 → 캐나다 주유소 가격 인상” 흐름을 지역별 숫자로 보여주는 내용입니다.
+
+- 중동 지역에서 군사 공격과 보복이 이어지면서 **원유 수출(공급)**에 차질이 생길 수 있다는 우려가 커졌습니다.
+- 특히 기사에서는 호르무즈 해협(Strait of Hormuz)을 언급하는데, 이 해협은 전 세계 해상 운송 원유(seaborne oil)의 약 20%가 지나가는 통로로 소개됩니다.
+- 그 결과 국제유가 기준(브렌트유)이 분쟁 이후 상승했으며, 기사에서는 한때 배럴당 **미화 84달러를 상회**했고, 분쟁 시작 시점 대비 **10달러 이상 상승**했다고 전합니다.
+- 캐나다에서는 지역별로 밤사이 급등(예: 핼리팩스 +8.9¢)처럼 체감 변화가 나타났고, 일부 지역은 추가 인상 가능성도 거론됩니다.
 
 ## 지역별 가격 변화(기사에 나온 숫자)
 표기 단위는 기사 원문 기준입니다(¢/L 또는 $/L).
@@ -48,7 +51,7 @@ tags: [gas, oil, inflation]
 
 ## 출처
 - CTVNews (기사): https://www.ctvnews.ca/world/mideast-conflict/article/gas-prices-skyrocket-in-parts-of-canada-amid-middle-east-escalation/
-- 기사 내 참고(호르무즈 해협):
+- CTVNews Business (기사 내 참고: 호르무즈 해협):
   - https://www.ctvnews.ca/business/article/what-to-know-about-the-strait-of-hormuz-amid-the-widening-iran-war/
-- Nova Scotia Utility and Review Board(가격 지도):
+- Nova Scotia Utility and Review Board (가격 지도):
   - https://nserbt.ca/nseb/mandates/gasoline-diesel-pricing/gasoline-diesel-prices-zone-map
