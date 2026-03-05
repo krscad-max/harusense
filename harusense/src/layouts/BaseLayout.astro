@@ -2,8 +2,8 @@
 import ThemeToggle from '../components/ThemeToggle.astro';
 
 const {
-  title = 'HaruSense — 하루센스',
-  description = '매일 쓸모 있는 한 가지. 생활 팁과 절약, 루틴, 정리, 소비를 더 똑똑하게 만드는 가이드.',
+  title = 'PadoHaru — 파도하루',
+  description = '파도처럼 밀려오는 정보 속에서, 하루에 하나씩 건져 올리는 실용 노트.',
   image = '/images/hero-desktop.webp',
   canonical,
 } = Astro.props;
@@ -44,13 +44,13 @@ const url = canonical ? new URL(canonical, site) : Astro.url;
         <nav class="nav">
           <a class="brand" href="/">
             <div>
-              <b>HaruSense</b>
-              <small>하루에 하나, 실용 생활 팁</small>
+              <b>PadoHaru</b>
+              <small>파도처럼 쏟아지는 정보에서, 하루 한 가지를 건져 올립니다</small>
             </div>
           </a>
           <div class="navlinks">
-            <a href="/posts">글</a>
-            <a href="/canada-briefing">번역 노트</a>
+            <a href="/posts">블로그</a>
+            <a href="/canada-briefing">뉴스 노트</a>
             <a href="/about">소개</a>
             <a href="/privacy">개인정보</a>
             <a href="/ads">광고/제휴</a>
