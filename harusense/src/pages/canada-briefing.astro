@@ -5,11 +5,26 @@ import { getEntry } from 'astro:content';
 const page = await getEntry('pages', 'canada-briefing');
 const { Content } = await page.render();
 ---
-<BaseLayout title="캐나다 뉴스 브리핑 — HaruSense">
+<BaseLayout title="북미 생활 뉴스 번역 노트 — HaruSense">
   <article class="article">
     <div class="container">
-      <h1>캐나다 뉴스 브리핑</h1>
-      <div class="content"><Content /></div>
+      <h1>북미 생활 뉴스 번역 노트</h1>
+      <div class="content noDragCopy"><Content /></div>
     </div>
   </article>
 </BaseLayout>
+
+<script is:inline>
+  // NOTE: This only deters casual copying/dragging. It cannot fully prevent copying.
+  (function(){
+    const root = document.querySelector('.noDragCopy');
+    if (!root) return;
+
+    // Prevent dragging images/text blocks
+    root.querySelectorAll('img,a').forEach(el => { el.setAttribute('draggable','false'); });
+    root.addEventListener('dragstart', (e) => e.preventDefault());
+
+    // Optional: discourage selection/context menu in this section
+    root.addEventListener('contextmenu', (e) => e.preventDefault());
+  })();
+</script>

@@ -113,6 +113,12 @@ a{color:inherit}
   border:1px solid var(--border);
 }
 
+/* Light deterrence for drag/copy (not a security control) */
+.noDragCopy{
+  -webkit-user-drag: none;
+}
+.noDragCopy img{ -webkit-user-drag: none; user-drag: none; }
+
 .credit{margin-top:18px;color:var(--muted);font-size:12px}
 .credit a{color:var(--muted)}
 
