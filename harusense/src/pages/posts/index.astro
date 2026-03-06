@@ -3,7 +3,8 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import PostCard from '../../components/PostCard.astro';
 import { getCollection } from 'astro:content';
 
-const posts = (await getCollection('posts', ({ data }) => !data.draft))
+const hiddenTags = new Set(['english','japanese']);
+const posts = (await getCollection('posts', ({ data }) => !data.draft && !(data.tags ?? []).some((t) => hiddenTags.has(t))))
   .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
 ---
 <BaseLayout title="블로그 — PadoHaru">

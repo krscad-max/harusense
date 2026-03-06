@@ -9,15 +9,20 @@ const allNews = await getCollection('canadaNews');
 const today = new Date();
 const visiblePosts = allPosts.filter((p) => p.data.date.getTime() <= today.getTime());
 
-const sorted = visiblePosts.sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+// AdSense review-friendly: hide ultra-short daily language drills from homepage.
+const hiddenTags = new Set(['english','japanese']);
+const visibleForHome = visiblePosts.filter((p) => !(p.data.tags ?? []).some((t) => hiddenTags.has(t)));
+
+const sorted = visibleForHome.sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
 const posts = sorted.slice(0, 8);
 
 const groups = {
   canadaNews: allNews.sort((a,b) => b.data.date.getTime() - a.data.date.getTime()).slice(0, 6),
   japan: sorted.filter((p) => p.data.tags?.includes('japan') || p.data.tags?.includes('travel')).slice(0, 8),
   life: sorted.filter((p) => ['saving','budgeting','organization','routine','kitchen','consumption'].some((t) => p.data.tags?.includes(t))).slice(0, 8),
-  english: sorted.filter((p) => p.data.tags?.includes('english')).slice(0, 8),
-  japanese: sorted.filter((p) => p.data.tags?.includes('japanese')).slice(0, 8),
+  // Keep these sections for later; hide during AdSense review to reduce template-content appearance.
+  english: [],
+  japanese: [],
 };
 
 const featuredSlugs = [
@@ -27,7 +32,7 @@ const featuredSlugs = [
   '2026-02-26-smart-shopping',
 ];
 
-const featured = visiblePosts
+const featured = visibleForHome
   .filter((p) => featuredSlugs.includes(p.slug))
   .sort((a, b) => featuredSlugs.indexOf(a.slug) - featuredSlugs.indexOf(b.slug));
 ---

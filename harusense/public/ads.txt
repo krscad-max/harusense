@@ -1,0 +1,2 @@
+# ads.txt will be provided by Google AdSense after site approval/setup.
+# Paste the line(s) from AdSense here.
