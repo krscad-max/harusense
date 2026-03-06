@@ -1,2 +1,1 @@
-# ads.txt will be provided by Google AdSense after site approval/setup.
-# Paste the line(s) from AdSense here.
+google.com, pub-9266812076678065, DIRECT, f08c47fec0942fa0
