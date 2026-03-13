@@ -5,6 +5,7 @@ tags: [saving, energy]
 coverImage: "/images/unsplash2/b2.jpg"
 coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
+draft: true
 ---
 전기요금을 줄이려면 작은 습관만 바꿔도 효과가 큽니다. 전기 제품은 사용 후 완전히 차단하고, 대기 전력 차단 플러그를 사용하세요. 또한 냉·난방 온도를 1~2도 조정하고, LED 전구로 교체하면 장기적으로 큰 비용 절감이 됩니다.
 

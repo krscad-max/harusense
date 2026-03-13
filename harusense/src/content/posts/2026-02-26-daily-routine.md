@@ -5,6 +5,7 @@ tags: [routine, productivity]
 coverImage: "/images/unsplash2/b1.jpg"
 coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
+draft: true
 ---
 출근 전 10분으로 중요한 일을 먼저 처리하면 하루 생산성이 크게 올라갑니다. 이메일 확인 대신 당일 우선순위 3가지를 정하고 작은 작업 하나를 완료하세요. 준비된 물 한 컵과 간단한 스트레칭으로 몸을 깨운 뒤 바로 업무를 시작하면 흐름이 달라집니다.
 

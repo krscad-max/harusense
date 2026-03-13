@@ -5,6 +5,7 @@ tags: [kitchen, lifehack]
 coverImage: "/images/unsplash2/b6.jpg"
 coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
+draft: true
 ---
 주방에서 시간을 아끼려면 재료 준비와 도구 배치가 핵심입니다. 미리 채소를 손질해 밀폐용기에 담아두고, 자주 쓰는 조미료는 사용하기 쉬운 위치에 두세요. 조리 도중 설거지를 병행하면 마무리가 쉬워집니다. 또한 다용도 가젯(핸디 블렌더, 멀티쿠커)을 이용하면 요리 시간을 크게 줄일 수 있습니다.
 
