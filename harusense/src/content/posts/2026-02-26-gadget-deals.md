@@ -3,7 +3,7 @@ title: "가성비 스마트폰 액세서리 TOP 8"
 date: 2026-02-27
 tags: [gadgets, review]
 description: "실사용 기준으로 고른 스마트폰 액세서리 8가지. 내구성·안전성·호환성 중심으로 실패 없는 구매 기준을 정리합니다."
-coverImage: "/images/unsplash2/b1.jpg"
+coverImage: "/images/unsplash2/b9.jpg"
 coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
 ---

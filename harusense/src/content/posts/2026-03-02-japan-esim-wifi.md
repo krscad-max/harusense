@@ -3,7 +3,7 @@ title: "일본 여행 eSIM vs 포켓와이파이 vs 로밍: 후회 없는 선택
 date: 2026-01-24
 tags: [japan, travel, productivity, consumption]
 description: "누가 eSIM이 맞고, 누가 포켓와이파이가 맞는지. 비용/편의/리스크 기준으로 결정."
-coverImage: "/images/japan/jp5.jpg"
+coverImage: "/images/japan/jp8.jpg"
 coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
 ---

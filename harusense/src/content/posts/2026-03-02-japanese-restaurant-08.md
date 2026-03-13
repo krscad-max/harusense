@@ -3,7 +3,7 @@ title: "오늘의 일본어(식당): “お願いします” — 알레르기"
 date: 2026-03-01
 tags: [japanese, restaurant, routine]
 description: "식당에서 자주 쓰는 표현 1개. 뜻/상황별 활용/예문/단어까지."
-coverImage: "/images/japan/jp4.jpg"
+coverImage: "/images/unsplash2/b1.jpg"
 coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
 ---

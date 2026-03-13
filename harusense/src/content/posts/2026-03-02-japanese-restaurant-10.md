@@ -3,7 +3,7 @@ title: "오늘의 일본어(식당): “これは何ですか” — 포장"
 date: 2026-02-19
 tags: [japanese, restaurant, routine]
 description: "식당에서 자주 쓰는 표현 1개. 뜻/상황별 활용/예문/단어까지."
-coverImage: "/images/japan/jp4.jpg"
+coverImage: "/images/unsplash2/b1.jpg"
 coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
 ---

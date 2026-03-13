@@ -3,7 +3,7 @@ title: "일본 식당 주문이 쉬워지는 문장 8개(여행자 버전)"
 date: 2026-01-28
 tags: [japan, travel, restaurant, japanese]
 description: "메뉴 추천/알레르기/포장/계산까지. 이 8문장만 외워도 주문이 편해집니다."
-coverImage: "/images/japan/jp5.jpg"
+coverImage: "/images/japan/jp8.jpg"
 coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
 ---

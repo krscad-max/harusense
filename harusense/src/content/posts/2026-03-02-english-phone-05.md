@@ -3,7 +3,7 @@ title: "오늘의 영어(전화): “I’d like to...” — 통화 마무리"
 date: 2026-02-18
 tags: [english, phone, routine]
 description: "전화 상황에서 바로 쓸 수 있는 문장. 짧은 예문 + 대체 표현 + 실전 미션."
-coverImage: "/images/unsplash2/b8.jpg"
+coverImage: "/images/unsplash2/b1.jpg"
 coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
 ---

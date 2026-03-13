@@ -3,7 +3,7 @@ title: "일본 여행 교통카드(Suica/PASMO/ICOCA) 한 번에 이해하기"
 date: 2026-02-01
 tags: [japan, travel, station, consumption]
 description: "공항/역에서 어디서 사고, 어떻게 충전하고, 어디까지 되는지. 실수하기 쉬운 포인트까지 정리."
-coverImage: "/images/japan/jp5.jpg"
+coverImage: "/images/japan/jp8.jpg"
 coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
 ---

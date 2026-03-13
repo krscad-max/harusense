@@ -3,7 +3,7 @@ title: "오늘의 영어(직장): “Could you please...” — 상태 공유"
 date: 2026-02-05
 tags: [english, work, routine]
 description: "직장 상황에서 바로 쓸 수 있는 문장. 짧은 예문 + 대체 표현 + 실전 미션."
-coverImage: "/images/unsplash2/b8.jpg"
+coverImage: "/images/unsplash2/b1.jpg"
 coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
 ---

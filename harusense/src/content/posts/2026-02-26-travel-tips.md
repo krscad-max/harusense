@@ -2,7 +2,7 @@
 title: "가성비 여행을 위한 체크리스트: 예약부터 짐싸기까지"
 date: 2026-02-19
 tags: [travel, tips]
-coverImage: "/images/japan/jp3.jpg"
+coverImage: "/images/japan/jp5.jpg"
 coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
 ---

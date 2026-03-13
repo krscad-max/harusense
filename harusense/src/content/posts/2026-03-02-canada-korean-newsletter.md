@@ -3,7 +3,7 @@ title: "캐나다 살면서 한국인에게 더 ‘체감’되는 뉴스 읽는
 date: 2025-12-17
 tags: [routine, productivity, consumption]
 description: "뉴스를 많이 보는 것보다 ‘나에게 영향 있는 것’만 고르는 기준이 중요합니다. 이민/주거/금리/세금/교육/여행 뉴스를 10분 루틴으로 정리하는 방법."
-coverImage: "/images/unsplash2/b1.jpg"
+coverImage: "/images/unsplash2/b2.jpg"
 coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
 ---

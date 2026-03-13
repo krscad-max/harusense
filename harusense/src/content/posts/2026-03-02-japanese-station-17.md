@@ -3,7 +3,7 @@ title: "오늘의 일본어(역): “どこですか” — 승강장"
 date: 2026-02-09
 tags: [japanese, station, routine]
 description: "역에서 자주 쓰는 표현 1개. 뜻/상황별 활용/예문/단어까지."
-coverImage: "/images/japan/jp4.jpg"
+coverImage: "/images/unsplash2/b1.jpg"
 coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
 ---

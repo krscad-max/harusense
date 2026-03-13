@@ -3,7 +3,7 @@ title: "캐나다 국기(피스 타워 국기) 받는 법: Parliament Hill Flag 
 date: 2026-03-09
 tags: [canada, tips, life]
 description: "오타와 Parliament Hill(피스 타워)에서 실제로 게양됐던 캐나다 국기를 ‘기부(도네이션)’ 형태로 받을 수 있는 공식 신청 제도가 있습니다. 신청 링크, 조건(거주 요건/1인 1개), 대기기간(100년+), 변경 주기까지 한 번에 정리합니다."
-coverImage: "/images/unsplash2/b6.jpg"
+coverImage: "/images/unsplash/u6.jpg"
 coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
 ---

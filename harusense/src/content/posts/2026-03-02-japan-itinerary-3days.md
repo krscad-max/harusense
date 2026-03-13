@@ -3,7 +3,7 @@ title: "도쿄 3박4일 일정 짜기: 실패 없는 뼈대(동선 중심)"
 date: 2026-02-11
 tags: [japan, travel, productivity, routine]
 description: "구역(동선) 기준으로 일정 짜는 법. “하루 2구역” 원칙으로 피로 줄이기."
-coverImage: "/images/japan/jp5.jpg"
+coverImage: "/images/japan/jp8.jpg"
 coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
 ---

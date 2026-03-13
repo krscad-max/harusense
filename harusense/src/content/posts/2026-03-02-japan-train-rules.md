@@ -3,7 +3,7 @@ title: "일본 전철/지하철 첫날에 헷갈리는 것 7가지"
 date: 2026-01-19
 tags: [japan, travel, station, routine]
 description: "급행/특급/환승/개찰구/승강장/막차. 첫날 삽질 줄이는 체크리스트."
-coverImage: "/images/japan/jp5.jpg"
+coverImage: "/images/japan/jp8.jpg"
 coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
 ---
