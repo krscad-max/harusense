@@ -6,6 +6,7 @@ description: "메뉴 추천/알레르기/포장/계산까지. 이 8문장만 외
 coverImage: "/images/japan/jp8.jpg"
 coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
+draft: true
 ---
 식당에서 긴 일본어를 할 필요 없어요. 여행자는 “짧은 문장 + 손짓 + 미소”로 충분합니다.
 

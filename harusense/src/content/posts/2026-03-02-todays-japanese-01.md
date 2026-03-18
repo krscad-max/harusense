@@ -6,6 +6,7 @@ description: "일본어 초보도 바로 쓸 수 있는 '다이죠부'. 뜻이 �
 coverImage: "/images/unsplash2/b1.jpg"
 coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
+draft: true
 ---
 일본어에서 **대부분의 상황을 커버하는** 표현이 있어요. 바로:
 

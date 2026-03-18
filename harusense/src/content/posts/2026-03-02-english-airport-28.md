@@ -6,6 +6,7 @@ description: "공항 상황에서 바로 쓸 수 있는 문장. 짧은 예문 + 
 coverImage: "/images/unsplash2/b1.jpg"
 coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
+draft: true
 ---
 영어는 단어를 많이 아는 것보다 **자주 쓰는 문장 뼈대**를 익히는 게 훨씬 빨라요. 오늘은 공항 상황에서 특히 유용한 표현 하나를 잡습니다.
 

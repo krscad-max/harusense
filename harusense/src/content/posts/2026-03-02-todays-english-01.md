@@ -6,6 +6,7 @@ description: "대답을 바로 못 할 때 어색함 없이 시간을 버는 표
 coverImage: "/images/unsplash2/b1.jpg"
 coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
+draft: true
 ---
 영어로 대화하다가 가장 당황하는 순간이 **말을 바로 이어서 못 할 때**예요. 이때 침묵이 길어지면 더 긴장하게 되고요.
 
