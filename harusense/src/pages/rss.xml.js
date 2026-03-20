@@ -7,7 +7,7 @@ export async function GET(context) {
 
   return rss({
     title: 'PadoHaru — 파도하루',
-    description: '매일 쓸모 있는 한 가지. 생활 팁과 절약, 루틴, 정리, 소비, 주방.',
+    description: '절약, 정리, 루틴, 주방, 캐나다 실생활 정보를 중심으로 바로 적용 가능한 글만 정리합니다.',
     site: context.site,
     items: posts.map((post) => ({
       title: post.data.title,

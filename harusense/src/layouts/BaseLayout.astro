@@ -3,7 +3,7 @@ import ThemeToggle from '../components/ThemeToggle.astro';
 
 const {
   title = 'PadoHaru — 파도하루',
-  description = '파도처럼 밀려오는 정보 속에서, 하루에 하나씩 건져 올리는 실용 노트.',
+  description = '절약, 정리, 루틴, 주방, 캐나다 실생활 정보를 중심으로 바로 적용 가능한 글만 정리하는 실용 정보 사이트.',
   image = '/images/hero-desktop.webp',
   canonical,
 } = Astro.props;
@@ -46,7 +46,7 @@ const url = canonical ? new URL(canonical, site) : Astro.url;
           <a class="brand" href="/">
             <div>
               <b>PadoHaru</b>
-              <small>파도처럼 쏟아지는 정보에서, 하루 한 가지를 건져 올립니다 · padoharu.com</small>
+              <small>절약, 정리, 루틴, 주방, 캐나다 실생활 정보</small>
             </div>
           </a>
           <div class="navlinks">
@@ -69,7 +69,7 @@ const url = canonical ? new URL(canonical, site) : Astro.url;
 
     <footer class="footer">
       <div class="container">
-        <div>© {new Date().getFullYear()} PadoHaru. 실용적인 정보를 쉽고 짧게.</div>
+        <div>© {new Date().getFullYear()} PadoHaru. 실생활에 바로 적용 가능한 정보만 정리합니다.</div>
       </div>
     </footer>
   </body>
