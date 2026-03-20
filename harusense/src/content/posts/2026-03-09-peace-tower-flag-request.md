@@ -2,85 +2,78 @@
 title: "캐나다 국기(피스 타워 국기) 받는 법: Parliament Hill Flag 신청 방법부터 대기기간까지"
 date: 2026-03-09
 tags: [canada, tips, life]
-description: "오타와 Parliament Hill(피스 타워)에서 실제로 게양됐던 캐나다 국기를 ‘기부(도네이션)’ 형태로 받을 수 있는 공식 신청 제도가 있습니다. 신청 링크, 조건(거주 요건/1인 1개), 대기기간(100년+), 변경 주기까지 한 번에 정리합니다."
+description: "오타와 Parliament Hill에서 실제 게양된 국기를 신청하는 공식 제도를 정리합니다. 신청 방법, 대기기간, 자격 요건, 주의사항까지 한 번에 확인하세요."
 coverImage: "/images/unsplash/u6.jpg"
 coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
 ---
 
-오타와( Ottawa )에 있는 Parliament Hill(연방 의사당) **Peace Tower(피스 타워)**에 걸렸던 캐나다 국기를 “한 장 받아서 집에 걸어두고 싶다”는 생각, 한 번쯤 해보셨을 겁니다.
+캐나다에 살다 보면 언젠가 한 번쯤 듣게 되는 이야기가 있다. 오타와 Parliament Hill, 그중에서도 **Peace Tower(피스 타워)에 실제로 걸렸던 캐나다 국기를 신청할 수 있다**는 이야기다. 이건 도시전설이 아니라 실제로 존재하는 공식 제도다.
 
-결론부터 말하면, 이건 루머가 아니라 **공식 프로그램**이 맞습니다. 다만 현실적인 포인트가 하나 있어요.
+다만 대부분의 사람을 놀라게 하는 현실도 함께 따라온다. **대기기간이 100년 이상**이라는 점이다. 그래서 이 제도는 “곧 받는 신청”이 아니라, 상징성과 기록의 의미가 큰 장기 대기 프로그램으로 이해하는 편이 맞다.
 
-> 대기기간이… **100년 이상**입니다.
+![](/images/unsplash/u6.jpg)
 
-그래도 “신청 자체는 할 수 있고”, 사유(기념일/추모 등)가 있는 분들은 일단 **대기 명단에 등록**해 두는 의미가 있습니다. 이 글은 신청 방법과 조건을 빠르게 정리한 소개글입니다.
+## 어떤 프로그램인가
+캐나다 연방 정부(PSPC, Public Services and Procurement Canada)는 Parliament Hill에서 실제로 게양된 국기를 신청할 수 있는 제도를 운영하고 있다.
 
-![](/images/unsplash2/b6.jpg)
+신청 대상은 흔히 말하는 “피스 타워 국기”에만 한정되지 않는다.
+- Peace Tower에 게양된 국기
+- Parliament Hill 내 다른 건물과 깃대의 국기
 
-## 1) 이게 어떤 프로그램인가요?
-캐나다 연방 정부(PSPC, Public Services and Procurement Canada)에서 운영하는 안내 페이지에 따르면, **Parliament Hill에서 실제로 게양됐던 국기**를 캐나다 거주자가 요청할 수 있습니다.
+즉, 상징성이 가장 큰 것은 피스 타워 국기지만, 넓게는 **Parliament Hill flags 전체**를 대상으로 한 제도라고 보는 것이 정확하다.
 
-- Peace Tower 위 국기 1개
-- Centre Block 측면, West Block, East Block 등 Hill 내 다른 깃대의 국기들
+---
 
-즉, 흔히 말하는 “피스 타워 국기”도 포함되지만, 넓게는 **Parliament Hill flags** 전체를 대상으로 한 요청입니다.
+## 가장 중요한 사실: 대기기간
+이 제도를 검색할 때 사람들이 가장 먼저 알아야 할 건 신청 방법보다 대기기간이다.
 
-## 2) 대기기간/신청 조건(이 부분이 핵심)
-공식 안내에 명시된 핵심 조건은 아래 2가지입니다.
+공식 안내 기준 핵심은 다음과 같다.
+- Peace Tower 및 Parliament Hill flags 모두 대기기간이 매우 길다
+- 실제 안내상 **100년 이상**으로 제시된다
+- 1인당 1개만 신청 가능하다
+- 신청 대상은 **캐나다 거주자**로 제한된다
 
-- **대기기간:** Peace Tower 및 기타 Parliament Hill 국기 모두 **100년 이상**
-- **제한:** 1인당 **1개만** 기부 가능, 그리고 **캐나다 거주자만** 대상
+즉, “기념일에 맞춰 받겠다”는 개념으로 접근하면 안 된다. 대신 가족이나 본인의 이름을 공식 대기 명단에 남기는 의미가 더 크다.
 
-이 조건 때문에, 지금 신청해도 “곧 받는다”는 기대보다는 **기록을 남겨두는 신청**에 가깝습니다.
+## 신청 방법
+신청은 캐나다 정부 공식 페이지에서 한다.
 
-## 3) 신청 방법(링크 포함)
-신청은 아래 공식 페이지에서 진행합니다.
+핵심 메뉴는 보통 두 가지다.
+1. 대기 명단 등록
+2. 기존 신청 정보 수정
 
-- 신청/대기명단 등록: 
-  - https://www.canada.ca/en/public-services-procurement/services/infrastructure-buildings/parliamentary-precinct/discover/peace-tower/flags/request.html
+대기기간이 워낙 길기 때문에, 신청 후에는 **주소·이메일·전화번호 변경 시 정보 수정**이 매우 중요하다. 나중에 연락이 닿지 않으면 사실상 신청 의미가 약해질 수 있다.
 
-위 페이지에서 선택지는 크게 두 가지로 보입니다.
+## 왜 상징성이 큰가
+피스 타워 국기는 그냥 “오타와 기념품”이 아니다. 실제로 Parliament Hill 위에서 게양되었던 국기이기 때문에, 상징성과 역사성이 다르다.
 
-1) **Add your name to the waiting list for a flag** (대기명단 등록)
-2) **Update your personal information for an existing request** (기존 신청 정보 수정)
+공식 안내에 따르면 Peace Tower 국기는 보통 평일 매일 교체되고, 다른 국기들은 주 단위로 교체되는 경우가 많다. 조기 게양(half-mast)이나 기상 조건에 따라 일정은 달라질 수 있다.
 
-신청 과정에서 입력하는 개인정보는 Privacy Act(개인정보보호 관련 법) 근거로 수집/보관된다는 고지도 함께 있습니다.
+이 교체 과정 자체도 단순하지 않다. 안전 절차를 거쳐 고지대 깃대로 올라가 교체하는 방식이라, 국기 한 장에도 실제 현장성과 상징성이 담긴다.
 
-## 4) 피스 타워 국기는 얼마나 자주 바뀌나요?
-‘국기를 받는다’는 건 결국 “언제 어떻게 교체되는지”가 궁금해지죠.
+---
 
-공식 안내에 따르면:
-- **Peace Tower 국기:** 보통 **평일 매일(법정 공휴일/악천후 제외)** 교체
-- **기타 Parliament Hill 국기:** 보통 **주간 단위**로 교체
-- **조기(half-mast)**가 걸리는 날(추모 등)에는 교체 일정이 달라질 수 있음
+## 신청 전 알아둘 현실적인 포인트
 
-그리고 피스 타워 교체는 안전 절차가 꽤 빡빡합니다.
-- 직원이 새 국기를 접어 가방에 넣고
-- 전망대까지 올라간 뒤
-- **계단/사다리로 약 33m**를 더 올라가
-- 10.7m 깃대에 새 국기를 올리는 방식
-- 과정(20~30분) 동안 **국기가 땅에 닿지 않도록** 한다고 명시돼 있습니다.
+## 1) 지금 신청하는 게 가장 빠르다
+100년이라는 숫자는 압도적이지만, 언젠가 할 생각이라면 오늘이 가장 빠르다. 미룬다고 조건이 좋아지지 않는다.
 
-이런 디테일을 알고 나면, “그 국기 한 장”이 그냥 기념품이 아니라는 느낌이 들죠.
+## 2) 피스 타워만 고집할 필요는 없다
+상징성은 크지만, Parliament Hill 다른 국기들도 충분히 의미가 있다. 어떤 국기가 본인에게 더 의미 있는지 생각해 보는 편이 좋다.
 
-## 5) 신청 전에 현실적으로 알아둘 것(체감 팁)
-### (1) ‘피스 타워 국기’만 집착하지 않아도 됩니다
-공식 페이지는 Peace Tower뿐 아니라 **Parliament Hill flags 전반**을 안내합니다.
-내가 원하는 “상징성”이 피스 타워에 있는지, 혹은 Hill 내 다른 국기도 괜찮은지 생각해 보세요.
+## 3) 연락처 변경을 잊기 쉽다
+이 제도는 신청보다 유지가 더 중요하다. 장기 대기 프로그램인 만큼, 이사나 번호 변경 시 정보 업데이트를 잊지 않는 것이 핵심이다.
 
-### (2) 연락처 변경 가능성까지 고려해 두세요
-대기기간이 길기 때문에, 주소/이메일/전화가 바뀌면 **Update(정보 수정)**이 중요합니다.
+## 체크리스트
+- [ ] 캐나다 정부 공식 신청 페이지에서 대기 명단 등록
+- [ ] 이름/주소/이메일/전화번호 정확히 입력
+- [ ] 이사나 연락처 변경 시 정보 수정
+- [ ] 나중에 국기를 받게 될 경우 보관 방법도 미리 생각하기
 
-### (3) 신청은 ‘지금’이 가장 빠릅니다
-100년이라는 숫자가 부담스럽지만, “언젠가 신청할 거면” 오늘이 제일 빠릅니다.
-
-## 6) 한 번에 끝내는 체크리스트(복사해서 쓰기)
-- [ ] 신청 링크 북마크: 위 canada.ca 신청 페이지
-- [ ] 내 이름/연락처/주소를 정확히 입력
-- [ ] 나중에 이사/번호 변경 시 정보 수정(업데이트) 기억하기
-- [ ] 받게 된다면: 보관 방법(액자/보존)도 미리 고민
+## 결론
+Parliament Hill 국기 신청 제도는 “곧 받는 기념품 신청”이 아니라, 캐나다의 상징성을 자기 이름으로 연결해 두는 장기 대기 제도에 가깝다. 대기기간은 길지만, 공식성과 역사성 면에서는 충분히 의미가 있다. 그리고 이런 제도는 보통 **신청한 사람만 가능성**을 갖는다.
 
 ## 출처
-- Parliament Hill flags(교체 주기/설명): https://www.canada.ca/en/public-services-procurement/services/infrastructure-buildings/parliamentary-precinct/discover/peace-tower/flags.html
-- Request a Parliament Hill flag(대기기간 100년+, 1인 1개, 캐나다 거주자 제한, 신청/수정): https://www.canada.ca/en/public-services-procurement/services/infrastructure-buildings/parliamentary-precinct/discover/peace-tower/flags/request.html
+- Parliament Hill flags: https://www.canada.ca/en/public-services-procurement/services/infrastructure-buildings/parliamentary-precinct/discover/peace-tower/flags.html
+- Request a Parliament Hill flag: https://www.canada.ca/en/public-services-procurement/services/infrastructure-buildings/parliamentary-precinct/discover/peace-tower/flags/request.html
