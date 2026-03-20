@@ -6,6 +6,7 @@ description: "감정은 잠깐 내려두고, ‘야구적으로’ 한국이 이
 coverImage: "/images/unsplash2/b8.jpg"
 coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
+draft: true
 ---
 
 한국 vs 일본전은 늘 분위기가 먼저 달아오르지만, 결국 경기 결과는 **몇 가지 반복되는 야구의 디테일**에서 갈립니다. 이 글은 ‘누가 더 강하다’ 같은 감정 평가가 아니라, **한국이 이기기 위해 현실적으로 필요한 전략**을 중심으로 정리한 프리뷰입니다.

@@ -6,6 +6,7 @@ description: "집 안 케이블을 줄이고 찾는 시간을 없애는 규칙."
 coverImage: "/images/unsplash2/b4.jpg"
 coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
+draft: true
 ---
 정리는 의지 게임이 아니라 **마찰(귀찮음)을 낮추는 설계**입니다. 한 번에 완벽히 하려는 마음이 실패 원인 1위예요.
 

@@ -6,6 +6,7 @@ description: "한국과 일본이 WBC 8강에서 멈춘 뒤, 단기전의 변수
 coverImage: "/images/unsplash2/b8.jpg"
 coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
+draft: true
 ---
 
 WBC 8강에서 한국과 일본이 모두 멈췄다. 결과만 놓고 보면 ‘충격’이라는 단어가 먼저 나오지만, 이번 탈락은 우연 한두 개로 설명하기 어렵다. 단기전은 결국 디테일의 경기이고, 디테일은 하루아침에 만들어지지 않기 때문이다.

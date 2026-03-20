@@ -6,6 +6,7 @@ description: "옷은 스타일이 아니라 시스템으로 줄어듭니다."
 coverImage: "/images/unsplash2/b2.jpg"
 coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
+draft: true
 ---
 절약은 “참기”가 아니라 **새는 구멍을 막는 작업**입니다. 특히 구독/고정비/배달이 큰 구멍입니다.
 

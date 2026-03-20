@@ -6,6 +6,7 @@ description: "누가 eSIM이 맞고, 누가 포켓와이파이가 맞는지. 비
 coverImage: "/images/japan/jp8.jpg"
 coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
+draft: true
 ---
 인터넷 선택은 여행 체감에 직결돼요. 길찾기/번역/예약이 막히면 여행이 갑자기 어려워집니다.
 

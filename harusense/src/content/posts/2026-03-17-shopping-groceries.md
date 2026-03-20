@@ -6,6 +6,7 @@ description: "장보기는 메뉴가 아니라 패턴입니다. 고정 메뉴를
 coverImage: "/images/unsplash2/b6.jpg"
 coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
+draft: true
 ---
 주방 문제는 “요리 실력”이 아니라 **동선/재고/결정 피로**에서 터집니다. 그래서 이 글은 레시피보다 ‘시스템’을 먼저 잡습니다.
 

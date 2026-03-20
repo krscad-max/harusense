@@ -8,44 +8,37 @@ const allNews = await getCollection('canadaNews');
 
 const today = new Date();
 const visiblePosts = allPosts.filter((p) => p.data.date.getTime() <= today.getTime());
+const sorted = visiblePosts.sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
 
-// AdSense review-friendly: hide ultra-short daily language drills from homepage.
-const hiddenTags = new Set(['english','japanese']);
-const visibleForHome = visiblePosts.filter((p) => !(p.data.tags ?? []).some((t) => hiddenTags.has(t)));
-
-const sorted = visibleForHome.sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
 const posts = sorted.slice(0, 8);
 
 const groups = {
-  canadaNews: allNews.sort((a,b) => b.data.date.getTime() - a.data.date.getTime()).slice(0, 6),
-  japan: sorted.filter((p) => p.data.tags?.includes('japan') || p.data.tags?.includes('travel')).slice(0, 8),
-  life: sorted.filter((p) => ['saving','budgeting','organization','routine','kitchen','consumption'].some((t) => p.data.tags?.includes(t))).slice(0, 8),
-  // Keep these sections for later; hide during AdSense review to reduce template-content appearance.
-  english: [],
-  japanese: [],
+  canadaNews: allNews.sort((a,b) => b.data.date.getTime() - a.data.date.getTime()).slice(0, 4),
+  life: sorted.filter((p) => ['saving','budgeting','organization','routine','kitchen','consumption','cleaning','home'].some((t) => p.data.tags?.includes(t))).slice(0, 8),
+  canada: sorted.filter((p) => ['canada','korea','immigration','tips','money'].some((t) => p.data.tags?.includes(t))).slice(0, 6),
 };
 
 const featuredSlugs = [
-  '2026-02-25-morning-routine',
   '2026-02-25-saving-checklist',
   '2026-02-26-home-cleaning',
-  '2026-02-26-smart-shopping',
+  '2026-03-11-counterfeit-banknotes-canada',
+  '2026-03-16-korea-auto-entry-canadian-passport-guide',
 ];
 
-const featured = visibleForHome
+const featured = visiblePosts
   .filter((p) => featuredSlugs.includes(p.slug))
   .sort((a, b) => featuredSlugs.indexOf(a.slug) - featuredSlugs.indexOf(b.slug));
 ---
 <BaseLayout>
   <section class="hero">
     <div class="container">
-      <h1>오늘도, 쓸모 있는 한 가지</h1>
+      <h1>생활을 실제로 가볍게 만드는 정보만 남겼습니다</h1>
       <p>
-        PadoHaru는 ‘생활이 실제로 쉬워지는’ 팁만 모읍니다.
-        루틴·절약·정리·구매·집안일을 더 똑똑하게.
+        PadoHaru는 절약, 정리, 루틴, 주방, 캐나다 실생활 정보를 중심으로
+        바로 적용 가능한 글만 정리합니다.
       </p>
       <div class="cta">
-        <a class="button primary" href="/posts">최신 글 보러가기</a>
+        <a class="button primary" href="/posts">대표 글 보러가기</a>
         <a class="button" href="/about">소개</a>
       </div>
     </div>
@@ -55,7 +48,7 @@ const featured = visibleForHome
     <section>
       <div class="container">
         <div style="display:flex;align-items:end;justify-content:space-between;gap:12px;">
-          <h2 style="margin:0;font-size:18px;color:var(--muted);font-weight:600;">추천 글(필독)</h2>
+          <h2 style="margin:0;font-size:18px;color:var(--muted);font-weight:600;">대표 글</h2>
           <a href="/posts" style="color:var(--muted);text-decoration:none;font-size:14px;">전체 보기 →</a>
         </div>
         <div class="grid squares">
@@ -68,7 +61,7 @@ const featured = visibleForHome
   <section>
     <div class="container">
       <div style="display:flex;align-items:end;justify-content:space-between;gap:12px;">
-        <h2 style="margin:0;font-size:18px;color:var(--muted);font-weight:600;">최근 글</h2>
+        <h2 style="margin:0;font-size:18px;color:var(--muted);font-weight:600;">최근 업데이트</h2>
         <a href="/posts" style="color:var(--muted);text-decoration:none;font-size:14px;">전체 보기 →</a>
       </div>
       <div class="grid squares">
@@ -79,12 +72,36 @@ const featured = visibleForHome
 
   <section>
     <div class="container">
-      <h2 style="margin:0;font-size:18px;color:var(--muted);font-weight:600;">카테고리별</h2>
+      <h2 style="margin:0;font-size:18px;color:var(--muted);font-weight:600;">주제별</h2>
 
-      {groups.canadaNews.length ? (
+      {groups.life.length ? (
         <div style="margin-top:14px;">
           <div style="display:flex;align-items:end;justify-content:space-between;gap:12px;">
-            <h3 style="margin:0;font-size:16px;">캐나다뉴스</h3>
+            <h3 style="margin:0;font-size:16px;">절약·정리·루틴</h3>
+            <a href="/posts" style="color:var(--muted);text-decoration:none;font-size:14px;">전체 보기 →</a>
+          </div>
+          <div class="grid squares">
+            {groups.life.map((post) => <PostCard post={post} variant="square" />)}
+          </div>
+        </div>
+      ) : null}
+
+      {groups.canada.length ? (
+        <div style="margin-top:6px;">
+          <div style="display:flex;align-items:end;justify-content:space-between;gap:12px;">
+            <h3 style="margin:0;font-size:16px;">캐나다·한국 실생활 정보</h3>
+            <a href="/posts" style="color:var(--muted);text-decoration:none;font-size:14px;">전체 보기 →</a>
+          </div>
+          <div class="grid squares">
+            {groups.canada.map((post) => <PostCard post={post} variant="square" />)}
+          </div>
+        </div>
+      ) : null}
+
+      {groups.canadaNews.length ? (
+        <div style="margin-top:10px;">
+          <div style="display:flex;align-items:end;justify-content:space-between;gap:12px;">
+            <h3 style="margin:0;font-size:16px;">캐나다 뉴스 요약</h3>
             <a href="/canada-news" style="color:var(--muted);text-decoration:none;font-size:14px;">전체 보기 →</a>
           </div>
           <div class="grid">
@@ -105,55 +122,6 @@ const featured = visibleForHome
           </div>
         </div>
       ) : null}
-
-      {groups.japan.length ? (
-        <div style="margin-top:6px;">
-          <div style="display:flex;align-items:end;justify-content:space-between;gap:12px;">
-            <h3 style="margin:0;font-size:16px;">일본/여행</h3>
-            <a href="/posts" style="color:var(--muted);text-decoration:none;font-size:14px;">전체 보기 →</a>
-          </div>
-          <div class="grid squares">
-            {groups.japan.map((post) => <PostCard post={post} variant="square" />)}
-          </div>
-        </div>
-      ) : null}
-
-      {groups.life.length ? (
-        <div style="margin-top:6px;">
-          <div style="display:flex;align-items:end;justify-content:space-between;gap:12px;">
-            <h3 style="margin:0;font-size:16px;">생활/절약/정리</h3>
-            <a href="/posts" style="color:var(--muted);text-decoration:none;font-size:14px;">전체 보기 →</a>
-          </div>
-          <div class="grid squares">
-            {groups.life.map((post) => <PostCard post={post} variant="square" />)}
-          </div>
-        </div>
-      ) : null}
-
-      {groups.english.length ? (
-        <div style="margin-top:6px;">
-          <div style="display:flex;align-items:end;justify-content:space-between;gap:12px;">
-            <h3 style="margin:0;font-size:16px;">오늘의 영어</h3>
-            <a href="/posts" style="color:var(--muted);text-decoration:none;font-size:14px;">전체 보기 →</a>
-          </div>
-          <div class="grid squares">
-            {groups.english.map((post) => <PostCard post={post} variant="square" />)}
-          </div>
-        </div>
-      ) : null}
-
-      {groups.japanese.length ? (
-        <div style="margin-top:6px;">
-          <div style="display:flex;align-items:end;justify-content:space-between;gap:12px;">
-            <h3 style="margin:0;font-size:16px;">오늘의 일본어</h3>
-            <a href="/posts" style="color:var(--muted);text-decoration:none;font-size:14px;">전체 보기 →</a>
-          </div>
-          <div class="grid squares">
-            {groups.japanese.map((post) => <PostCard post={post} variant="square" />)}
-          </div>
-        </div>
-      ) : null}
-
     </div>
   </section>
 </BaseLayout>

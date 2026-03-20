@@ -6,6 +6,7 @@ description: "날짜가 흩어지면 관리가 깨집니다. 월간 현금흐름
 coverImage: "/images/unsplash2/b2.jpg"
 coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
+draft: true
 ---
 가계부가 안 되는 이유는 기록이 귀찮아서가 아니라, **결제/출금 흐름이 복잡해서**입니다. 흐름을 단순화하면 관리가 됩니다.
 

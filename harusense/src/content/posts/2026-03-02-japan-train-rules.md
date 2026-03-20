@@ -6,6 +6,7 @@ description: "급행/특급/환승/개찰구/승강장/막차. 첫날 삽질 줄
 coverImage: "/images/japan/jp8.jpg"
 coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
+draft: true
 ---
 일본 전철은 “시스템”이 정교해서, 한 번 이해하면 오히려 쉽습니다. 첫날만 넘기면 돼요.
 
