@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<rect width="1600" height="900" fill="#363155"/>
+<rect x="420" y="320" width="760" height="260" rx="24" fill="#111827" stroke="#81a128" stroke-width="9"/>
+<rect x="900" y="390" width="190" height="120" rx="16" fill="none" stroke="#81a128" stroke-width="8"/>
+<circle cx="965" cy="450" r="14" fill="#81a128"/>
+<text x="800" y="760" font-size="42" fill="#e5e7eb" text-anchor="middle" font-family="Arial, sans-serif">월말에 바로 쓰는 통장 정리 체크리스트</text>
+</svg>

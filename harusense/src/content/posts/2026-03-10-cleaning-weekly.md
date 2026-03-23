@@ -3,7 +3,7 @@ title: "집이 더러워지기 전에 끝내는 주간 청소 루틴(30분)"
 date: 2026-01-25
 tags: [organization, routine]
 description: "청소를 몰아서 하지 않고 주 1회 30분으로 유지하는 가장 현실적인 분할 루틴을 정리합니다."
-coverImage: "/images/picto/checklist-clipboard.svg"
+coverImage: "/images/picto-posts/2026-03-10-cleaning-weekly.svg"
 coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
 ---

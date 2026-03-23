@@ -3,7 +3,7 @@ title: "칼/도마 위생 루틴: 식중독 걱정 줄이는 3단계"
 date: 2026-02-05
 tags: [kitchen, routine]
 description: "세척/소독/건조를 루틴화하면 안전과 냄새 문제가 같이 해결됩니다."
-coverImage: "/images/picto/home-house.svg"
+coverImage: "/images/picto-posts/2026-03-06-kitchen-knives-clean.svg"
 coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
 ---

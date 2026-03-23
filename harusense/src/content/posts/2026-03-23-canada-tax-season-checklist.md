@@ -3,7 +3,7 @@ title: "캐나다 세금 시즌 전에 꼭 챙겨야 할 기본 체크리스트"
 date: 2026-03-23
 tags: [canada, money, tips]
 description: "캐나다 세금 시즌이 오기 전에 기본 서류와 생활 정보를 어떻게 정리하면 좋은지, 초보자도 이해하기 쉽게 체크리스트 형태로 정리합니다."
-coverImage: "/images/picto/security-shield.svg"
+coverImage: "/images/picto-posts/2026-03-23-canada-tax-season-checklist.svg"
 coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
 ---

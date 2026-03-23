@@ -3,7 +3,7 @@ title: "식비 줄이는 1시간 밀프렙: 냉장고가 저축 계좌가 되는
 date: 2026-02-20
 tags: [kitchen, saving, routine]
 description: "주 1회 1시간 밀프렙으로 배달과 외식 지출을 줄이는 실전 가이드. 메뉴 구성, 장보기, 보관, 실패 방지 원칙까지 정리합니다."
-coverImage: "/images/picto/home-house.svg"
+coverImage: "/images/picto-posts/2026-03-02-kitchen-mealprep.svg"
 coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
 ---

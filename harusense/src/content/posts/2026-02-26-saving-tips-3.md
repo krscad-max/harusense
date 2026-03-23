@@ -3,7 +3,7 @@ title: "월말에 바로 쓰는 통장 정리 체크리스트"
 date: 2026-02-15
 tags: [finance, saving, checklist]
 description: "월말 20분 점검으로 고정비 누수·중복결제·예산 오차를 줄이는 통장 관리 체크리스트."
-coverImage: "/images/picto/finance-wallet.svg"
+coverImage: "/images/picto-posts/2026-02-26-saving-tips-3.svg"
 coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
 ---

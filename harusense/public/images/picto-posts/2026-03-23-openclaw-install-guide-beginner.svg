@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<rect width="1600" height="900" fill="#382140"/>
+<rect x="640" y="260" width="320" height="320" rx="26" fill="#111827" stroke="#c905ec" stroke-width="9"/>
+<rect x="725" y="345" width="150" height="150" rx="14" fill="none" stroke="#c905ec" stroke-width="8"/>
+<line x1="640" y1="320" x2="580" y2="320" stroke="#c905ec" stroke-width="8"/><line x1="960" y1="520" x2="1020" y2="520" stroke="#c905ec" stroke-width="8"/>
+<text x="800" y="760" font-size="42" fill="#e5e7eb" text-anchor="middle" font-family="Arial, sans-serif">OpenClaw 설치 방법 완전 가이드: 초보자</text>
+</svg>

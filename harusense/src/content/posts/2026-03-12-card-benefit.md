@@ -3,7 +3,7 @@ title: "카드 혜택이 진짜 이득인지 10분 만에 판별하는 법"
 date: 2026-01-20
 tags: [saving, budgeting, consumption]
 description: "연회비, 적립률, 할인 한도, 전월 실적을 기준으로 카드 혜택의 실제 손익을 판단하는 가장 현실적인 점검법을 정리합니다."
-coverImage: "/images/picto/finance-wallet.svg"
+coverImage: "/images/picto-posts/2026-03-12-card-benefit.svg"
 coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
 ---

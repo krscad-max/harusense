@@ -3,7 +3,7 @@ title: "OpenClaw 자주 막히는 오류 7가지와 해결 순서"
 date: 2026-03-23
 tags: [openclaw, ai, computer, guide]
 description: "OpenClaw를 쓰다가 자주 만나는 오류를 정리하고, 초보자도 따라할 수 있는 점검 순서를 단계별로 설명합니다."
-coverImage: "/images/picto/ai-chip.svg"
+coverImage: "/images/picto-posts/2026-03-23-openclaw-troubleshooting-basics.svg"
 coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
 ---

@@ -3,7 +3,7 @@ title: "캐나다 이사 전에 꼭 챙겨야 할 체크리스트: 주소 변경
 date: 2026-03-23
 tags: [canada, home, organization]
 description: "캐나다에서 이사할 때 놓치기 쉬운 항목을 체크리스트 형태로 정리합니다. 특히 주소 변경, 공공요금, 계약 관련 기본 흐름을 중심으로 설명합니다."
-coverImage: "/images/picto/security-shield.svg"
+coverImage: "/images/picto-posts/2026-03-23-canada-moving-checklist.svg"
 coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
 ---

@@ -3,7 +3,7 @@ title: "5분 아침 루틴으로 생산성 끌어올리기"
 date: 2026-01-01
 tags: [morning, productivity, routine]
 description: "기상 직후 5분만 투자해도 하루 집중력이 달라집니다. 물, 스트레칭, 호흡, 우선순위 정리로 아침을 안정시키는 가장 현실적인 루틴을 정리합니다."
-coverImage: "/images/picto/checklist-clipboard.svg"
+coverImage: "/images/picto-posts/2026-02-25-morning-routine.svg"
 coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
 ---
