@@ -53,9 +53,6 @@ const url = canonical ? new URL(canonical, site) : Astro.url;
             <a href="/posts">블로그</a>
             <a href="/tech-ai">AI·컴퓨터 가이드</a>
             <a href="/canada-news">캐나다뉴스</a>
-            <a href="/about">소개</a>
-            <a href="/privacy">개인정보</a>
-            <a href="/ads">광고/제휴</a>
           </div>
           <div style="display:flex;align-items:center;gap:10px;">
             <ThemeToggle />
@@ -69,8 +66,13 @@ const url = canonical ? new URL(canonical, site) : Astro.url;
     </main>
 
     <footer class="footer">
-      <div class="container">
+      <div class="container" style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;">
         <div>© {new Date().getFullYear()} PadoHaru. 실생활에 바로 적용 가능한 정보만 정리합니다.</div>
+        <div style="display:flex;gap:12px;font-size:13px;">
+          <a href="/about" style="color:var(--muted);text-decoration:none;">소개</a>
+          <a href="/privacy" style="color:var(--muted);text-decoration:none;">개인정보</a>
+          <a href="/ads" style="color:var(--muted);text-decoration:none;">광고/제휴</a>
+        </div>
       </div>
     </footer>
   </body>
