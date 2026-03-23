@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#111827"/>
+  <rect x="520" y="190" width="560" height="520" rx="20" fill="#1f2937" stroke="#a78bfa" stroke-width="10"/>
+  <line x1="610" y1="320" x2="990" y2="320" stroke="#c4b5fd" stroke-width="14"/>
+  <line x1="610" y1="390" x2="990" y2="390" stroke="#c4b5fd" stroke-width="14"/>
+  <line x1="610" y1="460" x2="930" y2="460" stroke="#c4b5fd" stroke-width="14"/>
+  <circle cx="970" cy="570" r="55" fill="#a78bfa"/>
+  <text x="800" y="760" font-size="54" fill="#e9d5ff" text-anchor="middle" font-family="Arial, sans-serif">Bills / Utilities</text>
+</svg>

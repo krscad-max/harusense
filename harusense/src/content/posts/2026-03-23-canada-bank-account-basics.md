@@ -3,7 +3,7 @@ title: "캐나다 은행 계좌 처음 만들 때 헷갈리는 것들: 수수료
 date: 2026-03-23
 tags: [canada, money, tips]
 description: "캐나다에서 처음 은행 계좌를 만들 때 자주 헷갈리는 항목을 정리합니다. 월 수수료, 체크카드, e-Transfer, 계좌 선택 기준을 실용적으로 설명합니다."
-coverImage: "/images/unsplash/u3.jpg"
+coverImage: "/images/picto/security-shield.svg"
 coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
 ---

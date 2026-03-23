@@ -3,7 +3,7 @@ title: "10분으로 집을 깔끔하게 만드는 저녁 루틴"
 date: 2025-12-28
 tags: [home, lifehack, cleaning]
 description: "밤 10분 루틴으로 집 상태를 무너뜨리지 않는 방법. 싱크대·거실·세탁·현관 동선을 단계별로 정리합니다."
-coverImage: "/images/unsplash2/b4.jpg"
+coverImage: "/images/picto/home-house.svg"
 coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
 ---

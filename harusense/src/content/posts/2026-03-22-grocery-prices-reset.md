@@ -3,7 +3,7 @@ title: "장바구니 물가가 버거울 때 가장 먼저 바꿔야 하는 것:
 date: 2026-03-22
 tags: [saving, kitchen, consumption]
 description: "식료품 가격이 오를수록 장보기 리스트보다 장보기 방식이 더 중요해집니다. 물가 체감이 큰 시기에 식비를 관리하는 현실적인 구조를 정리합니다."
-coverImage: "/images/unsplash2/b6.jpg"
+coverImage: "/images/picto/home-house.svg"
 coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
 ---

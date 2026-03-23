@@ -3,7 +3,7 @@ title: "기상 후 30분 노폰이 삶을 바꾸는 이유와 실전 세팅"
 date: 2025-12-17
 tags: [morning, routine, productivity]
 description: "아침에 휴대폰부터 보는 습관을 끊고, 하루 집중력과 기분을 안정시키는 가장 현실적인 노폰 세팅을 정리합니다."
-coverImage: "/images/unsplash2/b1.jpg"
+coverImage: "/images/picto/checklist-clipboard.svg"
 coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
 ---

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#111827"/>
+  <path d="M800 210l260 90v190c0 160-105 255-260 320-155-65-260-160-260-320V300z" fill="#1f2937" stroke="#34d399" stroke-width="10"/>
+  <path d="M680 470l90 90 150-170" fill="none" stroke="#34d399" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="800" y="760" font-size="54" fill="#d1fae5" text-anchor="middle" font-family="Arial, sans-serif">Safety / Scam Check</text>
+</svg>

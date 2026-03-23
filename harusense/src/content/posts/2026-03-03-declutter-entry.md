@@ -3,7 +3,7 @@ title: "정리 시작이 어려운 사람을 위한 15분 현관 리셋"
 date: 2026-02-20
 tags: [organization, routine]
 description: "집 정리가 늘 무너진다면 현관부터 정리하는 편이 가장 쉽습니다. 15분 안에 동선을 복구하는 실전 루틴을 정리합니다."
-coverImage: "/images/unsplash2/b4.jpg"
+coverImage: "/images/picto/checklist-clipboard.svg"
 coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
 ---

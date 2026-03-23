@@ -3,7 +3,7 @@ title: "냉장고 구역 나누기로 식재료 버림 줄이기"
 date: 2026-01-12
 tags: [kitchen, saving, organization]
 description: "냉장고를 상단, 중단, 하단, 문칸으로 나눠 쓰면 음식물 쓰레기와 중복 구매를 줄일 수 있습니다. 가장 현실적인 냉장고 구역 운영법을 정리합니다."
-coverImage: "/images/unsplash2/b6.jpg"
+coverImage: "/images/picto/checklist-clipboard.svg"
 coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
 ---

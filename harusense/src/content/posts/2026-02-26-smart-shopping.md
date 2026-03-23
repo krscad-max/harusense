@@ -3,7 +3,7 @@ title: "스마트 쇼핑: 할인 코드를 100% 활용하는 방법"
 date: 2026-01-14
 tags: [shopping, saving]
 description: "쿠폰·카드할인·캐시백을 중복 적용해 실구매가를 낮추는 쇼핑 루틴. 충동구매를 막는 24시간 규칙까지 정리합니다."
-coverImage: "/images/unsplash2/b2.jpg"
+coverImage: "/images/picto/finance-wallet.svg"
 coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
 ---

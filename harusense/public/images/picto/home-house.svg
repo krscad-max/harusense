@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#0b1020"/>
+  <path d="M500 430l300-230 300 230v250H500z" fill="#1e293b" stroke="#f59e0b" stroke-width="10"/>
+  <rect x="740" y="520" width="120" height="160" fill="#0f172a" stroke="#f59e0b" stroke-width="8"/>
+  <rect x="560" y="500" width="110" height="90" fill="#0f172a" stroke="#f59e0b" stroke-width="8"/>
+  <rect x="930" y="500" width="110" height="90" fill="#0f172a" stroke="#f59e0b" stroke-width="8"/>
+  <text x="800" y="760" font-size="54" fill="#fde68a" text-anchor="middle" font-family="Arial, sans-serif">Home / Moving</text>
+</svg>

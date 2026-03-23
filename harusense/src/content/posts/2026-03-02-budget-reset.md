@@ -3,7 +3,7 @@ title: "월초 30분 “예산 리셋”으로 돈이 남는 구조 만들기"
 date: 2026-03-01
 tags: [saving, budgeting, consumption]
 description: "월초 30분만 투자해 고정비·변동비·비상금·목표지출을 재정렬하는 예산 리셋 루틴. 카드/계좌/구독을 한 번에 정리하는 실전 가이드."
-coverImage: "/images/unsplash2/b2.jpg"
+coverImage: "/images/picto/finance-wallet.svg"
 coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
 ---

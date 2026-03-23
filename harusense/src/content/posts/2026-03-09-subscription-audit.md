@@ -3,7 +3,7 @@ title: "구독 서비스 정리법: 안 쓰는 결제 5분 만에 찾는 법"
 date: 2026-01-01
 tags: [saving, budgeting]
 description: "카드·계좌 내역에서 숨어 있는 구독 결제를 빠르게 찾고, 해지 우선순위를 정하는 가장 현실적인 점검법을 정리합니다."
-coverImage: "/images/unsplash2/b2.jpg"
+coverImage: "/images/picto/finance-wallet.svg"
 coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
 ---

@@ -3,7 +3,7 @@ title: "월말에 돈이 남는 사람들의 ‘지출 점검’ 체크리스트
 date: 2026-01-16
 tags: [saving, budgeting, checklist]
 description: "월 1회 20분 점검으로 구독·통신비·배달비·카드 고정비를 정리하는 실전 체크리스트. 돈이 새는 구조를 먼저 찾는 방법을 정리합니다."
-coverImage: "/images/unsplash2/b2.jpg"
+coverImage: "/images/picto/finance-wallet.svg"
 coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
 ---
