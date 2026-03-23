@@ -1,0 +1,30 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PostCard from '../../components/PostCard.astro';
+import { getCollection } from 'astro:content';
+
+const tags = new Set(['openclaw','ai','computer','automation']);
+const posts = (await getCollection('posts', ({ data }) => !data.draft && (data.tags ?? []).some((t) => tags.has(t))))
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+---
+
+<BaseLayout title="AI·컴퓨터 가이드 — PadoHaru" description="OpenClaw, AI 도구, 컴퓨터 실전 활용법을 초보자도 따라할 수 있게 정리한 카테고리입니다.">
+  <section class="hero">
+    <div class="container">
+      <h1>AI·컴퓨터 가이드</h1>
+      <p>설치, 설정, 자동화, 실전 활용까지. 초보자도 따라할 수 있게 차근차근 정리합니다.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      {posts.length ? (
+        <div class="grid">
+          {posts.map((post) => <PostCard post={post} />)}
+        </div>
+      ) : (
+        <p style="color: var(--muted);">아직 공개된 AI·컴퓨터 가이드 글이 없습니다.</p>
+      )}
+    </div>
+  </section>
+</BaseLayout>

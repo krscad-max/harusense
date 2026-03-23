@@ -9,9 +9,12 @@ const classes = ['card'];
 if (variant === 'square') classes.push('square');
 
 const tags = data.tags ?? [];
-const category = tags.find((t) => ['japan','travel','kitchen','saving','budgeting','organization','routine','english','japanese'].includes(t)) ?? (tags[0] ?? '');
+const category = tags.find((t) => ['openclaw','ai','computer','automation','japan','travel','kitchen','saving','budgeting','organization','routine','english','japanese'].includes(t)) ?? (tags[0] ?? '');
 const categoryLabelMap = {
-  openclaw: 'OpenClaw',
+  openclaw: 'AI·컴퓨터',
+  ai: 'AI·컴퓨터',
+  computer: 'AI·컴퓨터',
+  automation: 'AI·컴퓨터',
   japan: '일본',
   travel: '여행',
   kitchen: '주방',
