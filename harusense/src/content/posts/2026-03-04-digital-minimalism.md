@@ -6,6 +6,7 @@ description: "알림/위젯/배지/홈화면을 최소화해 ‘집중력 누수
 coverImage: "/images/unsplash2/b1.jpg"
 coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
+draft: true
 ---
 생산성은 시간 관리가 아니라 **집중력 누수**를 줄이는 게임입니다. 누수를 막으면 같은 시간에 더 합니다.
 

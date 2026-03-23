@@ -6,6 +6,7 @@ description: "장바구니 24시간, 교체 구매, 1-in-1-out 같은 규칙을 
 coverImage: "/images/unsplash2/b2.jpg"
 coverCredit: "Unsplash"
 coverCreditUrl: "https://unsplash.com"
+draft: true
 ---
 절약은 “참기”가 아니라 **새는 구멍을 막는 작업**입니다. 특히 구독/고정비/배달이 큰 구멍입니다.
 
