@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
-<rect width="1600" height="900" fill="#4d1c44"/>
-<rect x="640" y="260" width="320" height="320" rx="26" fill="#111827" stroke="#88fee1" stroke-width="9"/>
-<rect x="725" y="345" width="150" height="150" rx="14" fill="none" stroke="#88fee1" stroke-width="8"/>
-<line x1="640" y1="320" x2="580" y2="320" stroke="#88fee1" stroke-width="8"/><line x1="960" y1="520" x2="1020" y2="520" stroke="#88fee1" stroke-width="8"/>
-<text x="800" y="760" font-size="42" fill="#e5e7eb" text-anchor="middle" font-family="Arial, sans-serif">OpenClaw 텔레그램 연결 가이드: 처음 연</text>
+<rect width="1600" height="900" fill="#3e404a"/>
+<circle cx="250" cy="180" r="90" fill="#c6dc9c" opacity="0.25"/>
+<circle cx="1320" cy="760" r="120" fill="#c6dc9c" opacity="0.2"/>
+<circle cx="800" cy="430" r="210" fill="#0b1220" stroke="#a904d6" stroke-width="10"/><line x1="640" y1="430" x2="960" y2="430" stroke="#a904d6" stroke-width="10"/><line x1="800" y1="270" x2="800" y2="590" stroke="#a904d6" stroke-width="10"/>
+<text x="800" y="780" font-size="40" fill="#e5e7eb" text-anchor="middle" font-family="Arial, sans-serif">OpenClaw 텔레그램 연결 가이드: 처음 연결할 때</text>
 </svg>

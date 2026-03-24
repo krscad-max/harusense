@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
-<rect width="1600" height="900" fill="#4c372c"/>
-<rect x="640" y="260" width="320" height="320" rx="26" fill="#111827" stroke="#b8f411" stroke-width="9"/>
-<rect x="725" y="345" width="150" height="150" rx="14" fill="none" stroke="#b8f411" stroke-width="8"/>
-<line x1="640" y1="320" x2="580" y2="320" stroke="#b8f411" stroke-width="8"/><line x1="960" y1="520" x2="1020" y2="520" stroke="#b8f411" stroke-width="8"/>
-<text x="800" y="760" font-size="42" fill="#e5e7eb" text-anchor="middle" font-family="Arial, sans-serif">OpenClaw 첫 설정 체크리스트: 설치 후 </text>
+<rect width="1600" height="900" fill="#1b1d24"/>
+<circle cx="250" cy="180" r="90" fill="#b5eecb" opacity="0.25"/>
+<circle cx="1320" cy="760" r="120" fill="#b5eecb" opacity="0.2"/>
+<path d="M620 620V280h360v340z" fill="#0b1220" stroke="#9ecbbf" stroke-width="10"/><path d="M620 340h360M620 460h360" stroke="#9ecbbf" stroke-width="10"/>
+<text x="800" y="780" font-size="40" fill="#e5e7eb" text-anchor="middle" font-family="Arial, sans-serif">OpenClaw 첫 설정 체크리스트: 설치 후 바로 해</text>
 </svg>

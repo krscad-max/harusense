@@ -1,6 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
-<rect width="1600" height="900" fill="#373430"/>
-<path d="M800 220l220 80v170c0 140-88 224-220 284-132-60-220-144-220-284V300z" fill="#111827" stroke="#9dfbd8" stroke-width="9"/>
-<path d="M705 450l75 75 120-140" fill="none" stroke="#9dfbd8" stroke-width="15" stroke-linecap="round"/>
-<text x="800" y="760" font-size="42" fill="#e5e7eb" text-anchor="middle" font-family="Arial, sans-serif">캐나다 위조지폐가 늘었다고 느껴질 때: 진짜 지</text>
+<rect width="1600" height="900" fill="#3a212f"/>
+<circle cx="250" cy="180" r="90" fill="#8e87a3" opacity="0.25"/>
+<circle cx="1320" cy="760" r="120" fill="#8e87a3" opacity="0.2"/>
+<circle cx="800" cy="450" r="250" fill="#0b1220" stroke="#b4df1c" stroke-width="10"/><path d="M800 250v120M800 530v120M620 450h120M860 450h120" stroke="#b4df1c" stroke-width="14"/>
+<text x="800" y="780" font-size="40" fill="#e5e7eb" text-anchor="middle" font-family="Arial, sans-serif">캐나다 위조지폐가 늘었다고 느껴질 때: 진짜 지폐 vs</text>
 </svg>

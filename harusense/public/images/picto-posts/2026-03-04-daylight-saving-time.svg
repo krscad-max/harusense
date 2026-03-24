@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
-<rect width="1600" height="900" fill="#453b58"/>
-<rect x="560" y="220" width="480" height="460" rx="20" fill="#111827" stroke="#9d15f9" stroke-width="9"/>
-<path d="M640 360l24 24 44-50" fill="none" stroke="#9d15f9" stroke-width="10"/><line x1="710" y1="372" x2="950" y2="372" stroke="#9d15f9" stroke-width="10"/>
-<path d="M640 450l24 24 44-50" fill="none" stroke="#9d15f9" stroke-width="10"/><line x1="710" y1="462" x2="950" y2="462" stroke="#9d15f9" stroke-width="10"/>
-<text x="800" y="760" font-size="42" fill="#e5e7eb" text-anchor="middle" font-family="Arial, sans-serif">썸머타임(DST) 한 번에 이해하기: 언제 바뀌</text>
+<rect width="1600" height="900" fill="#3e3a2d"/>
+<circle cx="250" cy="180" r="90" fill="#d9b7fd" opacity="0.25"/>
+<circle cx="1320" cy="760" r="120" fill="#d9b7fd" opacity="0.2"/>
+<rect x="520" y="230" width="560" height="420" rx="24" fill="#0b1220" stroke="#c7e610" stroke-width="10"/><line x1="620" y1="380" x2="980" y2="380" stroke="#c7e610" stroke-width="14"/><line x1="620" y1="450" x2="920" y2="450" stroke="#c7e610" stroke-width="14"/>
+<text x="800" y="780" font-size="40" fill="#e5e7eb" text-anchor="middle" font-family="Arial, sans-serif">썸머타임(DST) 한 번에 이해하기: 언제 바뀌고, 내</text>
 </svg>

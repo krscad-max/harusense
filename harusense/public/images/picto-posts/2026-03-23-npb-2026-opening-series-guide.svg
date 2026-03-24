@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<rect width="1600" height="900" fill="#1c4048"/>
+<circle cx="250" cy="180" r="90" fill="#afcfe5" opacity="0.25"/>
+<circle cx="1320" cy="760" r="120" fill="#afcfe5" opacity="0.2"/>
+<circle cx="800" cy="450" r="220" fill="#0b1220" stroke="#a3c7ad" stroke-width="10"/><rect x="760" y="260" width="80" height="130" fill="none" stroke="#a3c7ad" stroke-width="10"/><circle cx="800" cy="520" r="40" fill="none" stroke="#a3c7ad" stroke-width="10"/>
+<text x="800" y="780" font-size="40" fill="#e5e7eb" text-anchor="middle" font-family="Arial, sans-serif">NPB 2026 개막 시리즈 일정 요약: 일본 프로야구</text>
+</svg>

@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
-<rect width="1600" height="900" fill="#2a3b29"/>
-<rect x="560" y="220" width="480" height="460" rx="20" fill="#111827" stroke="#a4cfe9" stroke-width="9"/>
-<path d="M640 360l24 24 44-50" fill="none" stroke="#a4cfe9" stroke-width="10"/><line x1="710" y1="372" x2="950" y2="372" stroke="#a4cfe9" stroke-width="10"/>
-<path d="M640 450l24 24 44-50" fill="none" stroke="#a4cfe9" stroke-width="10"/><line x1="710" y1="462" x2="950" y2="462" stroke="#a4cfe9" stroke-width="10"/>
-<text x="800" y="760" font-size="42" fill="#e5e7eb" text-anchor="middle" font-family="Arial, sans-serif">세탁이 쌓이지 않는 집의 “바구니 시스템”</text>
+<rect width="1600" height="900" fill="#172142"/>
+<circle cx="250" cy="180" r="90" fill="#94fab9" opacity="0.25"/>
+<circle cx="1320" cy="760" r="120" fill="#94fab9" opacity="0.2"/>
+<rect x="500" y="250" width="600" height="400" rx="24" fill="#0b1220" stroke="#b403ab" stroke-width="10"/><rect x="560" y="320" width="120" height="90" fill="none" stroke="#b403ab" stroke-width="8"/><rect x="560" y="460" width="120" height="90" fill="none" stroke="#b403ab" stroke-width="8"/>
+<text x="800" y="780" font-size="40" fill="#e5e7eb" text-anchor="middle" font-family="Arial, sans-serif">세탁이 쌓이지 않는 집의 “바구니 시스템”</text>
 </svg>

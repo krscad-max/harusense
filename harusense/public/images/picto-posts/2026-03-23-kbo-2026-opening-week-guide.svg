@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<rect width="1600" height="900" fill="#3e442e"/>
+<circle cx="250" cy="180" r="90" fill="#c6d69e" opacity="0.25"/>
+<circle cx="1320" cy="760" r="120" fill="#c6d69e" opacity="0.2"/>
+<circle cx="800" cy="450" r="240" fill="#0b1220" stroke="#a90ab0" stroke-width="10"/><path d="M670 300c-40 80-40 220 0 300" stroke="#a90ab0" stroke-width="8" fill="none"/><path d="M930 300c40 80 40 220 0 300" stroke="#a90ab0" stroke-width="8" fill="none"/>
+<text x="800" y="780" font-size="40" fill="#e5e7eb" text-anchor="middle" font-family="Arial, sans-serif">KBO 2026 개막 주간 가이드: 개막전 일정 확인법</text>
+</svg>

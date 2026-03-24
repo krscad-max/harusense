@@ -1,6 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
-<rect width="1600" height="900" fill="#324f38"/>
-<path d="M520 430l280-210 280 210v230H520z" fill="#111827" stroke="#d6aafe" stroke-width="9"/>
-<rect x="740" y="520" width="120" height="140" fill="none" stroke="#d6aafe" stroke-width="8"/>
-<text x="800" y="760" font-size="42" fill="#e5e7eb" text-anchor="middle" font-family="Arial, sans-serif">냉동실이 답이다: 바쁜 날을 구하는 비상식 재고</text>
+<rect width="1600" height="900" fill="#324320"/>
+<circle cx="250" cy="180" r="90" fill="#b6c995" opacity="0.25"/>
+<circle cx="1320" cy="760" r="120" fill="#b6c995" opacity="0.2"/>
+<rect x="620" y="250" width="360" height="400" rx="20" fill="#0b1220" stroke="#a502e5" stroke-width="10"/><rect x="700" y="180" width="200" height="90" rx="18" fill="#0b1220" stroke="#a502e5" stroke-width="8"/>
+<text x="800" y="780" font-size="40" fill="#e5e7eb" text-anchor="middle" font-family="Arial, sans-serif">냉동실이 답이다: 바쁜 날을 구하는 비상식 재고 12개</text>
 </svg>

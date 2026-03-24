@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
-<rect width="1600" height="900" fill="#344d3e"/>
-<rect x="560" y="220" width="480" height="460" rx="20" fill="#111827" stroke="#cb1bdd" stroke-width="9"/>
-<path d="M640 360l24 24 44-50" fill="none" stroke="#cb1bdd" stroke-width="10"/><line x1="710" y1="372" x2="950" y2="372" stroke="#cb1bdd" stroke-width="10"/>
-<path d="M640 450l24 24 44-50" fill="none" stroke="#cb1bdd" stroke-width="10"/><line x1="710" y1="462" x2="950" y2="462" stroke="#cb1bdd" stroke-width="10"/>
-<text x="800" y="760" font-size="42" fill="#e5e7eb" text-anchor="middle" font-family="Arial, sans-serif">기상 후 30분 노폰이 삶을 바꾸는 이유와 실전</text>
+<rect width="1600" height="900" fill="#3a1a2d"/>
+<circle cx="250" cy="180" r="90" fill="#be8ad3" opacity="0.25"/>
+<circle cx="1320" cy="760" r="120" fill="#be8ad3" opacity="0.2"/>
+<circle cx="800" cy="450" r="230" fill="#0b1220" stroke="#e4d8fe" stroke-width="10"/><path d="M700 450l70 70 130-150" fill="none" stroke="#e4d8fe" stroke-width="14"/>
+<text x="800" y="780" font-size="40" fill="#e5e7eb" text-anchor="middle" font-family="Arial, sans-serif">기상 후 30분 노폰이 삶을 바꾸는 이유와 실전 세팅</text>
 </svg>
