@@ -12,7 +12,7 @@ coverCreditUrl: "https://unsplash.com"
 
 특히 캐나다에서 이사를 자주 해보지 않은 사람은 집만 구하면 끝난다고 생각하기 쉽지만, 실제로는 이사 전후에 놓치기 쉬운 작은 행정들이 많다.
 
-![](/images/unsplash/u6.jpg)
+![](/images/picto-posts/2026-03-23-canada-moving-checklist.svg)
 
 ## 이사 전에 먼저 정리할 것
 

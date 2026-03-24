@@ -9,7 +9,7 @@ coverCreditUrl: "https://unsplash.com"
 ---
 정리는 의지 게임이 아니라 **마찰(귀찮음)을 낮추는 설계**입니다. 한 번에 완벽히 하려는 마음이 실패 원인 1위예요.
 
-![](/images/unsplash2/b4.jpg)
+![](/images/picto-posts/2026-03-07-laundry-system.svg)
 
 ## 이 글의 목표(오늘 바로 체감)
 - **15~30분 안에 끝나는 버전**으로 시작
@@ -74,7 +74,7 @@ coverCreditUrl: "https://unsplash.com"
 - **테이블 리셋:** 서류/충전기/리모컨을 한 바구니로 통일
 - **정리 유지 규칙:** “새 물건 1개 들어오면 1개 나가기(1-in-1-out)”
 
-![](/images/unsplash2/b7.jpg)
+![](/images/picto-posts/2026-03-07-laundry-system.svg)
 
 ## 자주 묻는 질문(FAQ)
 **Q. 시간이 없어서 못 하겠어요.**

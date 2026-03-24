@@ -10,7 +10,7 @@ coverCreditUrl: "https://unsplash.com"
 
 OpenClaw를 메신저에서 쓰기 시작하면 체감이 확 좋아진다. 특히 텔레그램은 개인 사용에서 접근성이 좋고, 알림/명령 흐름을 만들기 쉽다. 다만 처음 연결할 때는 토큰, 권한, gateway 상태가 하나라도 어긋나면 “연결은 된 것 같은데 반응이 없는” 상황이 자주 나온다.
 
-![](/images/unsplash2/b8.jpg)
+![](/images/picto-posts/2026-03-23-openclaw-telegram-link-guide.svg)
 
 ## 1) 텔레그램 Bot 준비
 먼저 BotFather에서 봇을 만들고 토큰을 발급받는다. 토큰은 비밀번호처럼 다뤄야 한다. 공개 저장소나 스크린샷에 노출하지 않는 것이 기본이다.

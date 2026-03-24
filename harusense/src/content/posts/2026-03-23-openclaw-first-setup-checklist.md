@@ -10,7 +10,7 @@ coverCreditUrl: "https://unsplash.com"
 
 OpenClaw를 설치한 뒤 가장 많이 나오는 질문은 “이제 뭘 먼저 해야 하지?”다. 여기서 순서가 꼬이면 도구가 나쁜 게 아니라 설정이 불안정한 상태로 시작하게 된다. 그래서 설치 직후에는 기능 확장보다 **기본 안정화**부터 끝내는 것이 맞다.
 
-![](/images/unsplash2/b8.jpg)
+![](/images/picto-posts/2026-03-23-openclaw-first-setup-checklist.svg)
 
 ## 1) 버전과 상태부터 확인
 먼저 아래 두 가지가 정상 출력되는지 확인한다.

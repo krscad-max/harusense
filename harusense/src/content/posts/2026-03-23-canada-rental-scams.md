@@ -12,7 +12,7 @@ coverCreditUrl: "https://unsplash.com"
 
 특히 외국인, 유학생, 처음 이사하는 사람은 지역 시세와 정상 절차를 잘 모를 수 있어 위험이 더 크다. 그래서 중요한 건 “사기를 당하지 않겠다”는 막연한 마음보다, **정상 거래가 어떤 흐름인지 아는 것**이다.
 
-![](/images/unsplash/u6.jpg)
+![](/images/picto-posts/2026-03-23-canada-rental-scams.svg)
 
 ## 자주 나오는 렌트 사기 패턴
 

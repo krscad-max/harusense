@@ -10,7 +10,7 @@ coverCreditUrl: "https://unsplash.com"
 
 캐나다에서 생활비를 관리하다 보면 공공요금이 생각보다 크게 느껴질 때가 있다. 특히 겨울철 난방, 전기 사용량, 인터넷 요금이 겹치면 “내가 뭘 그렇게 많이 썼지?”라는 생각이 들기 쉽다. 하지만 공공요금은 단순히 덜 쓰는 것보다, **무엇을 먼저 봐야 하는지 아는 것**이 더 중요하다.
 
-![](/images/unsplash/u6.jpg)
+![](/images/picto-posts/2026-03-23-canada-utility-bills-checklist.svg)
 
 ## 공공요금이 높게 느껴지는 이유
 - 계절 영향이 크다

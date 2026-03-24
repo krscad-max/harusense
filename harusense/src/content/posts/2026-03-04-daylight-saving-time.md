@@ -12,7 +12,7 @@ coverCreditUrl: "https://unsplash.com"
 
 이 글은 “DST가 뭐냐”를 넘어, **내 생활에서 어디가 깨지는지**와 **무엇을 미리 점검하면 되는지**를 현실적으로 정리한 가이드입니다.
 
-![](/images/unsplash2/b7.jpg)
+![](/images/picto-posts/2026-03-04-daylight-saving-time.svg)
 
 ## DST(썸머타임) 핵심만 3줄 요약
 1) DST는 일정 기간 **시계를 1시간 앞당겨** 저녁 햇빛을 더 쓰는 제도예요.
@@ -63,7 +63,7 @@ DST 당일은 특히 “늦은 게으름”이 아니라
 그냥 시스템이 한 번 흔들리는 날이에요.
 자책보다 **복구 계획**이 중요합니다.
 
-![](/images/unsplash2/b3.jpg)
+![](/images/picto-posts/2026-03-04-daylight-saving-time.svg)
 
 ## DST 전날/당일 체크리스트(복사해서 쓰기)
 ### 전날(5분)

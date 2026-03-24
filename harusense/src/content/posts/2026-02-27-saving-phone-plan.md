@@ -12,7 +12,7 @@ coverCreditUrl: "https://unsplash.com"
 
 이 글은 **통신비를 줄이기 전에 꼭 확인해야 하는 7가지**를 “20분 점검 루틴”으로 정리한 실전판이에요. (어려운 계산 없이, 체크리스트대로만 하면 됩니다.)
 
-![](/images/unsplash2/b9.jpg)
+![](/images/picto-posts/2026-02-27-saving-phone-plan.svg)
 
 ## 결론부터(가장 안전한 방향)
 - 데이터는 보통 **생각보다 덜 씀** → 먼저 사용량 확인
@@ -86,7 +86,7 @@ coverCreditUrl: "https://unsplash.com"
 
 이렇게 하면 실패 확률이 확 내려갑니다.
 
-![](/images/unsplash2/b4.jpg)
+![](/images/picto-posts/2026-02-27-saving-phone-plan.svg)
 
 ## 20분 점검 체크리스트(복사해서 쓰기)
 - [ ] 최근 3개월 중 최고 데이터 사용량 확인

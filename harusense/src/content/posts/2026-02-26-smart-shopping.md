@@ -10,7 +10,7 @@ coverCreditUrl: "https://unsplash.com"
 
 쇼핑에서 돈이 새는 지점은 ‘비싼 상품’이 아니라 **할인 구조를 모른 채 결제하는 순간**이다. 같은 물건이라도 적용 순서만 바꿔도 실구매가가 크게 달라진다.
 
-![](/images/unsplash2/b2.jpg)
+![](/images/picto-posts/2026-02-26-smart-shopping.svg)
 
 ## 결제 전 5단계
 

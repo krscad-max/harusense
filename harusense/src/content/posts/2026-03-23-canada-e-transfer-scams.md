@@ -12,7 +12,7 @@ coverCreditUrl: "https://unsplash.com"
 
 특히 Facebook Marketplace, Kijiji, 개인 간 물건 거래처럼 급하게 진행되는 상황에서는 “입금했다”, “메일 보냈다”, “스크린샷 있다” 같은 말에 속기 쉽다. 그래서 중요한 건 겁먹는 것이 아니라, **e-Transfer가 실제로 완료된 상태를 구분할 줄 아는 것**이다.
 
-![](/images/unsplash/u6.jpg)
+![](/images/picto-posts/2026-03-23-canada-e-transfer-scams.svg)
 
 ## 가장 흔한 사기 패턴
 

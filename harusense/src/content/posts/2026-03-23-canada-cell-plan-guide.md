@@ -12,7 +12,7 @@ coverCreditUrl: "https://unsplash.com"
 
 특히 처음 정착한 사람은 광고 문구만 보고 결정하기 쉽다. 하지만 같은 20GB라도 실제 체감은 꽤 다를 수 있다.
 
-![](/images/unsplash/u6.jpg)
+![](/images/picto-posts/2026-03-23-canada-cell-plan-guide.svg)
 
 ## 데이터 용량보다 먼저 볼 것
 

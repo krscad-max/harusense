@@ -10,7 +10,7 @@ coverCreditUrl: "https://unsplash.com"
 
 OpenClaw는 “설치만 하면 바로 된다”는 느낌으로 접근하면 중간에서 막히기 쉽습니다. 반대로 순서를 알고 들어가면 생각보다 빠르게 세팅이 끝납니다. 이 글은 개발자가 아닌 사용자도 따라올 수 있게, 설치부터 첫 연결 테스트까지 **실전 순서**로 정리한 입문 가이드입니다.
 
-![](/images/unsplash2/b8.jpg)
+![](/images/picto-posts/2026-03-23-openclaw-install-guide-beginner.svg)
 
 ## 1) 설치 전에 먼저 확인할 것
 

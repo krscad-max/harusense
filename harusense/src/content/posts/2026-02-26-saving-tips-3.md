@@ -10,7 +10,7 @@ coverCreditUrl: "https://unsplash.com"
 
 돈 관리는 복잡한 투자 전략보다 **계좌 흐름을 정확히 보는 습관**이 먼저다. 월말 20분만 투자하면 새는 돈을 찾고, 다음 달 예산을 현실적으로 다시 세울 수 있다.
 
-![](/images/unsplash2/b2.jpg)
+![](/images/picto-posts/2026-02-26-saving-tips-3.svg)
 
 ## 월말 20분 루틴
 

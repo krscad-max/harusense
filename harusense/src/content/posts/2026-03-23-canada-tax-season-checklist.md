@@ -12,7 +12,7 @@ coverCreditUrl: "https://unsplash.com"
 
 이 글은 세무 자문이 아니라, 세금 시즌 전에 기본적으로 챙겨 두면 도움이 되는 **생활형 체크리스트**에 집중한다.
 
-![](/images/unsplash/u6.jpg)
+![](/images/picto-posts/2026-03-23-canada-tax-season-checklist.svg)
 
 ## 왜 세금 시즌이 어렵게 느껴지는가
 - 어떤 서류가 필요한지 헷갈린다

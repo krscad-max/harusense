@@ -10,7 +10,7 @@ coverCreditUrl: "https://unsplash.com"
 
 OpenClaw를 쓰다 막히는 순간은 대부분 비슷하다. 명령어가 안 먹히거나, 연결이 끊기거나, 도구가 갑자기 실패한다. 이때 가장 흔한 실수는 원인 추측부터 하는 것이다. 디버깅은 감보다 **순서**가 중요하다.
 
-![](/images/unsplash2/b8.jpg)
+![](/images/picto-posts/2026-03-23-openclaw-troubleshooting-basics.svg)
 
 ## 먼저 기억할 원칙
 문제를 빠르게 해결하려면 항상 같은 순서로 점검해야 한다.

@@ -12,7 +12,7 @@ coverCreditUrl: "https://unsplash.com"
 
 다만 대부분의 사람을 놀라게 하는 현실도 함께 따라온다. **대기기간이 100년 이상**이라는 점이다. 그래서 이 제도는 “곧 받는 신청”이 아니라, 상징성과 기록의 의미가 큰 장기 대기 프로그램으로 이해하는 편이 맞다.
 
-![](/images/unsplash/u6.jpg)
+![](/images/picto-posts/2026-03-09-peace-tower-flag-request.svg)
 
 ## 어떤 프로그램인가
 캐나다 연방 정부(PSPC, Public Services and Procurement Canada)는 Parliament Hill에서 실제로 게양된 국기를 신청할 수 있는 제도를 운영하고 있다.

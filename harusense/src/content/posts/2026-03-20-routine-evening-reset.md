@@ -12,7 +12,7 @@ coverCreditUrl: "https://unsplash.com"
 
 이 글은 “부지런한 사람 전용 루틴”이 아니라, 정말 피곤한 날에도 겨우 할 수 있는 수준으로 만든 **20분 저녁 리셋 구조**다.
 
-![](/images/unsplash2/b4.jpg)
+![](/images/picto-posts/2026-03-20-routine-evening-reset.svg)
 
 ## 왜 저녁 리셋이 중요한가
 아침은 시작의 시간이고, 저녁은 복구의 시간이다. 저녁에 집 상태를 조금만 정리해 둬도 다음 날 아침의 결정 피로가 눈에 띄게 줄어든다.

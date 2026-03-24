@@ -12,7 +12,7 @@ coverCreditUrl: "https://unsplash.com"
 
 특히 처음 정착하는 사람에게 은행 계좌는 단순한 금융상품이 아니라 **생활 인프라의 시작점**이다. 급여, 렌트비, 공과금, 통신비, e-Transfer까지 전부 연결되기 때문이다. 그래서 처음부터 복잡한 혜택보다 **생활에 맞는 기본 구조**를 고르는 것이 더 중요하다.
 
-![](/images/unsplash/u6.jpg)
+![](/images/picto-posts/2026-03-23-canada-bank-account-basics.svg)
 
 ## 가장 먼저 볼 것: 월 수수료
 캐나다 계좌는 월 수수료가 붙는 경우가 적지 않다. 얼핏 작아 보여도 매달 나가면 체감이 크다.

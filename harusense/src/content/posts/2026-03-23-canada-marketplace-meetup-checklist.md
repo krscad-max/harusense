@@ -12,7 +12,7 @@ coverCreditUrl: "https://unsplash.com"
 
 중고거래는 작은 금액일수록 방심하기 쉽다. 하지만 바로 그 점 때문에 사기나 불편한 상황이 더 자주 생긴다. 그래서 중요한 건 겁을 먹는 게 아니라, **거래를 안전한 순서로 진행하는 습관**을 만드는 것이다.
 
-![](/images/unsplash/u6.jpg)
+![](/images/picto-posts/2026-03-23-canada-marketplace-meetup-checklist.svg)
 
 ## 만나기 전 체크할 것
 

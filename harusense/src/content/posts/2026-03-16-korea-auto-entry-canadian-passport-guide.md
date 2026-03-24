@@ -12,7 +12,7 @@ coverCreditUrl: "https://unsplash.com"
 
 다만 실무에서는 “가능”과 “무조건 통과”가 다르다. 공항·항만, 체류자격, 연령, 생체정보 등록 여부에 따라 이용 가능 여부가 갈릴 수 있다.
 
-![](/images/unsplash/u6.jpg)
+![](/images/picto-posts/2026-03-16-korea-auto-entry-canadian-passport-guide.svg)
 
 ---
 
