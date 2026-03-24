@@ -1,7 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
-<rect width="1600" height="900" fill="#3b3942"/>
-<circle cx="250" cy="180" r="90" fill="#e3aeeb" opacity="0.25"/>
-<circle cx="1320" cy="760" r="120" fill="#e3aeeb" opacity="0.2"/>
-<rect x="500" y="300" width="600" height="350" rx="20" fill="#0b1220" stroke="#98eff9" stroke-width="10"/><path d="M500 380l300-200 300 200" fill="none" stroke="#98eff9" stroke-width="12"/>
-<text x="800" y="780" font-size="40" fill="#e5e7eb" text-anchor="middle" font-family="Arial, sans-serif">퇴근 후 집이 무너지지 않게 만드는 20분 저녁 리셋 </text>
+<rect width="1600" height="900" fill="#F6FFFA"/>
+<circle cx="800" cy="450" r="280" fill="#E8F8EF" stroke="#199B6B" stroke-width="6"/>
+<path d="M600 460l200-150 200 150v170H600z" fill="none" stroke="#199B6B" stroke-width="10"/><rect x="755" y="540" width="90" height="90" fill="none" stroke="#199B6B" stroke-width="8"/>
+<text x="800" y="770" font-size="40" fill="#1E293B" text-anchor="middle" font-family="Arial, sans-serif">퇴근 후 집이 무너지지 않게 만드는 20분 저녁 리</text>
 </svg>

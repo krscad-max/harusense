@@ -1,7 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
-<rect width="1600" height="900" fill="#3f2549"/>
-<circle cx="250" cy="180" r="90" fill="#e5d2d4" opacity="0.25"/>
-<circle cx="1320" cy="760" r="120" fill="#e5d2d4" opacity="0.2"/>
-<path d="M520 430l280-210 280 210v230H520z" fill="#0b1220" stroke="#8af01d" stroke-width="10"/><rect x="740" y="520" width="120" height="140" fill="none" stroke="#8af01d" stroke-width="8"/>
-<text x="800" y="780" font-size="40" fill="#e5e7eb" text-anchor="middle" font-family="Arial, sans-serif">캐나다 이사 전에 꼭 챙겨야 할 체크리스트: 주소 변경</text>
+<rect width="1600" height="900" fill="#F8FAFF"/>
+<rect x="360" y="190" width="880" height="520" rx="30" fill="#EAF2FF" stroke="#2F6FED" stroke-width="6"/>
+<path d="M600 460l200-150 200 150v170H600z" fill="none" stroke="#2F6FED" stroke-width="10"/><rect x="755" y="540" width="90" height="90" fill="none" stroke="#2F6FED" stroke-width="8"/>
+<text x="800" y="770" font-size="40" fill="#1E293B" text-anchor="middle" font-family="Arial, sans-serif">캐나다 이사 전에 꼭 챙겨야 할 체크리스트: 주소 </text>
 </svg>

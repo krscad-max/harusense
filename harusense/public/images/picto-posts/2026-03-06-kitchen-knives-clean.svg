@@ -1,7 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
-<rect width="1600" height="900" fill="#3c1f46"/>
-<circle cx="250" cy="180" r="90" fill="#8aa2d8" opacity="0.25"/>
-<circle cx="1320" cy="760" r="120" fill="#8aa2d8" opacity="0.2"/>
-<rect x="520" y="300" width="560" height="280" rx="24" fill="#0b1220" stroke="#a6c60e" stroke-width="10"/><path d="M620 430h360" stroke="#a6c60e" stroke-width="14"/><path d="M730 300v-60h140v60" stroke="#a6c60e" stroke-width="10" fill="none"/>
-<text x="800" y="780" font-size="40" fill="#e5e7eb" text-anchor="middle" font-family="Arial, sans-serif">칼/도마 위생 루틴: 식중독 걱정 줄이는 3단계</text>
+<rect width="1600" height="900" fill="#F8FAFF"/>
+<rect x="360" y="190" width="880" height="520" rx="30" fill="#EAF2FF" stroke="#2F6FED" stroke-width="6"/>
+<rect x="660" y="280" width="280" height="360" rx="20" fill="none" stroke="#2F6FED" stroke-width="10"/><path d="M715 390l25 25 40-50" fill="none" stroke="#2F6FED" stroke-width="10"/><line x1="770" y1="400" x2="880" y2="400" stroke="#2F6FED" stroke-width="9"/>
+<text x="800" y="770" font-size="40" fill="#1E293B" text-anchor="middle" font-family="Arial, sans-serif">칼/도마 위생 루틴: 식중독 걱정 줄이는 3단계</text>
 </svg>

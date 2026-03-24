@@ -1,7 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
-<rect width="1600" height="900" fill="#141c44"/>
-<circle cx="250" cy="180" r="90" fill="#dac8c4" opacity="0.25"/>
-<circle cx="1320" cy="760" r="120" fill="#dac8c4" opacity="0.2"/>
-<rect x="620" y="250" width="360" height="400" rx="20" fill="#0b1220" stroke="#beecc0" stroke-width="10"/><rect x="700" y="180" width="200" height="90" rx="18" fill="#0b1220" stroke="#beecc0" stroke-width="8"/>
-<text x="800" y="780" font-size="40" fill="#e5e7eb" text-anchor="middle" font-family="Arial, sans-serif">캐나다 중고거래 직접 만날 때 꼭 지켜야 할 체크리스트</text>
+<rect width="1600" height="900" fill="#F6FFFA"/>
+<circle cx="800" cy="450" r="280" fill="#E8F8EF" stroke="#199B6B" stroke-width="6"/>
+<rect x="580" y="360" width="440" height="200" rx="20" fill="none" stroke="#199B6B" stroke-width="10"/><rect x="860" y="420" width="140" height="90" rx="12" fill="none" stroke="#199B6B" stroke-width="8"/><circle cx="905" cy="465" r="10" fill="#199B6B"/>
+<text x="800" y="770" font-size="40" fill="#1E293B" text-anchor="middle" font-family="Arial, sans-serif">캐나다 중고거래 직접 만날 때 꼭 지켜야 할 체크리</text>
 </svg>

@@ -1,7 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
-<rect width="1600" height="900" fill="#314324"/>
-<circle cx="250" cy="180" r="90" fill="#aef1a6" opacity="0.25"/>
-<circle cx="1320" cy="760" r="120" fill="#aef1a6" opacity="0.2"/>
-<circle cx="800" cy="450" r="220" fill="#0b1220" stroke="#cfdb02" stroke-width="10"/><text x="800" y="478" font-size="140" fill="#cfdb02" text-anchor="middle" font-family="Arial">$</text>
-<text x="800" y="780" font-size="40" fill="#e5e7eb" text-anchor="middle" font-family="Arial, sans-serif">캐나다 세금 시즌 전에 꼭 챙겨야 할 기본 체크리스트</text>
+<rect width="1600" height="900" fill="#F8FAFF"/>
+<rect x="360" y="190" width="880" height="520" rx="30" fill="#EAF2FF" stroke="#2F6FED" stroke-width="6"/>
+<rect x="580" y="360" width="440" height="200" rx="20" fill="none" stroke="#2F6FED" stroke-width="10"/><rect x="860" y="420" width="140" height="90" rx="12" fill="none" stroke="#2F6FED" stroke-width="8"/><circle cx="905" cy="465" r="10" fill="#2F6FED"/>
+<text x="800" y="770" font-size="40" fill="#1E293B" text-anchor="middle" font-family="Arial, sans-serif">캐나다 세금 시즌 전에 꼭 챙겨야 할 기본 체크리스</text>
 </svg>

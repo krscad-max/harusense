@@ -1,7 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
-<rect width="1600" height="900" fill="#3f3d4d"/>
-<circle cx="250" cy="180" r="90" fill="#d89db4" opacity="0.25"/>
-<circle cx="1320" cy="760" r="120" fill="#d89db4" opacity="0.2"/>
-<circle cx="800" cy="450" r="220" fill="#0b1220" stroke="#c7f8b9" stroke-width="10"/><text x="800" y="478" font-size="140" fill="#c7f8b9" text-anchor="middle" font-family="Arial">$</text>
-<text x="800" y="780" font-size="40" fill="#e5e7eb" text-anchor="middle" font-family="Arial, sans-serif">월초 30분 “예산 리셋”으로 돈이 남는 구조 만들기</text>
+<rect width="1600" height="900" fill="#F8FAFF"/>
+<rect x="360" y="190" width="880" height="520" rx="30" fill="#EAF2FF" stroke="#2F6FED" stroke-width="6"/>
+<rect x="580" y="360" width="440" height="200" rx="20" fill="none" stroke="#2F6FED" stroke-width="10"/><rect x="860" y="420" width="140" height="90" rx="12" fill="none" stroke="#2F6FED" stroke-width="8"/><circle cx="905" cy="465" r="10" fill="#2F6FED"/>
+<text x="800" y="770" font-size="40" fill="#1E293B" text-anchor="middle" font-family="Arial, sans-serif">월초 30분 “예산 리셋”으로 돈이 남는 구조 만들</text>
 </svg>

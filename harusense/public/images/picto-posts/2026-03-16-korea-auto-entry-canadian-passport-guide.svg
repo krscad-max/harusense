@@ -1,7 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
-<rect width="1600" height="900" fill="#194641"/>
-<circle cx="250" cy="180" r="90" fill="#baf6ea" opacity="0.25"/>
-<circle cx="1320" cy="760" r="120" fill="#baf6ea" opacity="0.2"/>
-<rect x="620" y="220" width="360" height="460" rx="24" fill="#0b1220" stroke="#d3d8eb" stroke-width="10"/><circle cx="800" cy="450" r="90" fill="none" stroke="#d3d8eb" stroke-width="10"/><line x1="710" y1="450" x2="890" y2="450" stroke="#d3d8eb" stroke-width="10"/>
-<text x="800" y="780" font-size="40" fill="#e5e7eb" text-anchor="middle" font-family="Arial, sans-serif">캐나다 여권으로 한국 자동출입국심사 가능할까? 2026</text>
+<rect width="1600" height="900" fill="#F8FAFF"/>
+<rect x="360" y="190" width="880" height="520" rx="30" fill="#EAF2FF" stroke="#2F6FED" stroke-width="6"/>
+<rect x="660" y="280" width="280" height="360" rx="20" fill="none" stroke="#2F6FED" stroke-width="10"/><circle cx="800" cy="460" r="60" fill="none" stroke="#2F6FED" stroke-width="8"/>
+<text x="800" y="770" font-size="40" fill="#1E293B" text-anchor="middle" font-family="Arial, sans-serif">캐나다 여권으로 한국 자동출입국심사 가능할까? 20</text>
 </svg>

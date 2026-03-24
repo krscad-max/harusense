@@ -1,7 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
-<rect width="1600" height="900" fill="#192448"/>
-<circle cx="250" cy="180" r="90" fill="#9888a2" opacity="0.25"/>
-<circle cx="1320" cy="760" r="120" fill="#9888a2" opacity="0.2"/>
-<rect x="520" y="240" width="560" height="420" rx="24" fill="#0b1220" stroke="#f1d4fa" stroke-width="10"/><circle cx="700" cy="450" r="42" fill="none" stroke="#f1d4fa" stroke-width="10"/><circle cx="900" cy="450" r="42" fill="none" stroke="#f1d4fa" stroke-width="10"/>
-<text x="800" y="780" font-size="40" fill="#e5e7eb" text-anchor="middle" font-family="Arial, sans-serif">OpenClaw 자주 막히는 오류 7가지와 해결 순서</text>
+<rect width="1600" height="900" fill="#F8FAFF"/>
+<rect x="360" y="190" width="880" height="520" rx="30" fill="#EAF2FF" stroke="#2F6FED" stroke-width="6"/>
+<rect x="660" y="310" width="280" height="280" rx="24" fill="none" stroke="#2F6FED" stroke-width="10"/><rect x="730" y="380" width="140" height="140" rx="12" fill="none" stroke="#2F6FED" stroke-width="8"/>
+<text x="800" y="770" font-size="40" fill="#1E293B" text-anchor="middle" font-family="Arial, sans-serif">OpenClaw 자주 막히는 오류 7가지와 해결 순</text>
 </svg>

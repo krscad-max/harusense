@@ -1,7 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
-<rect width="1600" height="900" fill="#3e404a"/>
-<circle cx="250" cy="180" r="90" fill="#c6dc9c" opacity="0.25"/>
-<circle cx="1320" cy="760" r="120" fill="#c6dc9c" opacity="0.2"/>
-<circle cx="800" cy="430" r="210" fill="#0b1220" stroke="#a904d6" stroke-width="10"/><line x1="640" y1="430" x2="960" y2="430" stroke="#a904d6" stroke-width="10"/><line x1="800" y1="270" x2="800" y2="590" stroke="#a904d6" stroke-width="10"/>
-<text x="800" y="780" font-size="40" fill="#e5e7eb" text-anchor="middle" font-family="Arial, sans-serif">OpenClaw 텔레그램 연결 가이드: 처음 연결할 때</text>
+<rect width="1600" height="900" fill="#F6FFFA"/>
+<circle cx="800" cy="450" r="280" fill="#E8F8EF" stroke="#199B6B" stroke-width="6"/>
+<rect x="660" y="310" width="280" height="280" rx="24" fill="none" stroke="#199B6B" stroke-width="10"/><rect x="730" y="380" width="140" height="140" rx="12" fill="none" stroke="#199B6B" stroke-width="8"/>
+<text x="800" y="770" font-size="40" fill="#1E293B" text-anchor="middle" font-family="Arial, sans-serif">OpenClaw 텔레그램 연결 가이드: 처음 연결할</text>
 </svg>

@@ -1,7 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
-<rect width="1600" height="900" fill="#39422a"/>
-<circle cx="250" cy="180" r="90" fill="#b6e9ea" opacity="0.25"/>
-<circle cx="1320" cy="760" r="120" fill="#b6e9ea" opacity="0.2"/>
-<rect x="560" y="220" width="480" height="460" rx="30" fill="#0b1220" stroke="#ff9400" stroke-width="10"/><path d="M650 470l85 85 210-220" fill="none" stroke="#ff9400" stroke-width="16"/>
-<text x="800" y="780" font-size="40" fill="#e5e7eb" text-anchor="middle" font-family="Arial, sans-serif">캐나다 e-Transfer 사기, 어디서 많이 당하나:</text>
+<rect width="1600" height="900" fill="#F8FAFF"/>
+<rect x="360" y="190" width="880" height="520" rx="30" fill="#EAF2FF" stroke="#2F6FED" stroke-width="6"/>
+<path d="M800 280l170 60v130c0 110-68 176-170 224-102-48-170-114-170-224V340z" fill="none" stroke="#2F6FED" stroke-width="10"/><path d="M730 450l55 55 90-105" fill="none" stroke="#2F6FED" stroke-width="12"/>
+<text x="800" y="770" font-size="40" fill="#1E293B" text-anchor="middle" font-family="Arial, sans-serif">캐나다 e-Transfer 사기, 어디서 많이 당하</text>
 </svg>

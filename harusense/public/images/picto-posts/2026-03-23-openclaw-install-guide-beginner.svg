@@ -1,7 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
-<rect width="1600" height="900" fill="#3e192c"/>
-<circle cx="250" cy="180" r="90" fill="#abd2a5" opacity="0.25"/>
-<circle cx="1320" cy="760" r="120" fill="#abd2a5" opacity="0.2"/>
-<rect x="620" y="250" width="360" height="360" rx="30" fill="#0b1220" stroke="#859409" stroke-width="10"/><rect x="710" y="340" width="180" height="180" rx="16" fill="none" stroke="#859409" stroke-width="8"/>
-<text x="800" y="780" font-size="40" fill="#e5e7eb" text-anchor="middle" font-family="Arial, sans-serif">OpenClaw 설치 방법 완전 가이드: 초보자도 따라</text>
+<rect width="1600" height="900" fill="#F8FAFF"/>
+<rect x="360" y="190" width="880" height="520" rx="30" fill="#EAF2FF" stroke="#2F6FED" stroke-width="6"/>
+<rect x="660" y="310" width="280" height="280" rx="24" fill="none" stroke="#2F6FED" stroke-width="10"/><rect x="730" y="380" width="140" height="140" rx="12" fill="none" stroke="#2F6FED" stroke-width="8"/>
+<text x="800" y="770" font-size="40" fill="#1E293B" text-anchor="middle" font-family="Arial, sans-serif">OpenClaw 설치 방법 완전 가이드: 초보자도 </text>
 </svg>

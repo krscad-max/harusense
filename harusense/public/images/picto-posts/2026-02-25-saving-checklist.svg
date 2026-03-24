@@ -1,7 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
-<rect width="1600" height="900" fill="#183b2e"/>
-<circle cx="250" cy="180" r="90" fill="#988bd3" opacity="0.25"/>
-<circle cx="1320" cy="760" r="120" fill="#988bd3" opacity="0.2"/>
-<rect x="520" y="230" width="560" height="420" rx="24" fill="#0b1220" stroke="#a0f8ad" stroke-width="10"/><line x1="620" y1="380" x2="980" y2="380" stroke="#a0f8ad" stroke-width="14"/><line x1="620" y1="450" x2="920" y2="450" stroke="#a0f8ad" stroke-width="14"/>
-<text x="800" y="780" font-size="40" fill="#e5e7eb" text-anchor="middle" font-family="Arial, sans-serif">월말에 돈이 남는 사람들의 ‘지출 점검’ 체크리스트</text>
+<rect width="1600" height="900" fill="#F6FFFA"/>
+<circle cx="800" cy="450" r="280" fill="#E8F8EF" stroke="#199B6B" stroke-width="6"/>
+<rect x="580" y="360" width="440" height="200" rx="20" fill="none" stroke="#199B6B" stroke-width="10"/><rect x="860" y="420" width="140" height="90" rx="12" fill="none" stroke="#199B6B" stroke-width="8"/><circle cx="905" cy="465" r="10" fill="#199B6B"/>
+<text x="800" y="770" font-size="40" fill="#1E293B" text-anchor="middle" font-family="Arial, sans-serif">월말에 돈이 남는 사람들의 ‘지출 점검’ 체크리스트</text>
 </svg>
