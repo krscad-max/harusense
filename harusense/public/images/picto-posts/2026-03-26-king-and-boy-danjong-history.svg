@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#F8FAFF"/>
+  <rect x="360" y="190" width="880" height="520" rx="30" fill="#FFF4E6" stroke="#C27A2C" stroke-width="6"/>
+  <path d="M610 560h380l-30-170H640z" fill="none" stroke="#C27A2C" stroke-width="10"/>
+  <path d="M640 390l70-80 90 80 90-80 70 80" fill="none" stroke="#C27A2C" stroke-width="10" stroke-linejoin="round"/>
+  <circle cx="710" cy="300" r="12" fill="#C27A2C"/>
+  <circle cx="800" cy="300" r="12" fill="#C27A2C"/>
+  <circle cx="890" cy="300" r="12" fill="#C27A2C"/>
+  <text x="800" y="770" font-size="40" fill="#1E293B" text-anchor="middle" font-family="Arial, sans-serif">단종과 기억의 역사</text>
+</svg>
